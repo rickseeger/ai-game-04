@@ -1,0 +1,150 @@
+{
+  "scope": "G11 node 3 appearance component only; no durable node transition",
+  "configured_repository": "git@github.com:rickseeger/ai-game-04.git",
+  "base_commit": "2b310eb387f7e8d086151e20dd28d587d6f3feaa",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "results": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/preview_appearance.py",
+        "--seed",
+        "11"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "atlas.json bytes=308773 sha256=42caa8811d2a2cde524c615efb03f6994e4617a8e30eb2d30dcf826cc360734c\natlas.txt bytes=103723 sha256=6da7a5b53dbf7da29d6d8ed97abe93bd571c320b28a4e754e7ce2d08df6572b5\natlas.html bytes=630172 sha256=a77e731d0e726e3c57a158e5f45306a5c043f3d417c10971884277f45597e38c\npanels=47 sampled_cells=94380\nCOMPONENT PREVIEW ONLY - unprojected material samples, not a finished 3D city\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/preview_appearance.py",
+        "--seed",
+        "11",
+        "--check"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "atlas.json bytes=308773 sha256=42caa8811d2a2cde524c615efb03f6994e4617a8e30eb2d30dcf826cc360734c\natlas.txt bytes=103723 sha256=6da7a5b53dbf7da29d6d8ed97abe93bd571c320b28a4e754e7ce2d08df6572b5\natlas.html bytes=630172 sha256=a77e731d0e726e3c57a158e5f45306a5c043f3d417c10971884277f45597e38c\npanels=47 sampled_cells=94380\nCOMPONENT PREVIEW ONLY - unprojected material samples, not a finished 3D city\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_building_variation_district_cohesion_and_floor_corner_continuity (test_appearance.AppearanceTests.test_building_variation_district_cohesion_and_floor_corner_continuity) ... ok\ntest_cache_uses_city_identity_not_seed_or_building_id (test_appearance.AppearanceTests.test_cache_uses_city_identity_not_seed_or_building_id) ... ok\ntest_fixture_regeneration_and_every_serialized_cell_valid (test_appearance.AppearanceTests.test_fixture_regeneration_and_every_serialized_cell_valid) ... ok\ntest_ground_paving_scale_boundary_and_fallback_material (test_appearance.AppearanceTests.test_ground_paving_scale_boundary_and_fallback_material) ... ok\ntest_html_preview_contains_exact_sampled_glyphs_and_rgb (test_appearance.AppearanceTests.test_html_preview_contains_exact_sampled_glyphs_and_rgb) ... ok\ntest_human_door_lintel_sign_corners_roof_and_height_independence (test_appearance.AppearanceTests.test_human_door_lintel_sign_corners_roof_and_height_independence) ... ok\ntest_invalid_hits_fail_clearly (test_appearance.AppearanceTests.test_invalid_hits_fail_clearly) ... ok\ntest_landmarks_distinct_and_driven_by_membership_not_id (test_appearance.AppearanceTests.test_landmarks_distinct_and_driven_by_membership_not_id) ... ok\ntest_panes_have_one_occupancy_and_sparse_lighting (test_appearance.AppearanceTests.test_panes_have_one_occupancy_and_sparse_lighting) ... ok\ntest_process_hash_independence_and_seed_variation (test_appearance.AppearanceTests.test_process_hash_independence_and_seed_variation) ... ok\ntest_real_spatial_hits_all_faces_ground_and_landmark_viewpoints (test_appearance.AppearanceTests.test_real_spatial_hits_all_faces_ground_and_landmark_viewpoints) ... ok\ntest_stable_under_distance_order_new_instance_and_subpixel_movement (test_appearance.AppearanceTests.test_stable_under_distance_order_new_instance_and_subpixel_movement) ... ok\ntest_translation_and_negative_coordinates_preserve_facade (test_appearance.AppearanceTests.test_translation_and_negative_coordinates_preserve_facade) ... ok\ntest_valid_output_for_every_generated_building_all_faces_and_seeds (test_appearance.AppearanceTests.test_valid_output_for_every_generated_building_all_faces_and_seeds) ... ok\ntest_window_rhythm_in_metres_not_building_height_or_width (test_appearance.AppearanceTests.test_window_rhythm_in_metres_not_building_height_or_width) ... ok\ntest_default_launch_is_honest_and_terminal_safe (test_foundation.FoundationSmoke.test_default_launch_is_honest_and_terminal_safe) ... ok\ntest_help_and_version (test_foundation.FoundationSmoke.test_help_and_version) ... ok\ntest_invalid_seed_rejected (test_foundation.FoundationSmoke.test_invalid_seed_rejected) ... ok\ntest_real_smoke_launch (test_foundation.FoundationSmoke.test_real_smoke_launch) ... ok\ntest_shared_defaults_are_immutable (test_foundation.FoundationSmoke.test_shared_defaults_are_immutable) ... ok\ntest_all_destinations_visible_reachable_and_three_photo_geometric_replay (test_spatial.Generation.test_all_destinations_visible_reachable_and_three_photo_geometric_replay) ... ok\ntest_all_streets_continuous_disc_clearance_and_long_sightlines (test_spatial.Generation.test_all_streets_continuous_disc_clearance_and_long_sightlines) ... ok\ntest_bounds_human_scale_variety_nonoverlap_public_spaces (test_spatial.Generation.test_bounds_human_scale_variety_nonoverlap_public_spaces) ... ok\ntest_clearance_flood_entire_exploration_area (test_spatial.Generation.test_clearance_flood_entire_exploration_area) ... ok\ntest_determinism_across_process_hash_seeds_and_seed_variation (test_spatial.Generation.test_determinism_across_process_hash_seeds_and_seed_variation) ... ok\ntest_closed_nearby_sorted_deduplicated_and_far_bounds (test_spatial.StaticQueries.test_closed_nearby_sorted_deduplicated_and_far_bounds) ... ok\ntest_exact_swept_disc_not_point_connectivity (test_spatial.StaticQueries.test_exact_swept_disc_not_point_connectivity) ... ok\ntest_inside_surface_parallel_grid_boundaries_and_ties (test_spatial.StaticQueries.test_inside_surface_parallel_grid_boundaries_and_ties) ... ok\ntest_invalid_query_and_city_inputs (test_spatial.StaticQueries.test_invalid_query_and_city_inputs) ... ok\ntest_random_rays_disc_and_nearby_against_independent_oracles (test_spatial.StaticQueries.test_random_rays_disc_and_nearby_against_independent_oracles) ... ok\ntest_six_box_faces_ground_sky_and_distance_limit (test_spatial.StaticQueries.test_six_box_faces_ground_sky_and_distance_limit) ... ok\ntest_swept_disc_against_independent_convex_distance_oracle (test_spatial.StaticQueries.test_swept_disc_against_independent_convex_distance_oracle) ... ok\ntest_walkable_disc_edges_corners_bounds_and_height (test_spatial.StaticQueries.test_walkable_disc_edges_corners_bounds_and_height) ... ok\n\n----------------------------------------------------------------------\nRan 33 tests in 6.379s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/build.py"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "/opt/g-harness/workspace/G11/node_3_step_95/repo/dist/lantern-survey.pyz\nsha256 f0e6dda9ca4265cbd4faf7d57cb6bf0307bbb5600f05aead45cae0e7f2dd51a4\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "dist/lantern-survey.pyz",
+        "--smoke",
+        "--seed",
+        "11"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "{\"eye_height_m\": 1.7, \"seed\": 11, \"stage\": \"foundation\", \"status\": \"ok\", \"version\": \"0.1.0\", \"viewport\": [100, 32]}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "citywalk"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "LANTERN SURVEY | runnable foundation 0.1.0\nA planned street-level ASCII city photography expedition.\nCity rendering, movement and gameplay are not implemented in this foundation.\nLaunch verified; no terminal modes changed. See docs/design.md for the bounded design.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "2b310eb387f7e8d086151e20dd28d587d6f3feaa",
+        "--",
+        "citywalk/contracts.py",
+        "citywalk/spatial.py",
+        "citywalk/app.py",
+        "tests/test_spatial.py",
+        "tests/test_foundation.py"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "/opt/g-harness/workspace/G11/node_3_step_95/repo",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "file_hashes": {
+    "citywalk/appearance.py": "fd675bc9f6ff727b97243bbd5500733bf10bce59b0983cb66ee6d46264e85dea",
+    "tests/test_appearance.py": "1e8c109da65cc88b6088fa343d171292a3ce920bea00f29d60c3e557a76d8fff",
+    "tools/preview_appearance.py": "4171639c2eeb43e5db459fad5403dd3cd6ed53efb3800601b8f388723e7484a6",
+    "docs/appearance.md": "20f49ca1cd8fb849caf9fc152259984057fa9a73b34e5fa35bf17cab2740f948",
+    "README.md": "0234c835480b79820a62c3e5b6dbd2827ecbfd4aad5b3992c116933024d2dc41",
+    "docs/appearance-fixtures/atlas.json": "42caa8811d2a2cde524c615efb03f6994e4617a8e30eb2d30dcf826cc360734c",
+    "docs/appearance-fixtures/atlas.txt": "6da7a5b53dbf7da29d6d8ed97abe93bd571c320b28a4e754e7ce2d08df6572b5",
+    "docs/appearance-fixtures/atlas.html": "a77e731d0e726e3c57a158e5f45306a5c043f3d417c10971884277f45597e38c",
+    "dist/lantern-survey.pyz": "f0e6dda9ca4265cbd4faf7d57cb6bf0307bbb5600f05aead45cae0e7f2dd51a4"
+  },
+  "fixture_seed": 11,
+  "panels": 47,
+  "sampled_cells": 94380,
+  "selected_buildings": [
+    "block-00-00-0-0",
+    "block-00-05-0-0",
+    "block-02-05-0-0",
+    "block-05-01-0-0",
+    "block-05-07-0-0",
+    "landmark-0",
+    "landmark-1",
+    "landmark-2",
+    "landmark-3",
+    "landmark-4"
+  ],
+  "limitations": [
+    "Component atlas only, no perspective or rendered-city quality evidence",
+    "No beauty or gameplay enjoyment validation",
+    "No local Windows execution",
+    "No renderer/input/movement/gameplay implementation; foundation smoke remains informational",
+    "Ground boundary is a flat material stripe, not a geometric rail"
+  ],
+  "development_notes": [
+    "Initial preview script had an HTML quote SyntaxError; corrected before fixture generation and final validation.",
+    "Added fine roofline strips and denser roof samples after inspecting actual text output; updated measured golden hash.",
+    "gctl was not on PATH; full persisted contract and configured repo were read from SQLite read-only, without changing harness state."
+  ]
+}

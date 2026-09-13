@@ -1,6 +1,6 @@
 # Lantern Survey (G11)
 
-Foundation plus spatial-generation milestone, NOT a playable city yet. Default launch reports this and
+Foundation, spatial-generation and appearance milestones, NOT a playable city yet. Default launch reports this and
 exits normally. No renderer, movement, terminal adapter or game rules are faked.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
@@ -55,3 +55,16 @@ No terminal input, renderer, movement or game loop is added by this milestone.
 
 Actual seed measurements and full test output are committed in
 `docs/spatial-measurements.json` and `docs/spatial-run.json`.
+
+## Architectural materials (node 3)
+
+`citywalk.appearance.FacadeAppearance` samples existing City/RayHit values into
+world-anchored ASCII/RGB materials. No projection, movement or input dependency.
+See [docs/appearance.md](docs/appearance.md) for the renderer interface and scale.
+
+    python3 tools/preview_appearance.py --seed 11 --check
+
+Open `docs/appearance-fixtures/atlas.html` for the colored component atlas;
+`atlas.txt` and `atlas.json` record glyphs and exact sample coordinates/seeds.
+These fixtures establish material behavior, NOT finished 3D city quality.
+Actual test/build/fixture results are in `docs/appearance-run.json`.
