@@ -1,0 +1,38 @@
+cProfile: final renderer, 3 changed-pose 100x32 renders; one warmup. Instrumented times are NOT benchmark times.
+
+         1107916 function calls in 0.375 seconds
+
+   Ordered by: cumulative time
+   List reduced from 59 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        3    0.020    0.007    0.411    0.137 rendering.py:124(render)
+     9600    0.075    0.000    0.172    0.000 spatial.py:201(raycast)
+     8242    0.016    0.000    0.079    0.000 rendering.py:45(shade)
+        3    0.012    0.004    0.071    0.024 rendering.py:89(_geometry)
+     8242    0.027    0.000    0.063    0.000 appearance.py:92(sample)
+    16484    0.016    0.000    0.053    0.000 rendering.py:54(color)
+    65936    0.024    0.000    0.038    0.000 rendering.py:55(<genexpr>)
+    25846    0.026    0.000    0.034    0.000 spatial.py:71(_box_hit)
+     9600    0.017    0.000    0.032    0.000 rendering.py:38(_sky)
+     9600    0.010    0.000    0.027    0.000 spatial.py:19(_finite)
+    76800    0.012    0.000    0.017    0.000 spatial.py:20(<genexpr>)
+     9600    0.011    0.000    0.016    0.000 camera.py:97(ray)
+   139918    0.014    0.000    0.014    0.000 {built-in method builtins.min}
+   125633    0.012    0.000    0.012    0.000 {built-in method builtins.max}
+     4297    0.004    0.000    0.011    0.000 appearance.py:53(_tone)
+    38400    0.007    0.000    0.009    0.000 rendering.py:41(<genexpr>)
+    81717    0.008    0.000    0.008    0.000 {built-in method builtins.round}
+     9600    0.004    0.000    0.008    0.000 rendering.py:18(_along)
+    32968    0.006    0.000    0.007    0.000 appearance.py:96(<genexpr>)
+    91974    0.007    0.000    0.007    0.000 {built-in method math.isfinite}
+    49039    0.007    0.000    0.007    0.000 {method 'get' of 'dict' objects}
+    17188    0.004    0.000    0.007    0.000 appearance.py:54(<genexpr>)
+    54483    0.005    0.000    0.005    0.000 {built-in method builtins.abs}
+     6587    0.003    0.000    0.004    0.000 appearance.py:74(_bay_width)
+    40495    0.004    0.000    0.004    0.000 {built-in method math.floor}
+    19200    0.004    0.000    0.004    0.000 {built-in method builtins.sorted}
+    28800    0.003    0.000    0.003    0.000 {method 'append' of 'list' objects}
+    39439    0.003    0.000    0.003    0.000 {built-in method math.isinf}
+    20789    0.003    0.000    0.003    0.000 {built-in method math.hypot}
+     1541    0.003    0.000    0.003    0.000 appearance.py:41(_mix)

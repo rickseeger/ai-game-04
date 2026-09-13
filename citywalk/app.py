@@ -20,6 +20,6 @@ def main(argv=None):
     else:
         print("LANTERN SURVEY | runnable foundation " + __version__)
         print("A planned street-level ASCII city photography expedition.")
-        print("City rendering, movement and gameplay are not implemented in this foundation.")
-        print("Launch verified; no terminal modes changed. See docs/design.md for the bounded design.")
+        print("Interactive controls, terminal presentation and gameplay are not implemented in this foundation.")
+        print("Launch verified; no terminal modes changed. Headless renderer: tools/capture_renderer.py in source checkout.")
     return 0

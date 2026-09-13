@@ -1,7 +1,7 @@
 # Lantern Survey (G11)
 
-Foundation, spatial-generation, appearance and camera milestones, NOT a playable city yet. Default launch reports this and
-exits normally. No renderer, movement, terminal adapter or game rules are faked.
+Foundation, spatial-generation, appearance, camera and renderer milestones, NOT a playable city yet. Default launch reports this and
+exits normally. Headless rendering is real; movement, terminal adapter and game rules are not implemented.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
 
@@ -83,3 +83,23 @@ helpers are documented in [docs/camera.md](docs/camera.md).
 and real landmark target projections. `docs/camera-run.json` records executed
 regression/build checks. These are numeric component fixtures, not rendered
 city beauty, a playable game or Windows runtime evidence.
+
+## Colored ASCII renderer (node 5)
+
+`citywalk.rendering.CityRenderer(Perspective())` now produces real opaque RGB/ASCII
+Frames and landmark sightings against the existing world/material/camera contracts.
+The default app remains informational; input, terminal lifecycle and gameplay stay
+in their own later milestones. See [docs/rendering.md](docs/rendering.md).
+
+    python3 tools/capture_renderer.py --check
+    python3 tools/capture_renderer.py --benchmark 300 --output ../renderer-recheck
+    python3 tools/validate_renderer.py
+
+Open `docs/renderer-frames/frames.html`: 27 actual renderer captures (nine
+street-level poses at 80x20, 100x32 and 120x40 scene cells), including an open
+vista, a 6 m street in both directions and all five landmarks. Exact RGB/depth
+and poses are in frames.json; glyph-only output is frames.txt. These are headless
+program frames, not a fabricated illustration or a claimed terminal playtest.
+Local 100x32 changed-pose rendering measured median 47.7260 ms / p95 57.1144 ms;
+raw samples, environment and exclusions are documented. Beauty and fun still
+require the separate human/independent assessment, not merely passing tests.
