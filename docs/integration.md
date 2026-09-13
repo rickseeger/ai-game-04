@@ -148,3 +148,10 @@ marks it dirty; exact SHA-256 hashes of EVERY application module bind the run
 to the subsequently committed source. The verifier checks all those hashes.
 Driver-only diagnostic/extra lifecycle-launch support was added while the
 full route was running; application modules were unchanged throughout.
+
+A fresh clone of the pushed integration commit also passed all 150 tests,
+built and exercised the local zipapp, and verified the committed real PTY
+evidence. Exact commands/stdout/stderr and the checked-out SHA are preserved in
+`docs/fresh-clone-run.json`. Fixed-width frame trailing spaces are intentional;
+Git attributes preserve compressed transcripts and suppress whitespace warnings
+only for the actual frame text files, without altering captured data.

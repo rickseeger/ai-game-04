@@ -3,3 +3,7 @@
 docs/renderer-frames/frames.txt whitespace=-blank-at-eol
 # PTY recordings must retain exact CR/LF and escape bytes.
 *.ansi -text -diff
+# Fixed-width application frames intentionally retain spaces and separators.
+docs/app-pty/frames.txt whitespace=-blank-at-eol,-blank-at-eof
+docs/app-lifecycle/**/frames.txt whitespace=-blank-at-eol,-blank-at-eof
+*.gz -text
