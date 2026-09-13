@@ -1,0 +1,189 @@
+{
+  "base_commit": "20313e4e0ae682cbc88b7d88d700450914ea5fc0",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "executable": "/usr/bin/python3",
+  "cwd": "/opt/g-harness/workspace/G11/node_8_step_100/repo",
+  "source_sha256": {
+    "citywalk/__init__.py": "4de65b694884de3ccd84d1f2f9a61f21cf33d285e818ef502365da1eabc3abab",
+    "citywalk/__main__.py": "a67c172046323b0efcafe92cb83abc266d5dd4bc931d9312cde1b7bed50643db",
+    "citywalk/app.py": "e7e117f85c364bdbee4e7e44bead95ba7abd20ec102b67ecc6af1444ce831845",
+    "citywalk/appearance.py": "fd675bc9f6ff727b97243bbd5500733bf10bce59b0983cb66ee6d46264e85dea",
+    "citywalk/camera.py": "9f773f8ef3924f0815319cc6ceb94e6c41bf931cb09a68c8f445bfcab62c47ff",
+    "citywalk/contracts.py": "5b4110c940da398f72f6fe3f153281f8a48e0368bcecd778874e330aed20fe9a",
+    "citywalk/gameplay.py": "429fd05127366525a886f92a796835a0d3d1021b98eb16fd2ef28dd3a1ac3a04",
+    "citywalk/movement.py": "711547139e87f736f34cb38302400e08b6943332b870d9ed0eb224e43fa979ef",
+    "citywalk/rendering.py": "a836b839db41474805bd798c3898d9260a3a4c1348a8a8e5a712b71817eda312",
+    "citywalk/spatial.py": "80d81c019440432730f710d933ef79d5b6de154724af54c5d9bd010ad100d46d",
+    "citywalk/terminal.py": "3e570119feb9342309977da26215da6ff08aa5f79b7a06c9dc13cb28cc8de122",
+    "tests/test_appearance.py": "1e8c109da65cc88b6088fa343d171292a3ce920bea00f29d60c3e557a76d8fff",
+    "tests/test_camera.py": "6e3d3c51b74c041022a11cee4587ad8924dabb096119c0b02cf8dc4a25535ea3",
+    "tests/test_foundation.py": "e05a650491909c0ff559e8f5c92c33bf2aa134c603cb14b99f324761c17d5be0",
+    "tests/test_gameplay.py": "ba87433d611e9f96831def835318cdbc1be4db7aec4fbac267f160ec1867c54d",
+    "tests/test_gameplay_integration.py": "1640d2c255ae4892b62a7f2eae6f326a68ed0e6a3dc63fedb3326c75e65610b5",
+    "tests/test_movement.py": "396b21235142cf3b9dfa206b8722859e0a9a1d0d313531fcba746b5860b2d6ea",
+    "tests/test_rendering.py": "f6a8e6a2850de0c5854333316c915a0ec2453fec4710cd549b421d38d310af78",
+    "tests/test_spatial.py": "6e334b824a0f7ab3d98bf5206e64ee7020e438ccaff9e129e0a3067a9772ff9b",
+    "tests/test_terminal.py": "d0b51b66600e4c922d261c0ec37e66a293e73c55d600b15165eb2ccb46d55c23",
+    "tools/build.py": "341e19f9c3166b4f9d7571a81f4fde18826e3155fa91a851f0d996f3ccbc5cd9",
+    "tools/capture_renderer.py": "4628cc7508647a32c4f69b67dbeb5cdbd9455a861fbc2eb142e18d2d68e18b9f",
+    "tools/measure_city.py": "6a51f4270016146ab7bc26d6343cfbf32f8100a6ecec101a24024f2d7a698e99",
+    "tools/measure_projection.py": "bbb5b43819422149b7abd8b95d658e3c7558e38ba307519a961e8ebc59887987",
+    "tools/preview_appearance.py": "4171639c2eeb43e5db459fad5403dd3cd6ed53efb3800601b8f388723e7484a6",
+    "tools/probe_terminal.py": "8f347fbce9858bef517525eafefe9117919bc32b39ff08050a7b587ad9a8616c",
+    "tools/simulate_survey.py": "6a3ad02ea3ede07229cbfa7e890d8e16d0f12ff091c751cbc44200804fd05916",
+    "tools/validate_gameplay.py": "cfd8682a31834a8547eca464c3b20c96bd839c4ef87a39be7c2d5da8a4fe3900",
+    "tools/validate_movement.py": "102dbfe8e45117a80b87a31ab6084cd7c26a36684fb42393a82713482b554693",
+    "tools/validate_renderer.py": "47f238ec03e3bca4a7f84ec117accbe784f30e2291c4fb39e313df655561c90b",
+    "tools/validate_terminal.py": "f391a85911af1e29addc751f0307b5719d788763498b2d49b0f6119b00dba9cc",
+    "tools/validate_terminal_pty.py": "5daaad700c28aa58fc1cc50f19c8795cbc7f0c7de5a00cc5db5132f1205dd002",
+    "docs/design.md": "b4c2e85a43b57644053b4360fcaf7b3965bcce2418ce107fc1df824bd89b41d2",
+    "docs/gameplay.md": "7e1367f116a213549d6626130a447f39b17ea7254d8526b7634275ec3c4abaa4",
+    "README.md": "71de717733e42043d0d3cf91f8658e9f9e0027210317af5a9eab47d96aa8a382"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "wall_seconds": 15.664484085999902,
+      "stdout": "",
+      "stderr": "test_building_variation_district_cohesion_and_floor_corner_continuity (test_appearance.AppearanceTests.test_building_variation_district_cohesion_and_floor_corner_continuity) ... ok\ntest_cache_uses_city_identity_not_seed_or_building_id (test_appearance.AppearanceTests.test_cache_uses_city_identity_not_seed_or_building_id) ... ok\ntest_fixture_regeneration_and_every_serialized_cell_valid (test_appearance.AppearanceTests.test_fixture_regeneration_and_every_serialized_cell_valid) ... ok\ntest_ground_paving_scale_boundary_and_fallback_material (test_appearance.AppearanceTests.test_ground_paving_scale_boundary_and_fallback_material) ... ok\ntest_html_preview_contains_exact_sampled_glyphs_and_rgb (test_appearance.AppearanceTests.test_html_preview_contains_exact_sampled_glyphs_and_rgb) ... ok\ntest_human_door_lintel_sign_corners_roof_and_height_independence (test_appearance.AppearanceTests.test_human_door_lintel_sign_corners_roof_and_height_independence) ... ok\ntest_invalid_hits_fail_clearly (test_appearance.AppearanceTests.test_invalid_hits_fail_clearly) ... ok\ntest_landmarks_distinct_and_driven_by_membership_not_id (test_appearance.AppearanceTests.test_landmarks_distinct_and_driven_by_membership_not_id) ... ok\ntest_panes_have_one_occupancy_and_sparse_lighting (test_appearance.AppearanceTests.test_panes_have_one_occupancy_and_sparse_lighting) ... ok\ntest_process_hash_independence_and_seed_variation (test_appearance.AppearanceTests.test_process_hash_independence_and_seed_variation) ... ok\ntest_real_spatial_hits_all_faces_ground_and_landmark_viewpoints (test_appearance.AppearanceTests.test_real_spatial_hits_all_faces_ground_and_landmark_viewpoints) ... ok\ntest_stable_under_distance_order_new_instance_and_subpixel_movement (test_appearance.AppearanceTests.test_stable_under_distance_order_new_instance_and_subpixel_movement) ... ok\ntest_translation_and_negative_coordinates_preserve_facade (test_appearance.AppearanceTests.test_translation_and_negative_coordinates_preserve_facade) ... ok\ntest_valid_output_for_every_generated_building_all_faces_and_seeds (test_appearance.AppearanceTests.test_valid_output_for_every_generated_building_all_faces_and_seeds) ... ok\ntest_window_rhythm_in_metres_not_building_height_or_width (test_appearance.AppearanceTests.test_window_rhythm_in_metres_not_building_height_or_width) ... ok\ntest_all_cell_center_roundtrips_and_unit_rays_multiple_poses (test_camera.CameraTests.test_all_cell_center_roundtrips_and_unit_rays_multiple_poses) ... ok\ntest_default_and_cardinal_heading_basis (test_camera.CameraTests.test_default_and_cardinal_heading_basis) ... ok\ntest_eye_height_defaults_pose_normalization_and_no_mutation (test_camera.CameraTests.test_eye_height_defaults_pose_normalization_and_no_mutation) ... ok\ntest_fov_physical_aspect_and_known_numeric_projection (test_camera.CameraTests.test_fov_physical_aspect_and_known_numeric_projection) ... ok\ntest_human_scale_near_tower_above_frame_look_up_reveals_crown (test_camera.CameraTests.test_human_scale_near_tower_above_frame_look_up_reveals_crown) ... ok\ntest_invalid_poses_settings_dimensions_and_points (test_camera.CameraTests.test_invalid_poses_settings_dimensions_and_points) ... ok\ntest_invalid_ray_indices_and_unrepresentable_scales (test_camera.CameraTests.test_invalid_ray_indices_and_unrepresentable_scales) ... ok\ntest_near_far_inclusive_behind_eye_and_just_outside (test_camera.CameraTests.test_near_far_inclusive_behind_eye_and_just_outside) ... ok\ntest_perspective_shrinkage_and_depth_ordering_inputs (test_camera.CameraTests.test_perspective_shrinkage_and_depth_ordering_inputs) ... ok\ntest_pitch_orthonormal_basis_and_clamp_for_direct_camera (test_camera.CameraTests.test_pitch_orthonormal_basis_and_clamp_for_direct_camera) ... ok\ntest_ray_clipping_distances_and_no_fisheye_on_flat_wall (test_camera.CameraTests.test_ray_clipping_distances_and_no_fisheye_on_flat_wall) ... ok\ntest_real_city_landmark_targets_projection_and_rayhit_depth (test_camera.CameraTests.test_real_city_landmark_targets_projection_and_rayhit_depth) ... ok\ntest_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures) ... ok\ntest_rotation_translation_covariance_and_straight_edges (test_camera.CameraTests.test_rotation_translation_covariance_and_straight_edges) ... ok\ntest_screen_half_open_boundaries_no_clamping (test_camera.CameraTests.test_screen_half_open_boundaries_no_clamping) ... ok\ntest_square_world_proportions_cell_aspect_resize_and_scene_only_rows (test_camera.CameraTests.test_square_world_proportions_cell_aspect_resize_and_scene_only_rows) ... ok\ntest_default_launch_is_honest_and_terminal_safe (test_foundation.FoundationSmoke.test_default_launch_is_honest_and_terminal_safe) ... ok\ntest_help_and_version (test_foundation.FoundationSmoke.test_help_and_version) ... ok\ntest_invalid_seed_rejected (test_foundation.FoundationSmoke.test_invalid_seed_rejected) ... ok\ntest_real_smoke_launch (test_foundation.FoundationSmoke.test_real_smoke_launch) ... ok\ntest_shared_defaults_are_immutable (test_foundation.FoundationSmoke.test_shared_defaults_are_immutable) ... ok\ntest_candidate_order_is_absolute_bearing_then_id_not_range_or_bonus (test_gameplay.GameplayTests.test_candidate_order_is_absolute_bearing_then_id_not_range_or_bonus) ... ok\ntest_clean_reset_same_or_new_city_no_hidden_rewards_and_replay_determinism (test_gameplay.GameplayTests.test_clean_reset_same_or_new_city_no_hidden_rewards_and_replay_determinism) ... ok\ntest_corrupt_or_foreign_photo_records_fail_closed (test_gameplay.GameplayTests.test_corrupt_or_foreign_photo_records_fail_closed) ... ok\ntest_duplicate_photo_farming_and_delta_only_bonus_upgrade (test_gameplay.GameplayTests.test_duplicate_photo_farming_and_delta_only_bonus_upgrade) ... ok\ntest_exact_deadline_and_overshoot_lose_before_photo_or_submission (test_gameplay.GameplayTests.test_exact_deadline_and_overshoot_lose_before_photo_or_submission) ... ok\ntest_invalid_elapsed_time_raises_without_mutation_in_all_phases (test_gameplay.GameplayTests.test_invalid_elapsed_time_raises_without_mutation_in_all_phases) ... ok\ntest_misses_and_failed_submissions_still_consume_full_active_time (test_gameplay.GameplayTests.test_misses_and_failed_submissions_still_consume_full_active_time) ... ok\ntest_nonfinite_sighting_geometry_cannot_bypass_gates (test_gameplay.GameplayTests.test_nonfinite_sighting_geometry_cannot_bypass_gates) ... ok\ntest_optional_fourth_fifth_progression_and_maximum_score (test_gameplay.GameplayTests.test_optional_fourth_fifth_progression_and_maximum_score) ... ok\ntest_photo_gates_and_rejection_feedback (test_gameplay.GameplayTests.test_photo_gates_and_rejection_feedback) ... ok\ntest_premature_and_distant_submission_and_inclusive_depot_boundary (test_gameplay.GameplayTests.test_premature_and_distant_submission_and_inclusive_depot_boundary) ... ok\ntest_selected_existing_photo_does_not_fall_through_to_second_target (test_gameplay.GameplayTests.test_selected_existing_photo_does_not_fall_through_to_second_target) ... ok\ntest_shutter_before_submission_same_tick (test_gameplay.GameplayTests.test_shutter_before_submission_same_tick) ... ok\ntest_start_idle_countdown_and_immutable_inputs (test_gameplay.GameplayTests.test_start_idle_countdown_and_immutable_inputs) ... ok\ntest_success_requires_third_photo_and_explicit_submission (test_gameplay.GameplayTests.test_success_requires_third_photo_and_explicit_submission) ... ok\ntest_ui_flags_are_not_rule_level_pause_or_reset (test_gameplay.GameplayTests.test_ui_flags_are_not_rule_level_pause_or_reset) ... ok\ntest_won_lost_are_inert_for_every_action_and_valid_elapsed_time (test_gameplay.GameplayTests.test_won_lost_are_inert_for_every_action_and_valid_elapsed_time) ... ok\ntest_all_five_real_viewpoints_work_at_minimum_and_recommended_scene_sizes (test_gameplay_integration.GameplayIntegrationTests.test_all_five_real_viewpoints_work_at_minimum_and_recommended_scene_sizes) ... ok\ntest_complete_seeded_collision_checked_route_and_action_only_reset_replay (test_gameplay_integration.GameplayIntegrationTests.test_complete_seeded_collision_checked_route_and_action_only_reset_replay) ... ok\ntest_real_projection_rejection_and_crown_upgrade_from_framing (test_gameplay_integration.GameplayIntegrationTests.test_real_projection_rejection_and_crown_upgrade_from_framing) ... ok\ntest_arbitrary_yaw_and_pitch_do_not_change_ground_speed (test_movement.MovementTests.test_arbitrary_yaw_and_pitch_do_not_change_ground_speed) ... ok\ntest_cardinal_yaw_relative_forward_and_right (test_movement.MovementTests.test_cardinal_yaw_relative_forward_and_right) ... ok\ntest_concave_corner_stops_both_axes_without_jitter_or_penetration (test_movement.MovementTests.test_concave_corner_stops_both_axes_without_jitter_or_penetration) ... ok\ntest_disc_can_round_corner_where_square_footprint_would_block (test_movement.MovementTests.test_disc_can_round_corner_where_square_footprint_would_block) ... ok\ntest_finite_footprint_cannot_enter_point_passable_narrow_gap (test_movement.MovementTests.test_finite_footprint_cannot_enter_point_passable_narrow_gap) ... ok\ntest_generated_building_entry_blocked_on_all_four_faces (test_movement.MovementTests.test_generated_building_entry_blocked_on_all_four_faces) ... ok\ntest_generated_convex_corner_stops_repeatably_until_player_steers_away (test_movement.MovementTests.test_generated_convex_corner_stops_repeatably_until_player_steers_away) ... ok\ntest_generated_world_boundaries_and_boundary_corner_slide (test_movement.MovementTests.test_generated_world_boundaries_and_boundary_corner_slide) ... ok\ntest_invalid_dt_axes_and_nonfinite_pose (test_movement.MovementTests.test_invalid_dt_axes_and_nonfinite_pose) ... ok\ntest_invalid_spawn_and_invalid_existing_pose_fail_without_teleport (test_movement.MovementTests.test_invalid_spawn_and_invalid_existing_pose_fail_without_teleport) ... ok\ntest_long_open_street_uses_full_elapsed_time_then_blocks_at_bounds (test_movement.MovementTests.test_long_open_street_uses_full_elapsed_time_then_blocks_at_bounds) ... ok\ntest_normalized_diagonals_and_unsaturated_analog_input (test_movement.MovementTests.test_normalized_diagonals_and_unsaturated_analog_input) ... ok\ntest_one_second_and_long_frames_cannot_tunnel_through_generated_buildings (test_movement.MovementTests.test_one_second_and_long_frames_cannot_tunnel_through_generated_buildings) ... ok\ntest_predictable_generated_wall_slide_preserves_tangent_not_full_speed (test_movement.MovementTests.test_predictable_generated_wall_slide_preserves_tangent_not_full_speed) ... ok\ntest_protocol_only_adapter_bounded_substeps_and_independent_sweep_oracle (test_movement.MovementTests.test_protocol_only_adapter_bounded_substeps_and_independent_sweep_oracle) ... ok\ntest_safe_generated_spawns_depots_and_viewpoints_eye_height (test_movement.MovementTests.test_safe_generated_spawns_depots_and_viewpoints_eye_height) ... ok\ntest_seeded_action_fuzz_against_actual_city_geometry_is_deterministic (test_movement.MovementTests.test_seeded_action_fuzz_against_actual_city_geometry_is_deterministic) ... ok\ntest_simultaneous_turn_walk_exact_arc_and_frame_rate_consistency (test_movement.MovementTests.test_simultaneous_turn_walk_exact_arc_and_frame_rate_consistency) ... ok\ntest_stable_speed_at_20_60_120_hz_and_irregular_frames (test_movement.MovementTests.test_stable_speed_at_20_60_120_hz_and_irregular_frames) ... ok\ntest_swept_disc_blocks_thin_obstacle_even_when_substep_endpoints_are_safe (test_movement.MovementTests.test_swept_disc_blocks_thin_obstacle_even_when_substep_endpoints_are_safe) ... ok\ntest_turn_and_look_continue_when_translation_is_blocked (test_movement.MovementTests.test_turn_and_look_continue_when_translation_is_blocked) ... ok\ntest_turn_look_rates_wrap_clamp_and_reverse_at_limit (test_movement.MovementTests.test_turn_look_rates_wrap_clamp_and_reverse_at_limit) ... ok\ntest_unobstructed_forward_backward_and_strafe_design_speed (test_movement.MovementTests.test_unobstructed_forward_backward_and_strafe_design_speed) ... ok\ntest_zero_dt_idle_immutability_and_unrelated_actions_are_not_ui_gates (test_movement.MovementTests.test_zero_dt_idle_immutability_and_unrelated_actions_are_not_ui_gates) ... ok\ntest_committed_frames_regenerate_exactly_and_are_safe_street_level (test_rendering.CaptureTests.test_committed_frames_regenerate_exactly_and_are_safe_street_level) ... ok\ntest_hash_seed_independence_fresh_processes (test_rendering.CaptureTests.test_hash_seed_independence_fresh_processes) ... ok\ntest_distance_fog_lighting_and_emissive_contrast (test_rendering.RenderingTests.test_distance_fog_lighting_and_emissive_contrast) ... ok\ntest_far_inclusive_off_axis_uses_forward_not_radial_depth (test_rendering.RenderingTests.test_far_inclusive_off_axis_uses_forward_not_radial_depth) ... ok\ntest_front_wall_occludes_rear_and_color_comes_from_nearest (test_rendering.RenderingTests.test_front_wall_occludes_rear_and_color_comes_from_nearest) ... ok\ntest_ground_horizon_sky_and_exact_ground_near (test_rendering.RenderingTests.test_ground_horizon_sky_and_exact_ground_near) ... ok\ntest_invalid_camera_and_viewport_rejected (test_rendering.RenderingTests.test_invalid_camera_and_viewport_rejected) ... ok\ntest_near_inside_box_renders_exit_not_sky_or_cap (test_rendering.RenderingTests.test_near_inside_box_renders_exit_not_sky_or_cap) ... ok\ntest_near_plane_inclusive_and_outside_skin_exposes_rear (test_rendering.RenderingTests.test_near_plane_inclusive_and_outside_skin_exposes_rear) ... ok\ntest_planes_oracle_all_cells_clipping_pitch_corner_roof_and_overlap (test_rendering.RenderingTests.test_planes_oracle_all_cells_clipping_pitch_corner_roof_and_overlap) ... ok\ntest_protocol_only_projection_adapter_matches_prepared_path (test_rendering.RenderingTests.test_protocol_only_projection_adapter_matches_prepared_path) ... ok\ntest_real_city_valid_cells_repeat_resize_pose_and_world_changes (test_rendering.RenderingTests.test_real_city_valid_cells_repeat_resize_pose_and_world_changes) ... ok\ntest_renderer_perspective_shrinkage_and_lens_cache_invalidation (test_rendering.RenderingTests.test_renderer_perspective_shrinkage_and_lens_cache_invalidation) ... ok\ntest_tie_building_id_and_ground_precedence (test_rendering.RenderingTests.test_tie_building_id_and_ground_precedence) ... ok\ntest_tower_fills_top_without_crown_projection_and_look_up_reveals_roofline (test_rendering.RenderingTests.test_tower_fills_top_without_crown_projection_and_look_up_reveals_roofline) ... ok\ntest_all_actual_landmark_viewpoints_range_bearing_and_crowns (test_rendering.SightingTests.test_all_actual_landmark_viewpoints_range_bearing_and_crowns) ... ok\ntest_bearing_wrap_horizontal_range_and_crown_blocked_separately (test_rendering.SightingTests.test_bearing_wrap_horizontal_range_and_crown_blocked_separately) ... ok\ntest_occluded_offscreen_behind_clip_and_internal_target (test_rendering.SightingTests.test_occluded_offscreen_behind_clip_and_internal_target) ... ok\ntest_all_destinations_visible_reachable_and_three_photo_geometric_replay (test_spatial.Generation.test_all_destinations_visible_reachable_and_three_photo_geometric_replay) ... ok\ntest_all_streets_continuous_disc_clearance_and_long_sightlines (test_spatial.Generation.test_all_streets_continuous_disc_clearance_and_long_sightlines) ... ok\ntest_bounds_human_scale_variety_nonoverlap_public_spaces (test_spatial.Generation.test_bounds_human_scale_variety_nonoverlap_public_spaces) ... ok\ntest_clearance_flood_entire_exploration_area (test_spatial.Generation.test_clearance_flood_entire_exploration_area) ... ok\ntest_determinism_across_process_hash_seeds_and_seed_variation (test_spatial.Generation.test_determinism_across_process_hash_seeds_and_seed_variation) ... ok\ntest_closed_nearby_sorted_deduplicated_and_far_bounds (test_spatial.StaticQueries.test_closed_nearby_sorted_deduplicated_and_far_bounds) ... ok\ntest_exact_swept_disc_not_point_connectivity (test_spatial.StaticQueries.test_exact_swept_disc_not_point_connectivity) ... ok\ntest_inside_surface_parallel_grid_boundaries_and_ties (test_spatial.StaticQueries.test_inside_surface_parallel_grid_boundaries_and_ties) ... ok\ntest_invalid_query_and_city_inputs (test_spatial.StaticQueries.test_invalid_query_and_city_inputs) ... ok\ntest_random_rays_disc_and_nearby_against_independent_oracles (test_spatial.StaticQueries.test_random_rays_disc_and_nearby_against_independent_oracles) ... ok\ntest_six_box_faces_ground_sky_and_distance_limit (test_spatial.StaticQueries.test_six_box_faces_ground_sky_and_distance_limit) ... ok\ntest_swept_disc_against_independent_convex_distance_oracle (test_spatial.StaticQueries.test_swept_disc_against_independent_convex_distance_oracle) ... ok\ntest_walkable_disc_edges_corners_bounds_and_height (test_spatial.StaticQueries.test_walkable_disc_edges_corners_bounds_and_height) ... ok\ntest_all_linux_arrows_and_every_split (test_terminal.DecoderTests.test_all_linux_arrows_and_every_split) ... ok\ntest_axis_repeat_expiry_latest_opposite_and_diagonal (test_terminal.DecoderTests.test_axis_repeat_expiry_latest_opposite_and_diagonal) ... ok\ntest_ctrl_c_and_clock_validation (test_terminal.DecoderTests.test_ctrl_c_and_clock_validation) ... ok\ntest_every_ascii_control_and_uppercase (test_terminal.DecoderTests.test_every_ascii_control_and_uppercase) ... ok\ntest_every_edge_suppressed_until_quiet (test_terminal.DecoderTests.test_every_edge_suppressed_until_quiet) ... ok\ntest_lone_escape_deadline_and_no_mid_csi_quit (test_terminal.DecoderTests.test_lone_escape_deadline_and_no_mid_csi_quit) ... ok\ntest_sequence_storage_bounded (test_terminal.DecoderTests.test_sequence_storage_bounded) ... ok\ntest_unknown_sequences_paste_strings_nonascii_not_actions (test_terminal.DecoderTests.test_unknown_sequences_paste_strings_nonascii_not_actions) ... ok\ntest_windows_every_extended_arrow_split_and_prefix (test_terminal.DecoderTests.test_windows_every_extended_arrow_split_and_prefix) ... ok\ntest_windows_every_ordinary_key (test_terminal.DecoderTests.test_windows_every_ordinary_key) ... ok\ntest_cleanup_generic_error_does_not_mask_original (test_terminal.LifecycleTests.test_cleanup_generic_error_does_not_mask_original) ... ok\ntest_color_modes (test_terminal.LifecycleTests.test_color_modes) ... ok\ntest_enter_failure_rolls_back_and_does_not_emit_display (test_terminal.LifecycleTests.test_enter_failure_rolls_back_and_does_not_emit_display) ... ok\ntest_frame_resize_race_notice_then_recovers (test_terminal.LifecycleTests.test_frame_resize_race_notice_then_recovers) ... ok\ntest_invalid_frame_exception_cleans_up (test_terminal.LifecycleTests.test_invalid_frame_exception_cleans_up) ... ok\ntest_no_newlines_or_bottom_right_erase_and_hud_sanitized (test_terminal.LifecycleTests.test_no_newlines_or_bottom_right_erase_and_hud_sanitized) ... ok\ntest_normal_exception_and_interruption_restore_display_handlers (test_terminal.LifecycleTests.test_normal_exception_and_interruption_restore_display_handlers) ... ok\ntest_output_failure_still_restores_modes_and_preserves_exception (test_terminal.LifecycleTests.test_output_failure_still_restores_modes_and_preserves_exception) ... ok\ntest_poll_nonblocking_contract_and_wait_delegation (test_terminal.LifecycleTests.test_poll_nonblocking_contract_and_wait_delegation) ... ok\ntest_quit_suspend_and_break_signals_are_handled_when_available (test_terminal.LifecycleTests.test_quit_suspend_and_break_signals_are_handled_when_available) ... ok\ntest_redirected_streams_and_unsupported_term (test_terminal.LifecycleTests.test_redirected_streams_and_unsupported_term) ... ok\ntest_resize_small_gates_motion_and_actions_but_allows_help_quit (test_terminal.LifecycleTests.test_resize_small_gates_motion_and_actions_but_allows_help_quit) ... ok\ntest_reuse_and_nested_entry (test_terminal.LifecycleTests.test_reuse_and_nested_entry) ... ok\ntest_ctrl_c_exception_and_all_cleanup_attempted (test_terminal.WindowsMockTests.test_ctrl_c_exception_and_all_cleanup_attempted) ... ok\ntest_factory_platform_selection (test_terminal.WindowsMockTests.test_factory_platform_selection) ... ok\ntest_modes_cursor_color_input_and_cleanup (test_terminal.WindowsMockTests.test_modes_cursor_color_input_and_cleanup) ... ok\ntest_real_read_wrapper_is_bounded_and_never_reads_without_kbhit (test_terminal.WindowsMockTests.test_real_read_wrapper_is_bounded_and_never_reads_without_kbhit) ... ok\ntest_vt_failure_rolls_back_input_and_output (test_terminal.WindowsMockTests.test_vt_failure_rolls_back_input_and_output) ... ok\n\n----------------------------------------------------------------------\nRan 139 tests in 15.494s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/simulate_survey.py",
+        "--seeds",
+        "11",
+        "93",
+        "2026"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.1437662859998454,
+      "stdout": "{\"seed\": 11, \"elapsed_s\": 240.89999999998724, \"distance_m\": 877.9999999999587, \"steps\": 2410, \"final_state\": {\"phase\": \"won\", \"remaining_s\": 359.0999999999491, \"photos\": [[\"sight-2\", 140], [\"sight-3\", 140], [\"sight-4\", 140]], \"score\": 420}}\n{\"seed\": 93, \"elapsed_s\": 239.14999999998975, \"distance_m\": 870.9999999999621, \"steps\": 2396, \"final_state\": {\"phase\": \"won\", \"remaining_s\": 360.84999999994716, \"photos\": [[\"sight-2\", 140], [\"sight-3\", 140], [\"sight-4\", 140]], \"score\": 420}}\n{\"seed\": 2026, \"elapsed_s\": 240.14999999998886, \"distance_m\": 874.9999999999584, \"steps\": 2406, \"final_state\": {\"phase\": \"won\", \"remaining_s\": 359.8499999999478, \"photos\": [[\"sight-2\", 140], [\"sight-3\", 140], [\"sight-4\", 140]], \"score\": 420}}\nPASS: complete routes <=420 s; independent fresh-state replay matched; evidence: /opt/g-harness/workspace/G11/node_8_step_100/repo/docs/gameplay-simulation.json\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/simulate_survey.py",
+        "--replay",
+        "docs/gameplay-simulation.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.1497385229995416,
+      "stdout": "{\"seed\": 11, \"elapsed_s\": 240.89999999998724, \"distance_m\": 877.9999999999587, \"steps\": 2410, \"final_state\": {\"phase\": \"won\", \"remaining_s\": 359.0999999999491, \"photos\": [[\"sight-2\", 140], [\"sight-3\", 140], [\"sight-4\", 140]], \"score\": 420}}\n{\"seed\": 93, \"elapsed_s\": 239.14999999998975, \"distance_m\": 870.9999999999621, \"steps\": 2396, \"final_state\": {\"phase\": \"won\", \"remaining_s\": 360.84999999994716, \"photos\": [[\"sight-2\", 140], [\"sight-3\", 140], [\"sight-4\", 140]], \"score\": 420}}\n{\"seed\": 2026, \"elapsed_s\": 240.14999999998886, \"distance_m\": 874.9999999999584, \"steps\": 2406, \"final_state\": {\"phase\": \"won\", \"remaining_s\": 359.8499999999478, \"photos\": [[\"sight-2\", 140], [\"sight-3\", 140], [\"sight-4\", 140]], \"score\": 420}}\nPASS: fresh action-only replays match all recorded outcomes\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/build.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.03425060600056895,
+      "stdout": "/opt/g-harness/workspace/G11/node_8_step_100/repo/dist/lantern-survey.pyz\nsha256 06a5678d03ddfdfbbca31e69d240a7b700444a14c2bbeb1cc5a2bca5134cd10d\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "dist/lantern-survey.pyz",
+        "--smoke",
+        "--seed",
+        "11"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.0548903609997069,
+      "stdout": "{\"eye_height_m\": 1.7, \"seed\": 11, \"stage\": \"foundation\", \"status\": \"ok\", \"version\": \"0.1.0\", \"viewport\": [100, 32]}\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "simulation_sha256": "1145e08139a7738724306d501140602afbba8d923140d625e90abbd3cf4387a4",
+  "route_outcomes": [
+    {
+      "seed": 11,
+      "elapsed_s": 240.89999999998724,
+      "distance_m": 877.9999999999587,
+      "steps": 2410,
+      "final_state": {
+        "phase": "won",
+        "remaining_s": 359.0999999999491,
+        "photos": [
+          [
+            "sight-2",
+            140
+          ],
+          [
+            "sight-3",
+            140
+          ],
+          [
+            "sight-4",
+            140
+          ]
+        ],
+        "score": 420
+      }
+    },
+    {
+      "seed": 93,
+      "elapsed_s": 239.14999999998975,
+      "distance_m": 870.9999999999621,
+      "steps": 2396,
+      "final_state": {
+        "phase": "won",
+        "remaining_s": 360.84999999994716,
+        "photos": [
+          [
+            "sight-2",
+            140
+          ],
+          [
+            "sight-3",
+            140
+          ],
+          [
+            "sight-4",
+            140
+          ]
+        ],
+        "score": 420
+      }
+    },
+    {
+      "seed": 2026,
+      "elapsed_s": 240.14999999998886,
+      "distance_m": 874.9999999999584,
+      "steps": 2406,
+      "final_state": {
+        "phase": "won",
+        "remaining_s": 359.8499999999478,
+        "photos": [
+          [
+            "sight-2",
+            140
+          ],
+          [
+            "sight-3",
+            140
+          ],
+          [
+            "sight-4",
+            140
+          ]
+        ],
+        "score": 420
+      }
+    }
+  ]
+}

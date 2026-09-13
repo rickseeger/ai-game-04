@@ -1,7 +1,7 @@
 # Lantern Survey (G11)
 
-Foundation, spatial-generation, appearance, camera, renderer, movement and terminal-component milestones, NOT a playable city yet. Default launch reports this and
-exits normally. Headless rendering and injected-action movement are real; terminal adapters are available as components; game rules and interactive application integration are not implemented.
+Foundation, spatial-generation, appearance, camera, renderer, movement, terminal and gameplay-rule milestones, NOT a playable city yet. Default launch reports this and
+exits normally. Headless rendering and injected-action movement are real; terminal adapters are available as components; pure survey rules are implemented; interactive application integration is not.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
 
@@ -142,3 +142,23 @@ and full regression/build outputs are in `docs/terminal-pty/` and
 `docs/terminal-run.json`. Windows API/input decision tests here use mocks;
 no native Windows launch/control result is claimed. Windows Terminal execution
 on the exact delivery candidate remains mandatory.
+
+## Survey rules (node 8)
+
+`citywalk.gameplay.SurveyRules` implements the chosen Lantern Survey loop:
+photograph at least three distinct landmarks, optionally improve compositions,
+and return to submit before 600 active seconds expire. Pure deterministic
+transitions include score/progression feedback, win/loss and clean reset.
+No interactive app loop is added. See [docs/gameplay.md](docs/gameplay.md) for
+exact semantics, defenses and node 9 pause/help/restart integration duties.
+
+    python3 tools/simulate_survey.py --seeds 11 93 2026
+    python3 tools/simulate_survey.py --replay docs/gameplay-simulation.json
+    python3 tools/validate_gameplay.py
+
+`docs/gameplay-simulation.json` records complete reproducible action tapes:
+real collision-checked walking, turns/pitch, actual renderer sightings, three
+photos and depot submission. All three tested routes win within 420 seconds.
+`docs/gameplay-run.json` records actual complete regression and reproduction
+results. This demonstrates rule behavior and reachability, NOT enjoyment,
+finished city beauty, terminal play or native Windows runtime evidence.
