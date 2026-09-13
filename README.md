@@ -1,6 +1,6 @@
 # Lantern Survey (G11)
 
-Foundation, spatial-generation and appearance milestones, NOT a playable city yet. Default launch reports this and
+Foundation, spatial-generation, appearance and camera milestones, NOT a playable city yet. Default launch reports this and
 exits normally. No renderer, movement, terminal adapter or game rules are faked.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
@@ -68,3 +68,18 @@ Open `docs/appearance-fixtures/atlas.html` for the colored component atlas;
 `atlas.txt` and `atlas.json` record glyphs and exact sample coordinates/seeds.
 These fixtures establish material behavior, NOT finished 3D city quality.
 Actual test/build/fixture results are in `docs/appearance-run.json`.
+
+## Street-level camera (node 4)
+
+`citywalk.camera.Perspective` implements the existing project/ray interface with
+metre-scale eye height, full yaw/pitch geometry, rectilinear perspective and
+terminal cell-aspect correction. Optional prepared-frame and ray-clip-distance
+helpers are documented in [docs/camera.md](docs/camera.md).
+
+    python3 tools/measure_projection.py --check
+    python3 -m unittest discover -s tests -p test_camera.py -v
+
+`docs/projection-fixtures.json` records reproducible tower/camera/ray geometry
+and real landmark target projections. `docs/camera-run.json` records executed
+regression/build checks. These are numeric component fixtures, not rendered
+city beauty, a playable game or Windows runtime evidence.

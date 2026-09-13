@@ -1,0 +1,2207 @@
+{
+  "camera": {
+    "eye": {
+      "x": 0,
+      "y": 1.7,
+      "z": 0
+    },
+    "far": 500.0,
+    "hfov": 1.3962634015954636,
+    "near": 0.1,
+    "pitch": 0.0,
+    "yaw": 0.0
+  },
+  "focal_columns": 59.58767962971051,
+  "focal_rows": 29.793839814855254,
+  "label": "NUMERIC PROJECTION ONLY: no city rendering, beauty or gameplay claim",
+  "landmarks": [
+    {
+      "building": {
+        "footprint": {
+          "xmax": -105.0,
+          "xmin": -135.0,
+          "zmax": -105.0,
+          "zmin": -136.0
+        },
+        "height": 115.0,
+        "id": "landmark-0",
+        "material_seed": 3945512145,
+        "style": "amber-brick"
+      },
+      "camera": {
+        "eye": {
+          "x": -120.0,
+          "y": 1.7,
+          "z": -181.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.8921338360465839,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -120.0,
+          "y": 114.0,
+          "z": -120.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 125.39480763006128,
+          "row": 10.439533279777908
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 125.39480763006128,
+          "row": 10.439533279777908
+        }
+      },
+      "id": "sight-0",
+      "seed": 11,
+      "target": {
+        "point": {
+          "x": -120.0,
+          "y": 57.5,
+          "z": -136.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 71.68430790626356,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 71.68430790626356,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-0",
+        "distance": 71.68430790626356,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -120.0,
+          "y": 57.5,
+          "z": -136.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": 134.0,
+          "xmin": 104.0,
+          "zmax": -105.0,
+          "zmin": -136.0
+        },
+        "height": 95.0,
+        "id": "landmark-1",
+        "material_seed": 561624481,
+        "style": "cyan-glass"
+      },
+      "camera": {
+        "eye": {
+          "x": 119.0,
+          "y": 1.7,
+          "z": -181.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7942085081182243,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": 119.0,
+          "y": 94.0,
+          "z": -120.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 108.23982962302847,
+          "row": 10.072818521286987
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 108.23982962302847,
+          "row": 10.072818521286987
+        }
+      },
+      "id": "sight-1",
+      "seed": 11,
+      "target": {
+        "point": {
+          "x": 119.0,
+          "y": 47.5,
+          "z": -136.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 64.20778768965646,
+          "row": 16.000000000000004
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 64.20778768965646,
+          "row": 16.000000000000004
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-1",
+        "distance": 64.20778768965646,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": 119.0,
+          "y": 47.5,
+          "z": -136.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -10.0,
+          "xmin": -38.0,
+          "zmax": 37.0,
+          "zmin": 13.0
+        },
+        "height": 86.0,
+        "id": "landmark-2",
+        "material_seed": 2178243310,
+        "style": "violet-artdeco"
+      },
+      "camera": {
+        "eye": {
+          "x": -24.0,
+          "y": 1.7,
+          "z": -36.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7003326234288034,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -24.0,
+          "y": 85.0,
+          "z": 25.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 100.32682191498637,
+          "row": 8.759714474424106
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 100.32682191498637,
+          "row": 8.759714474424106
+        }
+      },
+      "id": "sight-2",
+      "seed": 11,
+      "target": {
+        "point": {
+          "x": -24.0,
+          "y": 43.0,
+          "z": 13.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 64.0834612049006,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 64.0834612049006,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-2",
+        "distance": 64.0834612049006,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -24.0,
+          "y": 43.0,
+          "z": 13.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -106.0,
+          "xmin": -134.0,
+          "zmax": 133.0,
+          "zmin": 105.0
+        },
+        "height": 118.0,
+        "id": "landmark-3",
+        "material_seed": 2677431538,
+        "style": "rose-stone"
+      },
+      "camera": {
+        "eye": {
+          "x": -120.0,
+          "y": 1.7,
+          "z": 58.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.8838326002426325,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -120.0,
+          "y": 117.0,
+          "z": 119.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 127.83284052290215,
+          "row": 9.949834854653409
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 127.83284052290215,
+          "row": 9.949834854653409
+        }
+      },
+      "id": "sight-3",
+      "seed": 11,
+      "target": {
+        "point": {
+          "x": -120.0,
+          "y": 59.0,
+          "z": 105.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 74.10998583187018,
+          "row": 15.999999999999996
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 74.10998583187018,
+          "row": 15.999999999999996
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-3",
+        "distance": 74.10998583187019,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -120.0,
+          "y": 59.0,
+          "z": 105.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": 133.0,
+          "xmin": 105.0,
+          "zmax": 133.0,
+          "zmin": 105.0
+        },
+        "height": 90.0,
+        "id": "landmark-4",
+        "material_seed": 3827818870,
+        "style": "emerald-metal"
+      },
+      "camera": {
+        "eye": {
+          "x": 119.0,
+          "y": 1.7,
+          "z": 58.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7444465418562273,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": 119.0,
+          "y": 89.0,
+          "z": 119.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 104.01465697059174,
+          "row": 9.447864397600242
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 104.01465697059174,
+          "row": 9.447864397600242
+        }
+      },
+      "id": "sight-4",
+      "seed": 11,
+      "target": {
+        "point": {
+          "x": 119.0,
+          "y": 45.0,
+          "z": 105.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 63.90532059226367,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 63.90532059226367,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-4",
+        "distance": 63.905320592263685,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": 119.0,
+          "y": 45.00000000000001,
+          "z": 105.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -108.0,
+          "xmin": -133.0,
+          "zmax": -108.0,
+          "zmin": -133.0
+        },
+        "height": 106.0,
+        "id": "landmark-0",
+        "material_seed": 1500761451,
+        "style": "amber-brick"
+      },
+      "camera": {
+        "eye": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": -183.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7982306277734446,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -120.5,
+          "y": 105.0,
+          "z": -120.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 117.59885739246687,
+          "row": 9.072569470264234
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 117.59885739246687,
+          "row": 9.072569470264234
+        }
+      },
+      "id": "sight-0",
+      "seed": 93,
+      "target": {
+        "point": {
+          "x": -120.5,
+          "y": 53.0,
+          "z": -133.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 71.63581506481238,
+          "row": 15.999999999999996
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 71.63581506481238,
+          "row": 15.999999999999996
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-0",
+        "distance": 71.63581506481238,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -120.5,
+          "y": 53.0,
+          "z": -133.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": 131.0,
+          "xmin": 108.0,
+          "zmax": -108.0,
+          "zmin": -133.0
+        },
+        "height": 91.0,
+        "id": "landmark-1",
+        "material_seed": 273745123,
+        "style": "cyan-glass"
+      },
+      "camera": {
+        "eye": {
+          "x": 119.5,
+          "y": 1.7,
+          "z": -183.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7193960907018284,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": 119.5,
+          "y": 90.0,
+          "z": -120.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 105.19630327093326,
+          "row": 8.852501910690581
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 105.19630327093326,
+          "row": 8.852501910690581
+        }
+      },
+      "id": "sight-1",
+      "seed": 93,
+      "target": {
+        "point": {
+          "x": 119.5,
+          "y": 45.5,
+          "z": -133.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 66.47134721065912,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 66.47134721065912,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-1",
+        "distance": 66.47134721065912,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": 119.5,
+          "y": 45.5,
+          "z": -133.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -11.0,
+          "xmin": -36.0,
+          "zmax": 38.0,
+          "zmin": 13.0
+        },
+        "height": 93.0,
+        "id": "landmark-2",
+        "material_seed": 4085441841,
+        "style": "violet-artdeco"
+      },
+      "camera": {
+        "eye": {
+          "x": -23.5,
+          "y": 1.7,
+          "z": -38.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7207701302250286,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -23.5,
+          "y": 92.0,
+          "z": 25.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 107.30210444165336,
+          "row": 8.798944665379908
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 107.30210444165336,
+          "row": 8.798944665379908
+        }
+      },
+      "id": "sight-2",
+      "seed": 93,
+      "target": {
+        "point": {
+          "x": -23.5,
+          "y": 46.5,
+          "z": 13.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 67.88254562109468,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 67.88254562109468,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-2",
+        "distance": 67.88254562109468,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -23.5,
+          "y": 46.5,
+          "z": 13.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -108.0,
+          "xmin": -133.0,
+          "zmax": 134.0,
+          "zmin": 109.0
+        },
+        "height": 99.0,
+        "id": "landmark-3",
+        "material_seed": 4242327216,
+        "style": "rose-stone"
+      },
+      "camera": {
+        "eye": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": 57.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7433388134636091,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -120.5,
+          "y": 98.0,
+          "z": 121.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 112.6567482209424,
+          "row": 8.794113874622173
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 112.6567482209424,
+          "row": 8.794113874622173
+        }
+      },
+      "id": "sight-3",
+      "seed": 93,
+      "target": {
+        "point": {
+          "x": -120.5,
+          "y": 49.5,
+          "z": 109.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 70.6317209191451,
+          "row": 15.999999999999996
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 70.6317209191451,
+          "row": 15.999999999999996
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-3",
+        "distance": 70.6317209191451,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -120.5,
+          "y": 49.5,
+          "z": 109.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": 132.0,
+          "xmin": 107.0,
+          "zmax": 135.0,
+          "zmin": 108.0
+        },
+        "height": 117.0,
+        "id": "landmark-4",
+        "material_seed": 4104067739,
+        "style": "emerald-metal"
+      },
+      "camera": {
+        "eye": {
+          "x": 119.5,
+          "y": 1.7,
+          "z": 57.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.8391496762779992,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": 119.5,
+          "y": 116.0,
+          "z": 121.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 128.13998310712464,
+          "row": 9.403574528966011
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 128.13998310712464,
+          "row": 9.403574528966011
+        }
+      },
+      "id": "sight-4",
+      "seed": 93,
+      "target": {
+        "point": {
+          "x": 119.5,
+          "y": 58.5,
+          "z": 108.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 76.33636092976924,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 76.33636092976924,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-4",
+        "distance": 76.33636092976924,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": 119.5,
+          "y": 58.5,
+          "z": 108.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -106.0,
+          "xmin": -135.0,
+          "zmax": -104.0,
+          "zmin": -135.0
+        },
+        "height": 107.0,
+        "id": "landmark-0",
+        "material_seed": 3060977558,
+        "style": "amber-brick"
+      },
+      "camera": {
+        "eye": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": -181.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.8446334873950504,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -120.5,
+          "y": 106.0,
+          "z": -119.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 118.82433992177272,
+          "row": 10.165188749216064
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 118.82433992177272,
+          "row": 10.165188749216064
+        }
+      },
+      "id": "sight-0",
+      "seed": 2026,
+      "target": {
+        "point": {
+          "x": -120.5,
+          "y": 53.5,
+          "z": -135.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 69.27654725807284,
+          "row": 16.000000000000004
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 69.27654725807284,
+          "row": 16.000000000000004
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-0",
+        "distance": 69.27654725807284,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -120.5,
+          "y": 53.5,
+          "z": -135.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": 135.0,
+          "xmin": 106.0,
+          "zmax": -104.0,
+          "zmin": -135.0
+        },
+        "height": 102.0,
+        "id": "landmark-1",
+        "material_seed": 730747020,
+        "style": "cyan-glass"
+      },
+      "camera": {
+        "eye": {
+          "x": 120.5,
+          "y": 1.7,
+          "z": -181.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.8200118252922268,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": 120.5,
+          "y": 101.0,
+          "z": -119.5
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 114.55965450154201,
+          "row": 10.076130737479698
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 114.55965450154201,
+          "row": 10.076130737479698
+        }
+      },
+      "id": "sight-1",
+      "seed": 2026,
+      "target": {
+        "point": {
+          "x": 120.5,
+          "y": 51.0,
+          "z": -135.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 67.42766494548064,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 67.42766494548064,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-1",
+        "distance": 67.42766494548064,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": 120.5,
+          "y": 51.0,
+          "z": -135.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -11.0,
+          "xmin": -36.0,
+          "zmax": 37.0,
+          "zmin": 11.0
+        },
+        "height": 101.0,
+        "id": "landmark-2",
+        "material_seed": 1676745592,
+        "style": "violet-artdeco"
+      },
+      "camera": {
+        "eye": {
+          "x": -23.5,
+          "y": 1.7,
+          "z": -39.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7732530116005362,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -23.5,
+          "y": 100.0,
+          "z": 24.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 113.74476589133721,
+          "row": 9.09950100122529
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 113.74476589133721,
+          "row": 9.09950100122529
+        }
+      },
+      "id": "sight-2",
+      "seed": 2026,
+      "target": {
+        "point": {
+          "x": -23.5,
+          "y": 50.5,
+          "z": 11.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 69.86730279608624,
+          "row": 16.000000000000004
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 69.86730279608624,
+          "row": 16.000000000000004
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-2",
+        "distance": 69.86730279608624,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -23.5,
+          "y": 50.5,
+          "z": 11.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": -106.0,
+          "xmin": -135.0,
+          "zmax": 135.0,
+          "zmin": 105.0
+        },
+        "height": 100.0,
+        "id": "landmark-3",
+        "material_seed": 3196449015,
+        "style": "rose-stone"
+      },
+      "camera": {
+        "eye": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": 58.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.7990384506389067,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": -120.5,
+          "y": 99.0,
+          "z": 120.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 112.97209432462583,
+          "row": 9.82294342777205
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 112.97209432462583,
+          "row": 9.82294342777205
+        }
+      },
+      "id": "sight-3",
+      "seed": 2026,
+      "target": {
+        "point": {
+          "x": -120.5,
+          "y": 50.0,
+          "z": 105.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 67.39354568502833,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 67.39354568502833,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-3",
+        "distance": 67.39354568502833,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": -120.5,
+          "y": 50.0,
+          "z": 105.0
+        }
+      }
+    },
+    {
+      "building": {
+        "footprint": {
+          "xmax": 133.0,
+          "xmin": 108.0,
+          "zmax": 133.0,
+          "zmin": 107.0
+        },
+        "height": 115.0,
+        "id": "landmark-4",
+        "material_seed": 1807724712,
+        "style": "emerald-metal"
+      },
+      "camera": {
+        "eye": {
+          "x": 120.5,
+          "y": 1.7,
+          "z": 58.0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0.8501928301727693,
+        "yaw": 0.0
+      },
+      "crown": {
+        "point": {
+          "x": 120.5,
+          "y": 114.0,
+          "z": 120.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 125.2930521236664,
+          "row": 9.457698866794338
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 125.2930521236664,
+          "row": 9.457698866794338
+        }
+      },
+      "id": "sight-4",
+      "seed": 2026,
+      "target": {
+        "point": {
+          "x": 120.5,
+          "y": 57.5,
+          "z": 107.0
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 74.26062213582648,
+          "row": 16.0
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 74.26062213582648,
+          "row": 16.0
+        }
+      },
+      "target_hit": {
+        "building_id": "landmark-4",
+        "distance": 74.26062213582647,
+        "face": "south",
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "point": {
+          "x": 120.5,
+          "y": 57.5,
+          "z": 107.0
+        }
+      }
+    }
+  ],
+  "probes": [
+    {
+      "point": {
+        "x": 2,
+        "y": 3.7,
+        "z": 20
+      },
+      "project": {
+        "column": 55.95876796297105,
+        "depth": 20.0,
+        "row": 13.020616018514474
+      },
+      "screen_unclipped": {
+        "column": 55.95876796297105,
+        "depth": 20.0,
+        "row": 13.020616018514474
+      }
+    },
+    {
+      "point": {
+        "x": 2,
+        "y": 3.7,
+        "z": 40
+      },
+      "project": {
+        "column": 52.979383981485526,
+        "depth": 40.0,
+        "row": 14.510308009257237
+      },
+      "screen_unclipped": {
+        "column": 52.979383981485526,
+        "depth": 40.0,
+        "row": 14.510308009257237
+      }
+    },
+    {
+      "point": {
+        "x": 0,
+        "y": 1.7,
+        "z": 0.1
+      },
+      "project": {
+        "column": 50.0,
+        "depth": 0.1,
+        "row": 16.0
+      },
+      "screen_unclipped": {
+        "column": 50.0,
+        "depth": 0.1,
+        "row": 16.0
+      }
+    },
+    {
+      "point": {
+        "x": 0,
+        "y": 1.7,
+        "z": 0.099
+      },
+      "project": null,
+      "screen_unclipped": null
+    },
+    {
+      "point": {
+        "x": 0,
+        "y": 1.7,
+        "z": 0
+      },
+      "project": null,
+      "screen_unclipped": null
+    },
+    {
+      "point": {
+        "x": 0,
+        "y": 1.7,
+        "z": -10
+      },
+      "project": null,
+      "screen_unclipped": null
+    },
+    {
+      "point": {
+        "x": 100,
+        "y": 1.7,
+        "z": 500
+      },
+      "project": {
+        "column": 61.917535925942104,
+        "depth": 500.0,
+        "row": 16.0
+      },
+      "screen_unclipped": {
+        "column": 61.917535925942104,
+        "depth": 500.0,
+        "row": 16.0
+      }
+    },
+    {
+      "point": {
+        "x": 0,
+        "y": 1.7,
+        "z": 500.001
+      },
+      "project": null,
+      "screen_unclipped": null
+    },
+    {
+      "point": {
+        "x": 0,
+        "y": 100,
+        "z": 200
+      },
+      "project": {
+        "column": 50.0,
+        "depth": 200.0,
+        "row": 1.3563277309986432
+      },
+      "screen_unclipped": {
+        "column": 50.0,
+        "depth": 200.0,
+        "row": 1.3563277309986432
+      }
+    }
+  ],
+  "rays": [
+    {
+      "column": 0,
+      "ray_clip_distances_m": [
+        0.14002600960809392,
+        700.1300480404695
+      ],
+      "row": 0,
+      "unit_direction": {
+        "x": -0.5932530943290479,
+        "y": 0.3715322408929391,
+        "z": 0.7141530368528027
+      },
+      "wall_probe": {
+        "point": {
+          "x": -16.614172697310142,
+          "y": 12.10483542659827,
+          "z": 20
+        },
+        "project": {
+          "column": 0.5,
+          "depth": 20.0,
+          "row": 0.5000000000000018
+        },
+        "screen_unclipped": {
+          "column": 0.5,
+          "depth": 20.0,
+          "row": 0.5000000000000018
+        }
+      },
+      "wall_ray_distance_m": 28.00520192161878
+    },
+    {
+      "column": 0,
+      "ray_clip_distances_m": [
+        0.13001378662728547,
+        650.0689331364273
+      ],
+      "row": 15,
+      "unit_direction": {
+        "x": -0.6389388821101912,
+        "y": 0.012907856204246287,
+        "z": 0.7691492002049989
+      },
+      "wall_probe": {
+        "point": {
+          "x": -16.614172697310142,
+          "y": 2.035639852470912,
+          "z": 20
+        },
+        "project": {
+          "column": 0.5,
+          "depth": 20.0,
+          "row": 15.5
+        },
+        "screen_unclipped": {
+          "column": 0.5,
+          "depth": 20.0,
+          "row": 15.5
+        }
+      },
+      "wall_ray_distance_m": 26.002757325457093
+    },
+    {
+      "column": 49,
+      "ray_clip_distances_m": [
+        0.10001760065586061,
+        500.08800327930305
+      ],
+      "row": 15,
+      "unit_direction": {
+        "x": -0.008389519701281817,
+        "y": 0.016779039402563634,
+        "z": 0.9998240244142512
+      },
+      "wall_probe": {
+        "point": {
+          "x": -0.16781992623545594,
+          "y": 2.035639852470912,
+          "z": 20
+        },
+        "project": {
+          "column": 49.5,
+          "depth": 20.0,
+          "row": 15.5
+        },
+        "screen_unclipped": {
+          "column": 49.5,
+          "depth": 20.0,
+          "row": 15.5
+        }
+      },
+      "wall_ray_distance_m": 20.00352013117212
+    },
+    {
+      "column": 50,
+      "ray_clip_distances_m": [
+        0.10001760065586061,
+        500.08800327930305
+      ],
+      "row": 16,
+      "unit_direction": {
+        "x": 0.008389519701281817,
+        "y": -0.016779039402563634,
+        "z": 0.9998240244142512
+      },
+      "wall_probe": {
+        "point": {
+          "x": 0.16781992623545594,
+          "y": 1.364360147529088,
+          "z": 20
+        },
+        "project": {
+          "column": 50.5,
+          "depth": 20.0,
+          "row": 16.5
+        },
+        "screen_unclipped": {
+          "column": 50.5,
+          "depth": 20.0,
+          "row": 16.5
+        }
+      },
+      "wall_ray_distance_m": 20.00352013117212
+    },
+    {
+      "column": 99,
+      "ray_clip_distances_m": [
+        0.14002600960809392,
+        700.1300480404695
+      ],
+      "row": 31,
+      "unit_direction": {
+        "x": 0.5932530943290479,
+        "y": -0.3715322408929391,
+        "z": 0.7141530368528027
+      },
+      "wall_probe": {
+        "point": {
+          "x": 16.614172697310142,
+          "y": -8.70483542659827,
+          "z": 20
+        },
+        "project": {
+          "column": 99.5,
+          "depth": 20.0,
+          "row": 31.5
+        },
+        "screen_unclipped": {
+          "column": 99.5,
+          "depth": 20.0,
+          "row": 31.5
+        }
+      },
+      "wall_ray_distance_m": 28.00520192161878
+    }
+  ],
+  "tower": {
+    "footprint": {
+      "xmax": 6,
+      "xmin": -6,
+      "zmax": 40,
+      "zmin": 20
+    },
+    "height": 100,
+    "id": "projection-tower",
+    "material_seed": 11,
+    "style": "amber-brick"
+  },
+  "tower_poses": [
+    {
+      "base": {
+        "point": {
+          "x": 0,
+          "y": 0,
+          "z": 20
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 20.0,
+          "row": 18.532476384262697
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 20.0,
+          "row": 18.532476384262697
+        }
+      },
+      "basis": {
+        "forward": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "right": {
+          "x": 1.0,
+          "y": 0,
+          "z": -0.0
+        },
+        "up": {
+          "x": -0.0,
+          "y": 1.0,
+          "z": -0.0
+        }
+      },
+      "camera": {
+        "eye": {
+          "x": 0,
+          "y": 1.7,
+          "z": 0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0,
+        "yaw": 0
+      },
+      "corners": [
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 20
+          },
+          "project": {
+            "column": 32.12369611108684,
+            "depth": 20.0,
+            "row": 18.532476384262697
+          },
+          "screen_unclipped": {
+            "column": 32.12369611108684,
+            "depth": 20.0,
+            "row": 18.532476384262697
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 40
+          },
+          "project": {
+            "column": 41.06184805554342,
+            "depth": 40.0,
+            "row": 17.266238192131347
+          },
+          "screen_unclipped": {
+            "column": 41.06184805554342,
+            "depth": 40.0,
+            "row": 17.266238192131347
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 32.12369611108684,
+            "depth": 20.0,
+            "row": -130.43672269001357
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 41.06184805554342,
+            "depth": 40.0,
+            "row": -57.218361345006784
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 20
+          },
+          "project": {
+            "column": 67.87630388891316,
+            "depth": 20.0,
+            "row": 18.532476384262697
+          },
+          "screen_unclipped": {
+            "column": 67.87630388891316,
+            "depth": 20.0,
+            "row": 18.532476384262697
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 40
+          },
+          "project": {
+            "column": 58.93815194445658,
+            "depth": 40.0,
+            "row": 17.266238192131347
+          },
+          "screen_unclipped": {
+            "column": 58.93815194445658,
+            "depth": 40.0,
+            "row": 17.266238192131347
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 67.87630388891316,
+            "depth": 20.0,
+            "row": -130.43672269001357
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 58.93815194445658,
+            "depth": 40.0,
+            "row": -57.218361345006784
+          }
+        }
+      ],
+      "crown": {
+        "point": {
+          "x": 0,
+          "y": 100,
+          "z": 20
+        },
+        "project": null,
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 20.0,
+          "row": -130.43672269001357
+        }
+      }
+    },
+    {
+      "base": {
+        "point": {
+          "x": 0,
+          "y": 0,
+          "z": 20
+        },
+        "project": {
+          "column": 62.079020653618045,
+          "depth": 19.60133155682483,
+          "row": 18.58398402875945
+        },
+        "screen_unclipped": {
+          "column": 62.079020653618045,
+          "depth": 19.60133155682483,
+          "row": 18.58398402875945
+        }
+      },
+      "basis": {
+        "forward": {
+          "x": -0.19866933079506163,
+          "y": 0.0,
+          "z": 0.9800665778412415
+        },
+        "right": {
+          "x": 0.9800665778412415,
+          "y": 0,
+          "z": 0.19866933079506163
+        },
+        "up": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": -0.0
+        }
+      },
+      "camera": {
+        "eye": {
+          "x": 0,
+          "y": 1.7,
+          "z": 0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0,
+        "yaw": -0.2
+      },
+      "corners": [
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 20
+          },
+          "project": {
+            "column": 44.53505643588527,
+            "depth": 20.793347541595203,
+            "row": 18.435852504457696
+          },
+          "screen_unclipped": {
+            "column": 44.53505643588527,
+            "depth": 20.793347541595203,
+            "row": 18.435852504457696
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 40
+          },
+          "project": {
+            "column": 53.048184083588296,
+            "depth": 40.394679098420035,
+            "row": 17.253866321399617
+          },
+          "screen_unclipped": {
+            "column": 53.048184083588296,
+            "depth": 40.394679098420035,
+            "row": 17.253866321399617
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 44.53505643588527,
+            "depth": 20.793347541595203,
+            "row": -124.84958893423024
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 53.048184083588296,
+            "depth": 40.394679098420035,
+            "row": -56.50297611387198
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 20
+          },
+          "project": {
+            "column": 81.89495263700991,
+            "depth": 18.40931557205446,
+            "row": 18.751298791473836
+          },
+          "screen_unclipped": {
+            "column": 81.89495263700991,
+            "depth": 18.40931557205446,
+            "row": 18.751298791473836
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 40
+          },
+          "project": {
+            "column": 71.6762722868181,
+            "depth": 38.01064712887929,
+            "row": 17.33250895501782
+          },
+          "screen_unclipped": {
+            "column": 71.6762722868181,
+            "depth": 38.01064712887929,
+            "row": 17.33250895501782
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 81.89495263700991,
+            "depth": 18.40931557205446,
+            "row": -143.08980658934013
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 71.6762722868181,
+            "depth": 38.01064712887929,
+            "row": -61.050370751912595
+          }
+        }
+      ],
+      "crown": {
+        "point": {
+          "x": 0,
+          "y": 100,
+          "z": 20
+        },
+        "project": null,
+        "screen_unclipped": {
+          "column": 62.079020653618045,
+          "depth": 19.60133155682483,
+          "row": -133.4150764865022
+        }
+      }
+    },
+    {
+      "base": {
+        "point": {
+          "x": 0,
+          "y": 0,
+          "z": 20
+        },
+        "project": {
+          "column": 37.92097934638198,
+          "depth": 19.60133155682483,
+          "row": 18.58398402875945
+        },
+        "screen_unclipped": {
+          "column": 37.92097934638198,
+          "depth": 19.60133155682483,
+          "row": 18.58398402875945
+        }
+      },
+      "basis": {
+        "forward": {
+          "x": 0.19866933079506122,
+          "y": 0.0,
+          "z": 0.9800665778412416
+        },
+        "right": {
+          "x": 0.9800665778412416,
+          "y": 0,
+          "z": -0.19866933079506122
+        },
+        "up": {
+          "x": -0.0,
+          "y": 1.0,
+          "z": -0.0
+        }
+      },
+      "camera": {
+        "eye": {
+          "x": 0,
+          "y": 1.7,
+          "z": 0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 0,
+        "yaw": 0.2
+      },
+      "corners": [
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 20
+          },
+          "project": {
+            "column": 18.105047362990117,
+            "depth": 18.409315572054464,
+            "row": 18.751298791473836
+          },
+          "screen_unclipped": {
+            "column": 18.105047362990117,
+            "depth": 18.409315572054464,
+            "row": 18.751298791473836
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 40
+          },
+          "project": {
+            "column": 28.323727713181924,
+            "depth": 38.0106471288793,
+            "row": 17.33250895501782
+          },
+          "screen_unclipped": {
+            "column": 28.323727713181924,
+            "depth": 38.0106471288793,
+            "row": 17.33250895501782
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 18.105047362990117,
+            "depth": 18.409315572054464,
+            "row": -143.0898065893401
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 28.323727713181924,
+            "depth": 38.0106471288793,
+            "row": -61.05037075191258
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 20
+          },
+          "project": {
+            "column": 55.46494356411476,
+            "depth": 20.7933475415952,
+            "row": 18.435852504457696
+          },
+          "screen_unclipped": {
+            "column": 55.46494356411476,
+            "depth": 20.7933475415952,
+            "row": 18.435852504457696
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 40
+          },
+          "project": {
+            "column": 46.95181591641173,
+            "depth": 40.39467909842003,
+            "row": 17.253866321399617
+          },
+          "screen_unclipped": {
+            "column": 46.95181591641173,
+            "depth": 40.39467909842003,
+            "row": 17.253866321399617
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 55.46494356411476,
+            "depth": 20.7933475415952,
+            "row": -124.84958893423027
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 46.95181591641173,
+            "depth": 40.39467909842003,
+            "row": -56.502976113871995
+          }
+        }
+      ],
+      "crown": {
+        "point": {
+          "x": 0,
+          "y": 100,
+          "z": 20
+        },
+        "project": null,
+        "screen_unclipped": {
+          "column": 37.92097934638198,
+          "depth": 19.60133155682483,
+          "row": -133.4150764865022
+        }
+      }
+    },
+    {
+      "base": {
+        "point": {
+          "x": 0,
+          "y": 0,
+          "z": 20
+        },
+        "project": null,
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 8.527756813566455,
+          "row": 79.4831901046197
+        }
+      },
+      "basis": {
+        "forward": {
+          "x": 0.0,
+          "y": 0.8660254037844386,
+          "z": 0.5000000000000001
+        },
+        "right": {
+          "x": 1.0,
+          "y": 0,
+          "z": -0.0
+        },
+        "up": {
+          "x": -0.0,
+          "y": 0.5000000000000001,
+          "z": -0.8660254037844386
+        }
+      },
+      "camera": {
+        "eye": {
+          "x": 0,
+          "y": 1.7,
+          "z": 0
+        },
+        "far": 500.0,
+        "hfov": 1.3962634015954636,
+        "near": 0.1,
+        "pitch": 1.0471975511965976,
+        "yaw": 0
+      },
+      "corners": [
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 8.075014849216899,
+            "depth": 8.527756813566455,
+            "row": 79.4831901046197
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 0,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 30.70321834554337,
+            "depth": 18.52775681356646,
+            "row": 73.07186578066052
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 20
+          },
+          "project": {
+            "column": 46.2417222658662,
+            "depth": 95.13029719201032,
+            "row": 6.0313274343391345
+          },
+          "screen_unclipped": {
+            "column": 46.2417222658662,
+            "depth": 95.13029719201032,
+            "row": 6.0313274343391345
+          }
+        },
+        {
+          "point": {
+            "x": -6,
+            "y": 100,
+            "z": 40
+          },
+          "project": {
+            "column": 46.59920986311609,
+            "depth": 105.13029719201032,
+            "row": 11.888165902616393
+          },
+          "screen_unclipped": {
+            "column": 46.59920986311609,
+            "depth": 105.13029719201032,
+            "row": 11.888165902616393
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 20
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 91.9249851507831,
+            "depth": 8.527756813566455,
+            "row": 79.4831901046197
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 0,
+            "z": 40
+          },
+          "project": null,
+          "screen_unclipped": {
+            "column": 69.29678165445662,
+            "depth": 18.52775681356646,
+            "row": 73.07186578066052
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 20
+          },
+          "project": {
+            "column": 53.7582777341338,
+            "depth": 95.13029719201032,
+            "row": 6.0313274343391345
+          },
+          "screen_unclipped": {
+            "column": 53.7582777341338,
+            "depth": 95.13029719201032,
+            "row": 6.0313274343391345
+          }
+        },
+        {
+          "point": {
+            "x": 6,
+            "y": 100,
+            "z": 40
+          },
+          "project": {
+            "column": 53.40079013688391,
+            "depth": 105.13029719201032,
+            "row": 11.888165902616393
+          },
+          "screen_unclipped": {
+            "column": 53.40079013688391,
+            "depth": 105.13029719201032,
+            "row": 11.888165902616393
+          }
+        }
+      ],
+      "crown": {
+        "point": {
+          "x": 0,
+          "y": 100,
+          "z": 20
+        },
+        "project": {
+          "column": 50.0,
+          "depth": 95.13029719201032,
+          "row": 6.0313274343391345
+        },
+        "screen_unclipped": {
+          "column": 50.0,
+          "depth": 95.13029719201032,
+          "row": 6.0313274343391345
+        }
+      }
+    }
+  ],
+  "units": "metres and radians; screen coordinates in character cells",
+  "vertical_fov_radians": 0.9856521900341298,
+  "viewport": {
+    "cell_aspect": 0.5,
+    "columns": 100,
+    "rows": 32
+  }
+}

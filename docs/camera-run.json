@@ -1,0 +1,194 @@
+{
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "base_commit": "52ffeafe3e8a5eeef6ed05452028215a0d951acc",
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 6.81187623400001,
+      "stdout": "",
+      "stderr": "test_building_variation_district_cohesion_and_floor_corner_continuity (test_appearance.AppearanceTests.test_building_variation_district_cohesion_and_floor_corner_continuity) ... ok\ntest_cache_uses_city_identity_not_seed_or_building_id (test_appearance.AppearanceTests.test_cache_uses_city_identity_not_seed_or_building_id) ... ok\ntest_fixture_regeneration_and_every_serialized_cell_valid (test_appearance.AppearanceTests.test_fixture_regeneration_and_every_serialized_cell_valid) ... ok\ntest_ground_paving_scale_boundary_and_fallback_material (test_appearance.AppearanceTests.test_ground_paving_scale_boundary_and_fallback_material) ... ok\ntest_html_preview_contains_exact_sampled_glyphs_and_rgb (test_appearance.AppearanceTests.test_html_preview_contains_exact_sampled_glyphs_and_rgb) ... ok\ntest_human_door_lintel_sign_corners_roof_and_height_independence (test_appearance.AppearanceTests.test_human_door_lintel_sign_corners_roof_and_height_independence) ... ok\ntest_invalid_hits_fail_clearly (test_appearance.AppearanceTests.test_invalid_hits_fail_clearly) ... ok\ntest_landmarks_distinct_and_driven_by_membership_not_id (test_appearance.AppearanceTests.test_landmarks_distinct_and_driven_by_membership_not_id) ... ok\ntest_panes_have_one_occupancy_and_sparse_lighting (test_appearance.AppearanceTests.test_panes_have_one_occupancy_and_sparse_lighting) ... ok\ntest_process_hash_independence_and_seed_variation (test_appearance.AppearanceTests.test_process_hash_independence_and_seed_variation) ... ok\ntest_real_spatial_hits_all_faces_ground_and_landmark_viewpoints (test_appearance.AppearanceTests.test_real_spatial_hits_all_faces_ground_and_landmark_viewpoints) ... ok\ntest_stable_under_distance_order_new_instance_and_subpixel_movement (test_appearance.AppearanceTests.test_stable_under_distance_order_new_instance_and_subpixel_movement) ... ok\ntest_translation_and_negative_coordinates_preserve_facade (test_appearance.AppearanceTests.test_translation_and_negative_coordinates_preserve_facade) ... ok\ntest_valid_output_for_every_generated_building_all_faces_and_seeds (test_appearance.AppearanceTests.test_valid_output_for_every_generated_building_all_faces_and_seeds) ... ok\ntest_window_rhythm_in_metres_not_building_height_or_width (test_appearance.AppearanceTests.test_window_rhythm_in_metres_not_building_height_or_width) ... ok\ntest_all_cell_center_roundtrips_and_unit_rays_multiple_poses (test_camera.CameraTests.test_all_cell_center_roundtrips_and_unit_rays_multiple_poses) ... ok\ntest_default_and_cardinal_heading_basis (test_camera.CameraTests.test_default_and_cardinal_heading_basis) ... ok\ntest_eye_height_defaults_pose_normalization_and_no_mutation (test_camera.CameraTests.test_eye_height_defaults_pose_normalization_and_no_mutation) ... ok\ntest_fov_physical_aspect_and_known_numeric_projection (test_camera.CameraTests.test_fov_physical_aspect_and_known_numeric_projection) ... ok\ntest_human_scale_near_tower_above_frame_look_up_reveals_crown (test_camera.CameraTests.test_human_scale_near_tower_above_frame_look_up_reveals_crown) ... ok\ntest_invalid_poses_settings_dimensions_and_points (test_camera.CameraTests.test_invalid_poses_settings_dimensions_and_points) ... ok\ntest_invalid_ray_indices_and_unrepresentable_scales (test_camera.CameraTests.test_invalid_ray_indices_and_unrepresentable_scales) ... ok\ntest_near_far_inclusive_behind_eye_and_just_outside (test_camera.CameraTests.test_near_far_inclusive_behind_eye_and_just_outside) ... ok\ntest_perspective_shrinkage_and_depth_ordering_inputs (test_camera.CameraTests.test_perspective_shrinkage_and_depth_ordering_inputs) ... ok\ntest_pitch_orthonormal_basis_and_clamp_for_direct_camera (test_camera.CameraTests.test_pitch_orthonormal_basis_and_clamp_for_direct_camera) ... ok\ntest_ray_clipping_distances_and_no_fisheye_on_flat_wall (test_camera.CameraTests.test_ray_clipping_distances_and_no_fisheye_on_flat_wall) ... ok\ntest_real_city_landmark_targets_projection_and_rayhit_depth (test_camera.CameraTests.test_real_city_landmark_targets_projection_and_rayhit_depth) ... ok\ntest_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures) ... ok\ntest_rotation_translation_covariance_and_straight_edges (test_camera.CameraTests.test_rotation_translation_covariance_and_straight_edges) ... ok\ntest_screen_half_open_boundaries_no_clamping (test_camera.CameraTests.test_screen_half_open_boundaries_no_clamping) ... ok\ntest_square_world_proportions_cell_aspect_resize_and_scene_only_rows (test_camera.CameraTests.test_square_world_proportions_cell_aspect_resize_and_scene_only_rows) ... ok\ntest_default_launch_is_honest_and_terminal_safe (test_foundation.FoundationSmoke.test_default_launch_is_honest_and_terminal_safe) ... ok\ntest_help_and_version (test_foundation.FoundationSmoke.test_help_and_version) ... ok\ntest_invalid_seed_rejected (test_foundation.FoundationSmoke.test_invalid_seed_rejected) ... ok\ntest_real_smoke_launch (test_foundation.FoundationSmoke.test_real_smoke_launch) ... ok\ntest_shared_defaults_are_immutable (test_foundation.FoundationSmoke.test_shared_defaults_are_immutable) ... ok\ntest_all_destinations_visible_reachable_and_three_photo_geometric_replay (test_spatial.Generation.test_all_destinations_visible_reachable_and_three_photo_geometric_replay) ... ok\ntest_all_streets_continuous_disc_clearance_and_long_sightlines (test_spatial.Generation.test_all_streets_continuous_disc_clearance_and_long_sightlines) ... ok\ntest_bounds_human_scale_variety_nonoverlap_public_spaces (test_spatial.Generation.test_bounds_human_scale_variety_nonoverlap_public_spaces) ... ok\ntest_clearance_flood_entire_exploration_area (test_spatial.Generation.test_clearance_flood_entire_exploration_area) ... ok\ntest_determinism_across_process_hash_seeds_and_seed_variation (test_spatial.Generation.test_determinism_across_process_hash_seeds_and_seed_variation) ... ok\ntest_closed_nearby_sorted_deduplicated_and_far_bounds (test_spatial.StaticQueries.test_closed_nearby_sorted_deduplicated_and_far_bounds) ... ok\ntest_exact_swept_disc_not_point_connectivity (test_spatial.StaticQueries.test_exact_swept_disc_not_point_connectivity) ... ok\ntest_inside_surface_parallel_grid_boundaries_and_ties (test_spatial.StaticQueries.test_inside_surface_parallel_grid_boundaries_and_ties) ... ok\ntest_invalid_query_and_city_inputs (test_spatial.StaticQueries.test_invalid_query_and_city_inputs) ... ok\ntest_random_rays_disc_and_nearby_against_independent_oracles (test_spatial.StaticQueries.test_random_rays_disc_and_nearby_against_independent_oracles) ... ok\ntest_six_box_faces_ground_sky_and_distance_limit (test_spatial.StaticQueries.test_six_box_faces_ground_sky_and_distance_limit) ... ok\ntest_swept_disc_against_independent_convex_distance_oracle (test_spatial.StaticQueries.test_swept_disc_against_independent_convex_distance_oracle) ... ok\ntest_walkable_disc_edges_corners_bounds_and_height (test_spatial.StaticQueries.test_walkable_disc_edges_corners_bounds_and_height) ... ok\n\n----------------------------------------------------------------------\nRan 49 tests in 6.730s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/measure_projection.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.07685626900001807,
+      "stdout": "Projection fixtures match (absolute tolerance 1e-8): /opt/g-harness/workspace/G11/node_4_step_96/repo/docs/projection-fixtures.json\nTower poses: 4; real landmark targets: 15; rays: 5\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/preview_appearance.py",
+        "--seed",
+        "11",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.5246526759997323,
+      "stdout": "atlas.json bytes=308773 sha256=42caa8811d2a2cde524c615efb03f6994e4617a8e30eb2d30dcf826cc360734c\natlas.txt bytes=103723 sha256=6da7a5b53dbf7da29d6d8ed97abe93bd571c320b28a4e754e7ce2d08df6572b5\natlas.html bytes=630172 sha256=a77e731d0e726e3c57a158e5f45306a5c043f3d417c10971884277f45597e38c\npanels=47 sampled_cells=94380\nCOMPONENT PREVIEW ONLY - unprojected material samples, not a finished 3D city\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/build.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.035259693000170955,
+      "stdout": "/opt/g-harness/workspace/G11/node_4_step_96/repo/dist/lantern-survey.pyz\nsha256 77ce717146dda1f947fd4fd7a4319d4ebf84b454addfdd962b6394959293f379\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "tools/build.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03533982399994784,
+      "stdout": "/opt/g-harness/workspace/G11/node_4_step_96/repo/dist/lantern-survey.pyz\nsha256 77ce717146dda1f947fd4fd7a4319d4ebf84b454addfdd962b6394959293f379\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "dist/lantern-survey.pyz",
+        "--smoke",
+        "--seed",
+        "11"
+      ],
+      "exit_code": 0,
+      "seconds": 0.06509227600008671,
+      "stdout": "{\"eye_height_m\": 1.7, \"seed\": 11, \"stage\": \"foundation\", \"status\": \"ok\", \"version\": \"0.1.0\", \"viewport\": [100, 32]}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-m",
+        "citywalk"
+      ],
+      "exit_code": 0,
+      "seconds": 0.06058714399978271,
+      "stdout": "LANTERN SURVEY | runnable foundation 0.1.0\nA planned street-level ASCII city photography expedition.\nCity rendering, movement and gameplay are not implemented in this foundation.\nLaunch verified; no terminal modes changed. See docs/design.md for the bounded design.\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_camera.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 0.19855035800037513,
+      "stdout": "",
+      "stderr": "test_all_cell_center_roundtrips_and_unit_rays_multiple_poses (test_camera.CameraTests.test_all_cell_center_roundtrips_and_unit_rays_multiple_poses) ... ok\ntest_default_and_cardinal_heading_basis (test_camera.CameraTests.test_default_and_cardinal_heading_basis) ... ok\ntest_eye_height_defaults_pose_normalization_and_no_mutation (test_camera.CameraTests.test_eye_height_defaults_pose_normalization_and_no_mutation) ... ok\ntest_fov_physical_aspect_and_known_numeric_projection (test_camera.CameraTests.test_fov_physical_aspect_and_known_numeric_projection) ... ok\ntest_human_scale_near_tower_above_frame_look_up_reveals_crown (test_camera.CameraTests.test_human_scale_near_tower_above_frame_look_up_reveals_crown) ... ok\ntest_invalid_poses_settings_dimensions_and_points (test_camera.CameraTests.test_invalid_poses_settings_dimensions_and_points) ... ok\ntest_invalid_ray_indices_and_unrepresentable_scales (test_camera.CameraTests.test_invalid_ray_indices_and_unrepresentable_scales) ... ok\ntest_near_far_inclusive_behind_eye_and_just_outside (test_camera.CameraTests.test_near_far_inclusive_behind_eye_and_just_outside) ... ok\ntest_perspective_shrinkage_and_depth_ordering_inputs (test_camera.CameraTests.test_perspective_shrinkage_and_depth_ordering_inputs) ... ok\ntest_pitch_orthonormal_basis_and_clamp_for_direct_camera (test_camera.CameraTests.test_pitch_orthonormal_basis_and_clamp_for_direct_camera) ... ok\ntest_ray_clipping_distances_and_no_fisheye_on_flat_wall (test_camera.CameraTests.test_ray_clipping_distances_and_no_fisheye_on_flat_wall) ... ok\ntest_real_city_landmark_targets_projection_and_rayhit_depth (test_camera.CameraTests.test_real_city_landmark_targets_projection_and_rayhit_depth) ... ok\ntest_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures) ... ok\ntest_rotation_translation_covariance_and_straight_edges (test_camera.CameraTests.test_rotation_translation_covariance_and_straight_edges) ... ok\ntest_screen_half_open_boundaries_no_clamping (test_camera.CameraTests.test_screen_half_open_boundaries_no_clamping) ... ok\ntest_square_world_proportions_cell_aspect_resize_and_scene_only_rows (test_camera.CameraTests.test_square_world_proportions_cell_aspect_resize_and_scene_only_rows) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.127s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.0027237949998379918,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.0030769760001021496,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "python_3_11_syntax_parse": {
+    "paths": [
+      "citywalk/camera.py",
+      "tests/test_camera.py",
+      "tools/measure_projection.py"
+    ],
+    "status": "passed; not Python 3.11 runtime evidence"
+  },
+  "sha256": {
+    "citywalk/camera.py": "9f773f8ef3924f0815319cc6ceb94e6c41bf931cb09a68c8f445bfcab62c47ff",
+    "tests/test_camera.py": "6e3d3c51b74c041022a11cee4587ad8924dabb096119c0b02cf8dc4a25535ea3",
+    "tools/measure_projection.py": "bbb5b43819422149b7abd8b95d658e3c7558e38ba307519a961e8ebc59887987",
+    "docs/projection-fixtures.json": "a159057fa37c5973bbea8a722e85b2e9ed03948fbd7ec4dfefbae17bcb705bb1",
+    "dist/lantern-survey.pyz": "77ce717146dda1f947fd4fd7a4319d4ebf84b454addfdd962b6394959293f379"
+  },
+  "development_checks": {
+    "issue": "Full-precision fixture update initially returned a Python tuple for clip ranges, which compared unequal to the serialized JSON list. Camera math tests passed; fixture comparison exposed the representation mismatch.",
+    "fix": "Fixture generator now explicitly emits a JSON-compatible list; direct serialized pose/point replay is retained.",
+    "failed_commands": [
+      {
+        "argv": [
+          "/usr/bin/python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "exit_code": 1,
+        "seconds": 6.708562389000235,
+        "stdout": "",
+        "stderr": "test_building_variation_district_cohesion_and_floor_corner_continuity (test_appearance.AppearanceTests.test_building_variation_district_cohesion_and_floor_corner_continuity) ... ok\ntest_cache_uses_city_identity_not_seed_or_building_id (test_appearance.AppearanceTests.test_cache_uses_city_identity_not_seed_or_building_id) ... ok\ntest_fixture_regeneration_and_every_serialized_cell_valid (test_appearance.AppearanceTests.test_fixture_regeneration_and_every_serialized_cell_valid) ... ok\ntest_ground_paving_scale_boundary_and_fallback_material (test_appearance.AppearanceTests.test_ground_paving_scale_boundary_and_fallback_material) ... ok\ntest_html_preview_contains_exact_sampled_glyphs_and_rgb (test_appearance.AppearanceTests.test_html_preview_contains_exact_sampled_glyphs_and_rgb) ... ok\ntest_human_door_lintel_sign_corners_roof_and_height_independence (test_appearance.AppearanceTests.test_human_door_lintel_sign_corners_roof_and_height_independence) ... ok\ntest_invalid_hits_fail_clearly (test_appearance.AppearanceTests.test_invalid_hits_fail_clearly) ... ok\ntest_landmarks_distinct_and_driven_by_membership_not_id (test_appearance.AppearanceTests.test_landmarks_distinct_and_driven_by_membership_not_id) ... ok\ntest_panes_have_one_occupancy_and_sparse_lighting (test_appearance.AppearanceTests.test_panes_have_one_occupancy_and_sparse_lighting) ... ok\ntest_process_hash_independence_and_seed_variation (test_appearance.AppearanceTests.test_process_hash_independence_and_seed_variation) ... ok\ntest_real_spatial_hits_all_faces_ground_and_landmark_viewpoints (test_appearance.AppearanceTests.test_real_spatial_hits_all_faces_ground_and_landmark_viewpoints) ... ok\ntest_stable_under_distance_order_new_instance_and_subpixel_movement (test_appearance.AppearanceTests.test_stable_under_distance_order_new_instance_and_subpixel_movement) ... ok\ntest_translation_and_negative_coordinates_preserve_facade (test_appearance.AppearanceTests.test_translation_and_negative_coordinates_preserve_facade) ... ok\ntest_valid_output_for_every_generated_building_all_faces_and_seeds (test_appearance.AppearanceTests.test_valid_output_for_every_generated_building_all_faces_and_seeds) ... ok\ntest_window_rhythm_in_metres_not_building_height_or_width (test_appearance.AppearanceTests.test_window_rhythm_in_metres_not_building_height_or_width) ... ok\ntest_all_cell_center_roundtrips_and_unit_rays_multiple_poses (test_camera.CameraTests.test_all_cell_center_roundtrips_and_unit_rays_multiple_poses) ... ok\ntest_default_and_cardinal_heading_basis (test_camera.CameraTests.test_default_and_cardinal_heading_basis) ... ok\ntest_eye_height_defaults_pose_normalization_and_no_mutation (test_camera.CameraTests.test_eye_height_defaults_pose_normalization_and_no_mutation) ... ok\ntest_fov_physical_aspect_and_known_numeric_projection (test_camera.CameraTests.test_fov_physical_aspect_and_known_numeric_projection) ... ok\ntest_human_scale_near_tower_above_frame_look_up_reveals_crown (test_camera.CameraTests.test_human_scale_near_tower_above_frame_look_up_reveals_crown) ... ok\ntest_invalid_poses_settings_dimensions_and_points (test_camera.CameraTests.test_invalid_poses_settings_dimensions_and_points) ... ok\ntest_invalid_ray_indices_and_unrepresentable_scales (test_camera.CameraTests.test_invalid_ray_indices_and_unrepresentable_scales) ... ok\ntest_near_far_inclusive_behind_eye_and_just_outside (test_camera.CameraTests.test_near_far_inclusive_behind_eye_and_just_outside) ... ok\ntest_perspective_shrinkage_and_depth_ordering_inputs (test_camera.CameraTests.test_perspective_shrinkage_and_depth_ordering_inputs) ... ok\ntest_pitch_orthonormal_basis_and_clamp_for_direct_camera (test_camera.CameraTests.test_pitch_orthonormal_basis_and_clamp_for_direct_camera) ... ok\ntest_ray_clipping_distances_and_no_fisheye_on_flat_wall (test_camera.CameraTests.test_ray_clipping_distances_and_no_fisheye_on_flat_wall) ... ok\ntest_real_city_landmark_targets_projection_and_rayhit_depth (test_camera.CameraTests.test_real_city_landmark_targets_projection_and_rayhit_depth) ... ok\ntest_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures) ... FAIL\ntest_rotation_translation_covariance_and_straight_edges (test_camera.CameraTests.test_rotation_translation_covariance_and_straight_edges) ... ok\ntest_screen_half_open_boundaries_no_clamping (test_camera.CameraTests.test_screen_half_open_boundaries_no_clamping) ... ok\ntest_square_world_proportions_cell_aspect_resize_and_scene_only_rows (test_camera.CameraTests.test_square_world_proportions_cell_aspect_resize_and_scene_only_rows) ... ok\ntest_default_launch_is_honest_and_terminal_safe (test_foundation.FoundationSmoke.test_default_launch_is_honest_and_terminal_safe) ... ok\ntest_help_and_version (test_foundation.FoundationSmoke.test_help_and_version) ... ok\ntest_invalid_seed_rejected (test_foundation.FoundationSmoke.test_invalid_seed_rejected) ... ok\ntest_real_smoke_launch (test_foundation.FoundationSmoke.test_real_smoke_launch) ... ok\ntest_shared_defaults_are_immutable (test_foundation.FoundationSmoke.test_shared_defaults_are_immutable) ... ok\ntest_all_destinations_visible_reachable_and_three_photo_geometric_replay (test_spatial.Generation.test_all_destinations_visible_reachable_and_three_photo_geometric_replay) ... ok\ntest_all_streets_continuous_disc_clearance_and_long_sightlines (test_spatial.Generation.test_all_streets_continuous_disc_clearance_and_long_sightlines) ... ok\ntest_bounds_human_scale_variety_nonoverlap_public_spaces (test_spatial.Generation.test_bounds_human_scale_variety_nonoverlap_public_spaces) ... ok\ntest_clearance_flood_entire_exploration_area (test_spatial.Generation.test_clearance_flood_entire_exploration_area) ... ok\ntest_determinism_across_process_hash_seeds_and_seed_variation (test_spatial.Generation.test_determinism_across_process_hash_seeds_and_seed_variation) ... ok\ntest_closed_nearby_sorted_deduplicated_and_far_bounds (test_spatial.StaticQueries.test_closed_nearby_sorted_deduplicated_and_far_bounds) ... ok\ntest_exact_swept_disc_not_point_connectivity (test_spatial.StaticQueries.test_exact_swept_disc_not_point_connectivity) ... ok\ntest_inside_surface_parallel_grid_boundaries_and_ties (test_spatial.StaticQueries.test_inside_surface_parallel_grid_boundaries_and_ties) ... ok\ntest_invalid_query_and_city_inputs (test_spatial.StaticQueries.test_invalid_query_and_city_inputs) ... ok\ntest_random_rays_disc_and_nearby_against_independent_oracles (test_spatial.StaticQueries.test_random_rays_disc_and_nearby_against_independent_oracles) ... ok\ntest_six_box_faces_ground_sky_and_distance_limit (test_spatial.StaticQueries.test_six_box_faces_ground_sky_and_distance_limit) ... ok\ntest_swept_disc_against_independent_convex_distance_oracle (test_spatial.StaticQueries.test_swept_disc_against_independent_convex_distance_oracle) ... ok\ntest_walkable_disc_edges_corners_bounds_and_height (test_spatial.StaticQueries.test_walkable_disc_edges_corners_bounds_and_height) ... ok\n\n======================================================================\nFAIL: test_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 320, in test_reproducible_numeric_fixtures\n    check(actual, expected)\n    ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 311, in check\n    check(a[key], b[key])\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 315, in check\n    check(x, y)\n    ~~~~~^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 311, in check\n    check(a[key], b[key])\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 319, in check\n    self.assertEqual(a, b)\n    ~~~~~~~~~~~~~~~~^^^^^^\nAssertionError: (0.14002600960809392, 700.1300480404695) != [0.14002600960809392, 700.1300480404695]\n\n----------------------------------------------------------------------\nRan 49 tests in 6.614s\n\nFAILED (failures=1)\n"
+      },
+      {
+        "argv": [
+          "/usr/bin/python3",
+          "tools/measure_projection.py",
+          "--check"
+        ],
+        "exit_code": 1,
+        "seconds": 0.06619143299985808,
+        "stdout": "",
+        "stderr": "Projection fixture mismatch\n"
+      },
+      {
+        "argv": [
+          "/usr/bin/python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_camera.py",
+          "-v"
+        ],
+        "exit_code": 1,
+        "seconds": 0.2095375349999813,
+        "stdout": "",
+        "stderr": "test_all_cell_center_roundtrips_and_unit_rays_multiple_poses (test_camera.CameraTests.test_all_cell_center_roundtrips_and_unit_rays_multiple_poses) ... ok\ntest_default_and_cardinal_heading_basis (test_camera.CameraTests.test_default_and_cardinal_heading_basis) ... ok\ntest_eye_height_defaults_pose_normalization_and_no_mutation (test_camera.CameraTests.test_eye_height_defaults_pose_normalization_and_no_mutation) ... ok\ntest_fov_physical_aspect_and_known_numeric_projection (test_camera.CameraTests.test_fov_physical_aspect_and_known_numeric_projection) ... ok\ntest_human_scale_near_tower_above_frame_look_up_reveals_crown (test_camera.CameraTests.test_human_scale_near_tower_above_frame_look_up_reveals_crown) ... ok\ntest_invalid_poses_settings_dimensions_and_points (test_camera.CameraTests.test_invalid_poses_settings_dimensions_and_points) ... ok\ntest_invalid_ray_indices_and_unrepresentable_scales (test_camera.CameraTests.test_invalid_ray_indices_and_unrepresentable_scales) ... ok\ntest_near_far_inclusive_behind_eye_and_just_outside (test_camera.CameraTests.test_near_far_inclusive_behind_eye_and_just_outside) ... ok\ntest_perspective_shrinkage_and_depth_ordering_inputs (test_camera.CameraTests.test_perspective_shrinkage_and_depth_ordering_inputs) ... ok\ntest_pitch_orthonormal_basis_and_clamp_for_direct_camera (test_camera.CameraTests.test_pitch_orthonormal_basis_and_clamp_for_direct_camera) ... ok\ntest_ray_clipping_distances_and_no_fisheye_on_flat_wall (test_camera.CameraTests.test_ray_clipping_distances_and_no_fisheye_on_flat_wall) ... ok\ntest_real_city_landmark_targets_projection_and_rayhit_depth (test_camera.CameraTests.test_real_city_landmark_targets_projection_and_rayhit_depth) ... ok\ntest_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures) ... FAIL\ntest_rotation_translation_covariance_and_straight_edges (test_camera.CameraTests.test_rotation_translation_covariance_and_straight_edges) ... ok\ntest_screen_half_open_boundaries_no_clamping (test_camera.CameraTests.test_screen_half_open_boundaries_no_clamping) ... ok\ntest_square_world_proportions_cell_aspect_resize_and_scene_only_rows (test_camera.CameraTests.test_square_world_proportions_cell_aspect_resize_and_scene_only_rows) ... ok\n\n======================================================================\nFAIL: test_reproducible_numeric_fixtures (test_camera.CameraTests.test_reproducible_numeric_fixtures)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 320, in test_reproducible_numeric_fixtures\n    check(actual, expected)\n    ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 311, in check\n    check(a[key], b[key])\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 315, in check\n    check(x, y)\n    ~~~~~^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 311, in check\n    check(a[key], b[key])\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"/opt/g-harness/workspace/G11/node_4_step_96/repo/tests/test_camera.py\", line 319, in check\n    self.assertEqual(a, b)\n    ~~~~~~~~~~~~~~~~^^^^^^\nAssertionError: (0.14002600960809392, 700.1300480404695) != [0.14002600960809392, 700.1300480404695]\n\n----------------------------------------------------------------------\nRan 16 tests in 0.136s\n\nFAILED (failures=1)\n"
+      }
+    ]
+  }
+}
