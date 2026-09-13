@@ -1,0 +1,12 @@
+{
+  "command": "python3: tools.capture_renderer.generate(11); compare complete payload and unchanged HTML/text; update frames.json source fingerprint only",
+  "changed_source_hashes": {
+    "citywalk/contracts.py": {
+      "before": "b588795d0de363edced9c5fc68bf53ab80ae9da02b95668717e08218fb6b46dd",
+      "after": "5b4110c940da398f72f6fe3f153281f8a48e0368bcecd778874e330aed20fe9a"
+    }
+  },
+  "all_frame_payloads_unchanged": true,
+  "html_and_text_byte_identical": true,
+  "refreshed_frames_json_sha256": "4bbab7b6851bb209b8e74499bf7b147145d65499fcc4880beeec131f7eef90a0"
+}

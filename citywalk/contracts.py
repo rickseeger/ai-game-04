@@ -162,6 +162,13 @@ class Spatial(Protocol):
         """Closed player disc wholly within city bounds and separated from buildings."""
         ...
 
+    def segment_clear(self, start: Vec3, end: Vec3, radius: float) -> bool:
+        """Closed-disc sweep wholly within bounds and separated from buildings.
+
+        Includes both endpoints; same clearance/tangency rules as walkable.
+        """
+        ...
+
     def nearby(self, rect: Rect) -> tuple[Building, ...]:
         """All overlapping closed footprints, stable building-id order."""
         ...

@@ -1,7 +1,7 @@
 # Lantern Survey (G11)
 
-Foundation, spatial-generation, appearance, camera and renderer milestones, NOT a playable city yet. Default launch reports this and
-exits normally. Headless rendering is real; movement, terminal adapter and game rules are not implemented.
+Foundation, spatial-generation, appearance, camera, renderer and movement milestones, NOT a playable city yet. Default launch reports this and
+exits normally. Headless rendering and injected-action movement are real; terminal adapter and game rules are not implemented.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
 
@@ -103,3 +103,22 @@ program frames, not a fabricated illustration or a claimed terminal playtest.
 Local 100x32 changed-pose rendering measured median 47.7260 ms / p95 57.1144 ms;
 raw samples, environment and exclusions are documented. Beauty and fun still
 require the separate human/independent assessment, not merely passing tests.
+
+
+## Ground walking and collision (node 6)
+
+`citywalk.movement.Walker` consumes the existing `Player`/`Actions`/`Spatial`
+contracts: 4 m/s normalized ground walking, 90 degrees/s yaw, 60 degrees/s look,
+a 0.30 m disc, continuous axis sweeps and predictable x-then-z wall sliding.
+`Walker.spawn(spatial)` validates the approved city spawn without teleporting.
+The existing city `segment_clear` query is now explicit in the Spatial protocol.
+See [docs/movement.md](docs/movement.md) for semantics, corner stopping, elapsed
+handling, integration responsibilities and limitations.
+
+    python3 -m unittest discover -s tests -p test_movement.py -v
+    python3 tools/validate_movement.py
+
+`docs/movement-run.json` records real movement and complete regression output,
+source hashes, commands, timings and environment. No keyboard adapter or app
+loop was added. This is headless movement evidence, not a terminal playtest or a
+claim that the complete city game is enjoyable.
