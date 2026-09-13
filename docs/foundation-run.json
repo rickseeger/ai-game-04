@@ -1,0 +1,70 @@
+{
+  "environment": {
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43"
+  },
+  "runs": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "citywalk"
+      ],
+      "exit_code": 0,
+      "stdout": "LANTERN SURVEY | runnable foundation 0.1.0\nA planned street-level ASCII city photography expedition.\nCity rendering, movement and gameplay are not implemented in this foundation.\nLaunch verified; no terminal modes changed. See docs/design.md for the bounded design.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "citywalk",
+        "--smoke",
+        "--seed",
+        "11"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"eye_height_m\": 1.7, \"seed\": 11, \"stage\": \"foundation\", \"status\": \"ok\", \"version\": \"0.1.0\", \"viewport\": [100, 32]}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_default_launch_is_honest_and_terminal_safe (test_foundation.FoundationSmoke.test_default_launch_is_honest_and_terminal_safe) ... ok\ntest_help_and_version (test_foundation.FoundationSmoke.test_help_and_version) ... ok\ntest_invalid_seed_rejected (test_foundation.FoundationSmoke.test_invalid_seed_rejected) ... ok\ntest_real_smoke_launch (test_foundation.FoundationSmoke.test_real_smoke_launch) ... ok\ntest_shared_defaults_are_immutable (test_foundation.FoundationSmoke.test_shared_defaults_are_immutable) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.277s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "tools/build.py"
+      ],
+      "exit_code": 0,
+      "stdout": "/opt/g-harness/workspace/G11/node_1_step_93/repo/dist/lantern-survey.pyz\nsha256 36f3fdd06e23d53de8422265ab880e42e655c97ac5cb1d4e51cda5d2441d41d2\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/opt/g-harness/workspace/G11/node_1_step_93/repo/dist/lantern-survey.pyz",
+        "--smoke",
+        "--seed",
+        "11"
+      ],
+      "cwd": "temporary directory outside repository",
+      "exit_code": 0,
+      "stdout": "{\"eye_height_m\": 1.7, \"seed\": 11, \"stage\": \"foundation\", \"status\": \"ok\", \"version\": \"0.1.0\", \"viewport\": [100, 32]}\n",
+      "stderr": ""
+    }
+  ],
+  "repeat_build_sha256": "36f3fdd06e23d53de8422265ab880e42e655c97ac5cb1d4e51cda5d2441d41d2",
+  "identical_repeat_build": true,
+  "limits": "Foundation only; no interactive game or Windows runtime verified."
+}
