@@ -1,0 +1,138 @@
+{
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "cases": [
+    {
+      "case": "normal",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "quit",
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 4.666899985750206e-05,
+      "idle_wait": {
+        "elapsed": 0.06015389799995319,
+        "cpu": 7.536999999999822e-05
+      }
+    },
+    {
+      "case": "escape",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "quit",
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 4.576900028041564e-05,
+      "idle_wait": {
+        "elapsed": 0.06018416899951262,
+        "cpu": 0.00010297199999999979
+      }
+    },
+    {
+      "case": "exception",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "exception",
+        "message": "injected PTY rendering exception",
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 4.1680000322230626e-05,
+      "idle_wait": {
+        "elapsed": 0.06016490700039867,
+        "cpu": 8.054100000000342e-05
+      }
+    },
+    {
+      "case": "ctrl_c",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "interrupt",
+        "signal": 2,
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 4.453000019566389e-05,
+      "idle_wait": {
+        "elapsed": 0.060156007999466965,
+        "cpu": 7.677200000000273e-05
+      }
+    },
+    {
+      "case": "sigterm",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "interrupt",
+        "signal": 15,
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 5.0460000238672365e-05,
+      "idle_wait": {
+        "elapsed": 0.06016802900012408,
+        "cpu": 8.164100000000035e-05
+      }
+    },
+    {
+      "case": "sigquit",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "interrupt",
+        "signal": 3,
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 5.496900030266261e-05,
+      "idle_wait": {
+        "elapsed": 0.06016886999987037,
+        "cpu": 8.750199999999625e-05
+      }
+    },
+    {
+      "case": "sigtstp",
+      "passed": true,
+      "termios_exactly_restored": true,
+      "termination": {
+        "termination": "interrupt",
+        "signal": 20,
+        "handlers_restored": true
+      },
+      "idle_poll_seconds": 5.0179000027128495e-05,
+      "idle_wait": {
+        "elapsed": 0.06015820900029212,
+        "cpu": 8.147099999999963e-05
+      }
+    }
+  ],
+  "interactive_probe_cases": [
+    {
+      "case": "probe_normal",
+      "passed": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "command": [
+        "/usr/bin/python3",
+        "/opt/g-harness/workspace/G11/node_7_step_99/repo/tools/probe_terminal.py",
+        "--output",
+        "/opt/g-harness/workspace/G11/node_7_step_99/repo/docs/terminal-pty/probe_normal.json"
+      ]
+    },
+    {
+      "case": "probe_exception",
+      "passed": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "command": [
+        "/usr/bin/python3",
+        "/opt/g-harness/workspace/G11/node_7_step_99/repo/tools/probe_terminal.py",
+        "--output",
+        "/opt/g-harness/workspace/G11/node_7_step_99/repo/docs/terminal-pty/probe_exception.json",
+        "--raise-after",
+        "0.12"
+      ]
+    }
+  ],
+  "native_windows_validated": false
+}

@@ -1,0 +1,865 @@
+{
+  "case": "normal",
+  "passed": true,
+  "exit_code": 0,
+  "termios_before": [
+    1280,
+    5,
+    983231,
+    35387,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      "00",
+      "01",
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_active": [
+    0,
+    5,
+    983231,
+    2609,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      0,
+      0,
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_after": [
+    1280,
+    5,
+    983231,
+    35387,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      "00",
+      "01",
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_exactly_restored": true,
+  "events": [
+    {
+      "received": {
+        "ready": true,
+        "size": [
+          100,
+          36
+        ]
+      }
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": 0.0,
+          "strafe": 0.0,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 4.666899985750206e-05
+      }
+    },
+    {
+      "command": "wait"
+    },
+    {
+      "received": {
+        "elapsed": 0.06015389799995319,
+        "cpu": 7.536999999999822e-05
+      }
+    },
+    {
+      "injected_hex": "77",
+      "monotonic": 4784.448099798
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": 1,
+          "strafe": 0.0,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 8.687999979883898e-05
+      }
+    },
+    {
+      "injected_hex": "73",
+      "monotonic": 4784.448397379
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 0.0,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 2.3049999981594738e-05
+      }
+    },
+    {
+      "injected_hex": "61",
+      "monotonic": 4784.44852949
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": -1,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.852999957918655e-05
+      }
+    },
+    {
+      "injected_hex": "64",
+      "monotonic": 4784.448652151
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.4260999705584254e-05
+      }
+    },
+    {
+      "injected_hex": "6a",
+      "monotonic": 4784.448766661
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": -1,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.4209999790182337e-05
+      }
+    },
+    {
+      "injected_hex": "6c",
+      "monotonic": 4784.448869891
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.308999981119996e-05
+      }
+    },
+    {
+      "injected_hex": "69",
+      "monotonic": 4784.448950243
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": 1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.2710000191873405e-05
+      }
+    },
+    {
+      "injected_hex": "6b",
+      "monotonic": 4784.449053503
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.593000069988193e-05
+      }
+    },
+    {
+      "injected_hex": "20",
+      "monotonic": 4784.449161773
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": true,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.8079999790643342e-05
+      }
+    },
+    {
+      "injected_hex": "65",
+      "monotonic": 4784.449256334
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": true,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.4231000022846274e-05
+      }
+    },
+    {
+      "injected_hex": "70",
+      "monotonic": 4784.449336084
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": true,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.3320000107341912e-05
+      }
+    },
+    {
+      "injected_hex": "68",
+      "monotonic": 4784.449417535
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": true,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.239099947270006e-05
+      }
+    },
+    {
+      "injected_hex": "3f",
+      "monotonic": 4784.449499885
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": true,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.4539000403601676e-05
+      }
+    },
+    {
+      "injected_hex": "72",
+      "monotonic": 4784.449619246
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": true,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.2760000572598074e-05
+      }
+    },
+    {
+      "injected_hex": "6e",
+      "monotonic": 4784.449729556
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": true,
+          "quit": false
+        },
+        "poll_seconds": 1.2339999557298142e-05
+      }
+    },
+    {
+      "injected_hex": "1b5b",
+      "monotonic": 4784.449842117
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.3449999642034527e-05
+      }
+    },
+    {
+      "injected_hex": "44",
+      "monotonic": 4784.449938107
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": -1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.4590999853680842e-05
+      }
+    },
+    {
+      "injected_hex": "1b5b",
+      "monotonic": 4784.450029017
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": -1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.492000046710018e-05
+      }
+    },
+    {
+      "injected_hex": "43",
+      "monotonic": 4784.450127319
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 2.8990999453526456e-05
+      }
+    },
+    {
+      "injected_hex": "1b5b",
+      "monotonic": 4784.450238269
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 2.74499998340616e-05
+      }
+    },
+    {
+      "injected_hex": "41",
+      "monotonic": 4784.450379919
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": 1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.9611000425356906e-05
+      }
+    },
+    {
+      "injected_hex": "1b5b",
+      "monotonic": 4784.45047094
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": 1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 2.2930999875825364e-05
+      }
+    },
+    {
+      "injected_hex": "42",
+      "monotonic": 4784.450577931
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.5749000340292696e-05
+      }
+    },
+    {
+      "injected_hex": "1b5b39397e",
+      "monotonic": 4784.450661241
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": -1,
+          "strafe": 1,
+          "turn": 1,
+          "look": -1,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 1.6369999684684444e-05
+      }
+    },
+    {
+      "command": "present"
+    },
+    {
+      "received": {
+        "size": [
+          40,
+          10
+        ]
+      }
+    },
+    {
+      "injected_hex": "7720",
+      "monotonic": 4784.450853171
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": 0.0,
+          "strafe": 0.0,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 0.00010543000007601222
+      }
+    },
+    {
+      "command": "present"
+    },
+    {
+      "received": {
+        "size": [
+          80,
+          24
+        ]
+      }
+    },
+    {
+      "injected_hex": "71",
+      "monotonic": 4784.451230234
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": 0.0,
+          "strafe": 0.0,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": true
+        },
+        "poll_seconds": 2.2049999643058982e-05
+      }
+    },
+    {
+      "received": {
+        "termination": "quit",
+        "handlers_restored": true
+      }
+    }
+  ],
+  "display_state_from_captured_VT": {
+    "cursor_visible": true,
+    "alternate_screen": false,
+    "sgr": "0",
+    "entry_hide_reset_exit_observed": true
+  },
+  "initially_hidden_cursor_VT_model": {
+    "cursor_visible": false,
+    "alternate_screen": false,
+    "sgr": "0",
+    "entry_hide_reset_exit_observed": true
+  },
+  "display_limit": "PTY captures real bytes, not a visual emulator. VT mode interpretation checked separately; no physical emulator query.",
+  "transcript": "normal.ansi"
+}

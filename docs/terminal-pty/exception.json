@@ -1,0 +1,197 @@
+{
+  "case": "exception",
+  "passed": true,
+  "exit_code": 0,
+  "termios_before": [
+    1280,
+    5,
+    983231,
+    35387,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      "00",
+      "01",
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_active": [
+    0,
+    5,
+    983231,
+    2609,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      0,
+      0,
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_after": [
+    1280,
+    5,
+    983231,
+    35387,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      "00",
+      "01",
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_exactly_restored": true,
+  "events": [
+    {
+      "received": {
+        "ready": true,
+        "size": [
+          100,
+          36
+        ]
+      }
+    },
+    {
+      "command": "poll"
+    },
+    {
+      "received": {
+        "actions": {
+          "forward": 0.0,
+          "strafe": 0.0,
+          "turn": 0.0,
+          "look": 0.0,
+          "shutter": false,
+          "interact": false,
+          "pause": false,
+          "help": false,
+          "restart": false,
+          "new_seed": false,
+          "quit": false
+        },
+        "poll_seconds": 4.1680000322230626e-05
+      }
+    },
+    {
+      "command": "wait"
+    },
+    {
+      "received": {
+        "elapsed": 0.06016490700039867,
+        "cpu": 8.054100000000342e-05
+      }
+    },
+    {
+      "command": "exception"
+    },
+    {
+      "received": {
+        "termination": "exception",
+        "message": "injected PTY rendering exception",
+        "handlers_restored": true
+      }
+    }
+  ],
+  "display_state_from_captured_VT": {
+    "cursor_visible": true,
+    "alternate_screen": false,
+    "sgr": "0",
+    "entry_hide_reset_exit_observed": true
+  },
+  "initially_hidden_cursor_VT_model": {
+    "cursor_visible": false,
+    "alternate_screen": false,
+    "sgr": "0",
+    "entry_hide_reset_exit_observed": true
+  },
+  "display_limit": "PTY captures real bytes, not a visual emulator. VT mode interpretation checked separately; no physical emulator query.",
+  "transcript": "exception.ansi"
+}

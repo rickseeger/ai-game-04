@@ -1,7 +1,7 @@
 # Lantern Survey (G11)
 
-Foundation, spatial-generation, appearance, camera, renderer and movement milestones, NOT a playable city yet. Default launch reports this and
-exits normally. Headless rendering and injected-action movement are real; terminal adapter and game rules are not implemented.
+Foundation, spatial-generation, appearance, camera, renderer, movement and terminal-component milestones, NOT a playable city yet. Default launch reports this and
+exits normally. Headless rendering and injected-action movement are real; terminal adapters are available as components; game rules and interactive application integration are not implemented.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
 
@@ -122,3 +122,23 @@ handling, integration responsibilities and limitations.
 source hashes, commands, timings and environment. No keyboard adapter or app
 loop was added. This is headless movement evidence, not a terminal playtest or a
 claim that the complete city game is enjoyable.
+
+## Terminal adapters (node 7)
+
+`citywalk.terminal.open_terminal()` implements the existing Terminal context
+manager, nonblocking Actions input, RGB/256-color frame presentation, resize
+notices and exception/signal cleanup. This does NOT integrate the game loop.
+See [docs/terminal.md](docs/terminal.md) for control timing, support boundaries,
+application responsibilities and required native Windows delivery evidence.
+
+    python3 -m unittest discover -s tests -p test_terminal.py -v
+    python3 tools/validate_terminal.py
+    python3 tools/probe_terminal.py --output ../linux-terminal-probe.json
+
+The final command requires an actual interactive terminal. The probe is a test
+pattern and action monitor, NOT the city. Real controlling-Linux-PTY runs,
+injected keys, resize checks, raw ANSI transcripts, exact before/after termios,
+and full regression/build outputs are in `docs/terminal-pty/` and
+`docs/terminal-run.json`. Windows API/input decision tests here use mocks;
+no native Windows launch/control result is claimed. Windows Terminal execution
+on the exact delivery candidate remains mandatory.
