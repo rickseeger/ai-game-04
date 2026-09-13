@@ -1,0 +1,10 @@
+#!/bin/sh
+# Resolve relative to the launcher, never the caller working directory.
+set -eu
+HERE=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PYTHON=${LANTERN_PYTHON:-python3}
+if ! command -v "$PYTHON" >/dev/null 2>&1; then
+    printf "%s\n" "Lantern Survey needs Python 3.11+. Install python3 or set LANTERN_PYTHON to its executable path." >&2
+    exit 127
+fi
+exec "$PYTHON" -E -s "$HERE/entrypoint.py" "$@"

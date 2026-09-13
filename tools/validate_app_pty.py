@@ -31,7 +31,7 @@ def attrs(value):
 
 
 class Session:
-    def __init__(self, output, color="truecolor", launch_code=None):
+    def __init__(self, output, color="truecolor", launch_code=None, launch_command=None, cwd=None):
         output.mkdir(parents=True, exist_ok=True)
         self.output = output
         self.master, self.slave = pty.openpty()
@@ -42,13 +42,14 @@ class Session:
         self.trace = None
         self.latest = None
         self.started = time.monotonic()
-        prefix = [sys.executable, "-c", launch_code] if launch_code else [sys.executable, "-m", "citywalk"]
+        prefix = launch_command or ([sys.executable, "-c", launch_code] if launch_code else [sys.executable, "-m", "citywalk"])
+        self.process_cwd = str(cwd or ROOT)
         self.command = prefix + ["--seed", "11", "--color", color,
                         "--capture-dir", str(output)]
         def controlling():
             os.setsid()
             fcntl.ioctl(0, termios.TIOCSCTTY, 0)
-        self.process = subprocess.Popen(self.command, cwd=ROOT, stdin=self.slave, stdout=self.slave,
+        self.process = subprocess.Popen(self.command, cwd=cwd or ROOT, stdin=self.slave, stdout=self.slave,
                                        stderr=self.slave, preexec_fn=controlling,
                                        env={**os.environ, "TERM": "xterm-256color"})
         self.next()
@@ -152,7 +153,7 @@ class Session:
         state = vt_state(self.raw)
         (self.output / "terminal.ansi.gz").write_bytes(gzip.compress(bytes(self.raw), mtime=0))
         (self.output / "inputs.json").write_text(json.dumps(self.events, indent=2)+"\n")
-        report = {"command": self.command, "exit_code": self.process.returncode,
+        report = {"command": self.command, "cwd": self.process_cwd, "exit_code": self.process.returncode,
                   "wall_seconds": time.monotonic()-self.started,
                   "termios_before": attrs(self.before), "termios_active": attrs(self.active),
                   "termios_after": attrs(after), "termios_exactly_restored": after == self.before,
@@ -167,8 +168,10 @@ class Session:
         return report
 
 
-def full_run(output):
-    session = Session(output)
+def full_run(output, launcher=None, cwd=None):
+    if output.exists():
+        raise FileExistsError(f"Use a fresh evidence directory: {output}")
+    session = Session(output, launch_command=[str(launcher)] if launcher else None, cwd=cwd)
     try:
         assert session.latest["help_page"] == 0
         for page in range(1,7):
@@ -261,8 +264,11 @@ def full_run(output):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=ROOT / "docs/app-pty")
+    parser.add_argument("--launcher", type=Path, help="Installed Linux launcher to exercise instead of source module")
+    parser.add_argument("--cwd", type=Path, help="Unrelated working directory for installed launch")
     args = parser.parse_args()
-    full_run(args.output.resolve())
+    full_run(args.output.resolve(), args.launcher.resolve() if args.launcher else None,
+             args.cwd.resolve() if args.cwd else None)
 
 
 if __name__ == "__main__":

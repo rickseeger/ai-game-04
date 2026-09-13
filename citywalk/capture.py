@@ -34,6 +34,10 @@ class Capture:
                      "source_sha256": {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.glob("*.py"))},
                      "platform": platform.platform(), "python": sys.version,
                      "cpu": platform.processor(), "argv": sys.argv, "seed": args.seed,
+                     "source_directory": str(root), "executable": sys.executable,
+                     "sys_path": sys.path,
+                     "distribution": json.loads((root.parent / "BUILD.json").read_text())
+                         if (root.parent / "BUILD.json").is_file() else None,
                      "cell_aspect": args.cell_aspect, "color": args.color,
                      "clock": "time.monotonic; real elapsed, movement capped at 0.10s; no accelerated clock",
                      "limitations": "Scripted PTY execution is not an independent aesthetic/enjoyment assessment or Windows runtime verification."}

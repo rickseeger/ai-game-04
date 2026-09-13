@@ -1,52 +1,28 @@
 # Lantern Survey (G11)
 
-Playable Lantern Survey: explore the real street-level 3D colored ASCII city,
-photograph three distinct landmarks and return to the depot before 600 active
-seconds expire. Onboarding/help, pause, restart, new seed and clean quit are
-integrated. See [docs/integration.md](docs/integration.md) for controls,
-real-time PTY evidence and limitations. Beauty and enjoyment remain subject to
-independent play assessment; native Windows distribution/runtime verification
-is a separate gate. The historical component milestones below describe their
-state at the time, not the current default launch.
+Explore the street-level 3D colored ASCII city, photograph three distinct
+landmarks and return to the depot before 600 active seconds expire.
 
-## Requirements and exact commands
+## Play on Linux
 
-Python 3.11+ (standard library only); Git for cloning. No pip, network packages,
-curses, native extensions or install step. From a fresh clone:
+The supported delivery for this pass is a reproducible Linux tarball with a
+`lantern-survey` launcher. Python 3.11+ and an interactive xterm-compatible color
+terminal are required; 80x24 minimum, 100x36 recommended. No pip dependencies.
 
-    git clone git@github.com:rickseeger/ai-game-04.git
-    cd ai-game-04
-    python3 -m citywalk
-    python3 -m citywalk --smoke --seed 11
-    python3 -m unittest discover -s tests -v
-    python3 tools/build.py
-    python3 dist/lantern-survey.pyz
-    python3 dist/lantern-survey.pyz --smoke --seed 11
+See [Linux install, run, controls and rebuild instructions](docs/linux.md).
+From source: `python3 -m citywalk`. H starts; W/S/A/D move; J/L turn; I/K look;
+SPACE photographs; E submits at the depot; P pauses; Q/Escape quits.
+Build: `python3 tools/package_linux.py` from a clean committed checkout.
 
-Public HTTPS clone alternative: https://github.com/rickseeger/ai-game-04.git
-Windows PowerShell: use the same commands with `py -3` instead of `python3`.
-The zipapp can run from any directory; it contains all application source.
-`python3 -m citywalk --help` documents currently implemented options.
-Tests and source launch run from repository root. Build accepts any working directory.
-Building twice from identical source produces identical bytes and prints SHA-256.
+Windows is explicitly deferred; Windows CI jobs are no longer scheduled.
+No Windows artifact/runtime validation is claimed. Packaging and scripted PTY
+checks do not establish beauty or fun; independent assessment remains node 11.
+See [integration evidence](docs/integration.md) for gameplay and launch details.
 
-## Distribution plan
+## Historical component milestones
 
-Both Linux and Windows support the same `.pyz`, with Python 3.11+ explicitly
-required. Node 10 packages it into a Linux tar.gz and Windows zip with platform
-launchers and instructions, identified commit and checksums. This is a viable
-Python-runtime distribution, NOT a standalone native executable. If standalone
-is later required, build PyInstaller executables separately on native runners;
-never present Linux cross-builds as Windows runtime evidence.
-
-Final terminal target: Linux xterm-compatible UTF-8 terminal and Windows 10/11
-Windows Terminal with VT color support. ASCII glyphs keep cell widths portable.
-100x36 recommended, 80x24 minimum; implemented controls and resize behavior are in
-[the integration guide](docs/integration.md). CI runs foundation tests/build on Linux/Windows with Python 3.11/3.14.
-CI configuration is not proof those runs have passed, nor Windows game playtest proof.
-
-This node validates execution and architecture, not beauty or fun. See
-`docs/foundation-validation.md` for actual local evidence and limitations.
+The sections below record their original milestone state, not current default
+launch behavior. In particular, earlier Windows delivery expectations are deferred.
 
 ## Spatial model (node 2)
 
