@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "source_commit": "26b206cea12e0e630036693a128a3de1b6fe61e9",
+  "pty_sessions": [
+    {
+      "path": "fresh-linux/pty",
+      "actual_captured_checkpoints": 24,
+      "source_hashes_match": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-source/controls_q",
+      "actual_captured_checkpoints": 13,
+      "source_hashes_match": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-source/escape_256",
+      "actual_captured_checkpoints": 3,
+      "source_hashes_match": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-source/ctrl_c",
+      "actual_captured_checkpoints": 3,
+      "source_hashes_match": true,
+      "exit_code": 130,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-source/sigterm",
+      "actual_captured_checkpoints": 3,
+      "source_hashes_match": true,
+      "exit_code": 143,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-artifact/controls_q",
+      "actual_captured_checkpoints": 13,
+      "source_hashes_match": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-artifact/escape_256",
+      "actual_captured_checkpoints": 3,
+      "source_hashes_match": true,
+      "exit_code": 0,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-artifact/ctrl_c",
+      "actual_captured_checkpoints": 3,
+      "source_hashes_match": true,
+      "exit_code": 130,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    },
+    {
+      "path": "supplemental-artifact/sigterm",
+      "actual_captured_checkpoints": 3,
+      "source_hashes_match": true,
+      "exit_code": 143,
+      "termios_exactly_restored": true,
+      "vt_state": {
+        "cursor_visible": true,
+        "alternate_screen": false,
+        "sgr": "0",
+        "entry_hide_reset_exit_observed": true
+      }
+    }
+  ],
+  "geometry_checked_frames": 4935,
+  "minimum_building_clearance_m": 0.3000010000420179,
+  "building_collisions": [
+    {
+      "frame": 129,
+      "building": {
+        "id": "block-05-05-0-0",
+        "footprint": {
+          "xmin": 8.0,
+          "zmin": 11.0,
+          "xmax": 21.0,
+          "zmax": 22.0
+        },
+        "height": 87.0,
+        "style": "violet-artdeco",
+        "material_seed": 3918015475
+      },
+      "player": {
+        "feet": {
+          "x": 10.78585667245185,
+          "y": 0,
+          "z": 10.699998999957982
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "clearance_m": 0.3000010000420179
+    },
+    {
+      "frame": 130,
+      "building": {
+        "id": "block-05-05-0-0",
+        "footprint": {
+          "xmin": 8.0,
+          "zmin": 11.0,
+          "xmax": 21.0,
+          "zmax": 22.0
+        },
+        "height": 87.0,
+        "style": "violet-artdeco",
+        "material_seed": 3918015475
+      },
+      "player": {
+        "feet": {
+          "x": 10.983636885739715,
+          "y": 0,
+          "z": 10.699998999957982
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "clearance_m": 0.3000010000420179
+    }
+  ],
+  "win_frame": 4917,
+  "win_state": {
+    "phase": "won",
+    "remaining_s": 368.2914333289991,
+    "photos": [
+      [
+        "sight-2",
+        140
+      ],
+      [
+        "sight-3",
+        140
+      ],
+      [
+        "sight-4",
+        140
+      ]
+    ],
+    "score": 420
+  },
+  "depot_distance_at_submission_m": 0.41822614933123775,
+  "limitations": "World geometry reused from committed generator; clearance independently calculated from rectangles, not game collision result. Frame replay in validator is scripted consistency verification. PTY mode and ANSI checks do not certify a physical emulator or human enjoyment."
+}

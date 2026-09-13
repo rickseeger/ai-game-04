@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source_commit": "26b206cea12e0e630036693a128a3de1b6fe61e9",
+  "repository": "https://github.com/rickseeger/ai-game-04.git",
+  "target": "linux-python-runtime",
+  "python_minimum": "3.11",
+  "windows": "deferred; not built or runtime validated",
+  "files_sha256": {
+    "README.md": "368ba2c036aceb4a35e42c4f85feccf64831b8402f39d6c27f021130bc31ec88",
+    "citywalk/__init__.py": "4de65b694884de3ccd84d1f2f9a61f21cf33d285e818ef502365da1eabc3abab",
+    "citywalk/__main__.py": "a67c172046323b0efcafe92cb83abc266d5dd4bc931d9312cde1b7bed50643db",
+    "citywalk/app.py": "3f131bab262dba44e48863eb2d2174f4fd1ed8812a221e11a3d6433f82df7a4b",
+    "citywalk/appearance.py": "fd675bc9f6ff727b97243bbd5500733bf10bce59b0983cb66ee6d46264e85dea",
+    "citywalk/camera.py": "9f773f8ef3924f0815319cc6ceb94e6c41bf931cb09a68c8f445bfcab62c47ff",
+    "citywalk/capture.py": "45d1225455c5591d65581c2f73f7da56277cbba5e4d1bd89b593388f762951ad",
+    "citywalk/contracts.py": "5b4110c940da398f72f6fe3f153281f8a48e0368bcecd778874e330aed20fe9a",
+    "citywalk/gameplay.py": "429fd05127366525a886f92a796835a0d3d1021b98eb16fd2ef28dd3a1ac3a04",
+    "citywalk/movement.py": "711547139e87f736f34cb38302400e08b6943332b870d9ed0eb224e43fa979ef",
+    "citywalk/rendering.py": "a836b839db41474805bd798c3898d9260a3a4c1348a8a8e5a712b71817eda312",
+    "citywalk/spatial.py": "80d81c019440432730f710d933ef79d5b6de154724af54c5d9bd010ad100d46d",
+    "citywalk/terminal.py": "3e570119feb9342309977da26215da6ff08aa5f79b7a06c9dc13cb28cc8de122",
+    "entrypoint.py": "f6e9115f81424def408794eb233584d65ba8c606915d956f8abf22bc67363bbb",
+    "lantern-survey": "f82da7301c04bda13b992e8221906420ea47047dcbce746d05a10a14ec79e581"
+  },
+  "artifact": "lantern-survey-linux-26b206cea12e0e630036693a128a3de1b6fe61e9.tar.gz",
+  "artifact_sha256": "6db2af41eabb18ae2aca449f14de0081722e88dc6d0f4f15f7ba8d98835630a6",
+  "build_command": "python3 tools/package_linux.py"
+}

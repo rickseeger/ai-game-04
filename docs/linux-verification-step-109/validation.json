@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "source_commit": "26b206cea12e0e630036693a128a3de1b6fe61e9",
+  "remote": "https://github.com/rickseeger/ai-game-04.git",
+  "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "bootstrap_python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "isolation": "fresh public clone; fresh HOME; venv --without-pip, no system site packages; allowlisted environment; installed launcher from unrelated cwd (not a container)",
+  "windows": "explicitly deferred; no artifact or native execution claimed",
+  "independent_beauty_or_fun_validated": false,
+  "environment": {
+    "PATH": "/opt/g-harness/workspace/G11/node_12_step_109/fresh-linux/venv/bin:/usr/bin:/bin",
+    "HOME": "/opt/g-harness/workspace/G11/node_12_step_109/fresh-linux/home",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "TERM": "xterm-256color",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "GIT_CONFIG_NOSYSTEM": "1",
+    "GIT_CONFIG_GLOBAL": "/dev/null"
+  },
+  "runtime_environment": {
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "executable": "/opt/g-harness/workspace/G11/node_12_step_109/fresh-linux/venv/bin/python3",
+    "prefix": "/opt/g-harness/workspace/G11/node_12_step_109/fresh-linux/venv",
+    "base_prefix": "/usr",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+    "machine": "x86_64",
+    "packages": [],
+    "zlib": "1.3.1"
+  },
+  "two_builds_byte_identical": true,
+  "actual_truecolor_ansi_captured": true,
+  "installed_sources_match_manifest_and_commit": true,
+  "artifact": "distribution/lantern-survey-linux-26b206cea12e0e630036693a128a3de1b6fe61e9.tar.gz",
+  "artifact_sha256": "6db2af41eabb18ae2aca449f14de0081722e88dc6d0f4f15f7ba8d98835630a6",
+  "legacy_pyz_sha256": "074f5f670aa35f587bc93cdd172770290602fe44e4d9b288127b209edf577c5e",
+  "pty_result": {
+    "passed": true,
+    "collision_frame": 129,
+    "photo_frames": [
+      1137,
+      2457,
+      4027
+    ],
+    "won_frame": 4917,
+    "won_state": {
+      "phase": "won",
+      "remaining_s": 368.2914333289991,
+      "photos": [
+        [
+          "sight-2",
+          140
+        ],
+        [
+          "sight-3",
+          140
+        ],
+        [
+          "sight-4",
+          140
+        ]
+      ],
+      "score": 420
+    },
+    "won_player": {
+      "feet": {
+        "x": -0.1388969516485063,
+        "y": 0,
+        "z": 0.39448795774673184
+      },
+      "yaw": 0.005944378675803455,
+      "pitch": -0.010196032675210472
+    },
+    "termios_exactly_restored": true,
+    "wall_seconds": 269.8602620700003,
+    "native_windows_validated": false,
+    "independent_beauty_or_fun_validated": false
+  },
+  "verification": {
+    "passed": true,
+    "source_hashes_match": true,
+    "trace_frames_replayed_exactly": 4935,
+    "actual_checkpoints_regenerated_exactly": 24,
+    "collision_frames": 2,
+    "walked_distance_m_excluding_resets": 895.6445141558237,
+    "transcript_sha256": "6fa3d92a9640f45211b99b58b71b74122266be8dfa6a063cbb55faa122b35396",
+    "termios_exactly_restored": true,
+    "won_state": {
+      "phase": "won",
+      "remaining_s": 368.2914333289991,
+      "photos": [
+        [
+          "sight-2",
+          140
+        ],
+        [
+          "sight-3",
+          140
+        ],
+        [
+          "sight-4",
+          140
+        ]
+      ],
+      "score": 420
+    },
+    "limitations": "Exact action replay and regenerated frames confirm consistency of actual PTY evidence, not independent beauty, enjoyment or native Windows execution."
+  }
+}
