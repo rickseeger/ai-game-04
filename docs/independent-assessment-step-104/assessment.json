@@ -1,0 +1,53 @@
+{
+  "status": "blocked",
+  "source_commit": "7c877935eacfecdb39100528713b74fbfd55527a",
+  "checkout_base": "48dbdecbe77a0426dcb1d81d65d42fcfa41d138b",
+  "artifact_sha256": "dde8c725ecac97b59544cb0552b35af06a90acf0402a91abc5d621dd32458d9b",
+  "environment": {
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+    "python": "3.14.4",
+    "display": null,
+    "wayland_display": null,
+    "interface": "text-only tool results; no image viewer, browser rendering, or physical terminal visual observation; controlling PTY supplied by Session",
+    "terminal": "xterm-256color PTY, truecolor output, 100x36; undersize 70x20"
+  },
+  "technical_probe": {
+    "frames": 917,
+    "checkpoints": 26,
+    "walked_distance_m_excluding_restart": 112.72679912287515,
+    "blocked_frames": 236,
+    "first_collision_frame": 349,
+    "photos": 0,
+    "won": false,
+    "quit_event": {
+      "event": "quit",
+      "frame": 917,
+      "actions": {
+        "forward": 0.0,
+        "strafe": 0.0,
+        "turn": 0.0,
+        "look": 0.0,
+        "shutter": false,
+        "interact": false,
+        "pause": false,
+        "help": false,
+        "restart": false,
+        "new_seed": false,
+        "quit": true
+      }
+    },
+    "meaningful_human_session": false,
+    "visual_assessment_completed": false
+  },
+  "verdicts": {
+    "human_scale_depth": "UNASSESSED visually; runtime eye y=1.7m and converging glyph street inspected as text only",
+    "towering_architecture": "UNASSESSED visually; look-up changes captured geometry, not proof of imposing architecture",
+    "color_and_variety": "UNASSESSED visually; truecolor cell data exists, no color perception through this interface",
+    "worthwhile_exploration": "UNASSESSED; no meaningful landmark/discovery session completed",
+    "responsive_controls": "LIMITED technical pass: observed movement/turn/look/pause/help/restart; human feel and key-repeat overshoot unassessed",
+    "collision": "LIMITED technical pass: facade blocks and movement resumes away; no exhaustive corner or human assessment",
+    "terminal_restoration": "PASS for this Linux PTY Q exit only; exact termios and emitted VT restoration verified; physical emulator, Escape and Ctrl-C not independently retested",
+    "genuinely_interesting_gameplay": "UNASSESSED; no successful photo or win in this bounded probe; no enjoyment claim"
+  },
+  "acceptance": "NOT ACCEPTED: human playtest and targeted fixes/fresh play required; no node or harness state changed; Windows deferred; root subject to Rick approval"
+}

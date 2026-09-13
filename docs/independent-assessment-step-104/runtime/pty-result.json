@@ -1,0 +1,240 @@
+{
+  "command": [
+    "/opt/g-harness/workspace/G11/node_11_step_104/installed/lantern-survey-linux/lantern-survey",
+    "--seed",
+    "11",
+    "--color",
+    "truecolor",
+    "--capture-dir",
+    "/opt/g-harness/workspace/G11/node_11_step_104/repo/docs/independent-assessment-step-104/runtime"
+  ],
+  "cwd": "/opt/g-harness/workspace/G11/node_11_step_104",
+  "exit_code": 0,
+  "wall_seconds": 49.58440273300039,
+  "termios_before": [
+    1280,
+    5,
+    983231,
+    35387,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      "00",
+      "01",
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_active": [
+    0,
+    5,
+    983231,
+    2609,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      0,
+      0,
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_after": [
+    1280,
+    5,
+    983231,
+    35387,
+    38400,
+    38400,
+    [
+      "03",
+      "1c",
+      "7f",
+      "15",
+      "04",
+      "00",
+      "01",
+      "00",
+      "11",
+      "13",
+      "1a",
+      "00",
+      "12",
+      "0f",
+      "17",
+      "16",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00",
+      "00"
+    ]
+  ],
+  "termios_exactly_restored": true,
+  "vt_state": {
+    "cursor_visible": true,
+    "alternate_screen": false,
+    "sgr": "0",
+    "entry_hide_reset_exit_observed": true
+  },
+  "raw_transcript_bytes": 31674114,
+  "raw_transcript_sha256": "d3b7a77b34aa89b40562a46c7e90e121b835fe9d32be9b5e355f9c140e761bc0",
+  "last_frame": {
+    "frame": 916,
+    "monotonic": 7861.791261454,
+    "dt_s": 0.05008670400002302,
+    "size": [
+      100,
+      36
+    ],
+    "actions": {
+      "forward": 0.0,
+      "strafe": 0.0,
+      "turn": 0.0,
+      "look": 0.0,
+      "shutter": false,
+      "interact": false,
+      "pause": false,
+      "help": false,
+      "restart": false,
+      "new_seed": false,
+      "quit": false
+    },
+    "seed": 11,
+    "player": {
+      "feet": {
+        "x": 23.058476388305145,
+        "y": 0,
+        "z": 12.634328743898509
+      },
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "state": {
+      "phase": "playing",
+      "remaining_s": 590.8772284260003,
+      "photos": [],
+      "score": 0
+    },
+    "paused": false,
+    "help_page": null,
+    "small": false,
+    "blocked": false,
+    "messages": [
+      "Wall / city rail: blocked. Turn or strafe along it."
+    ],
+    "hud": [
+      "LANTERN | 590.9s | Photos 0/3 | Score 0 | Seed 11",
+      "Depot SW 241deg 26m | Next Violet Clock: W 270deg 47m",
+      "[+] too far; approach within 65 m",
+      "Wall / city rail: blocked. Turn or strafe along it."
+    ],
+    "sightings": [
+      {
+        "landmark_id": "sight-0",
+        "visible": false,
+        "range_m": 206.2956406415137,
+        "bearing_error": -2.3753076574132956,
+        "crown_visible": false
+      },
+      {
+        "landmark_id": "sight-1",
+        "visible": false,
+        "range_m": 176.90941081266055,
+        "bearing_error": 2.5683965776151743,
+        "crown_visible": false
+      },
+      {
+        "landmark_id": "sight-2",
+        "visible": false,
+        "range_m": 47.05989710418215,
+        "bearing_error": -1.5630259116758396,
+        "crown_visible": false
+      },
+      {
+        "landmark_id": "sight-3",
+        "visible": false,
+        "range_m": 170.28548057052154,
+        "bearing_error": -0.9974853514369642,
+        "crown_visible": false
+      },
+      {
+        "landmark_id": "sight-4",
+        "visible": false,
+        "range_m": 133.17729979063105,
+        "bearing_error": 0.8043853435421591,
+        "crown_visible": false
+      }
+    ],
+    "render_ms": 33.335221000015736,
+    "present_ms": 2.555772000050638
+  },
+  "inputs": "inputs.json"
+}

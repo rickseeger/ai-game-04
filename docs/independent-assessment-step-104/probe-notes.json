@@ -1,0 +1,344 @@
+{
+  "kind": "independent technical probe, not meaningful human play",
+  "route": [
+    {
+      "label": "Initial help at spawn",
+      "frame": 0,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 600.0,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN SURVEY - night photographer | TIME FROZEN",
+        "600s: photograph 3 distinct landmarks; return to depot, E submit.",
+        "W/S walk A/D strafe; J/L or arrows turn; I/K or arrows look up/down.",
+        "SPACE: help/cards next | H or P: begin/resume | Q/Esc: quit"
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Photo rules help",
+      "frame": 10,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 600.0,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "HELP 2/7 | TIME FROZEN | SPACE next; H close; Q quit",
+        "SPACE photo: clear facade, 18-65m, aim within 12deg. Look up for +40.",
+        "P pause; H help; R restart same seed; N seed+1; E submit at depot.",
+        "Tap/repeat direction keys (140ms hold); no key-up. Cards next ->"
+      ],
+      "blocked": false
+    },
+    {
+      "label": "First landmark card",
+      "frame": 19,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 600.0,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "CARD 1/5: Amber Spire | TIME FROZEN",
+        "District: Foundry | SW 221deg 181m",
+        "Look for: Amber windows, brick piers; 115m high.",
+        "SPACE next card/help | H resume | Q quit"
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Premature depot submission",
+      "frame": 30,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 599.5492070569999,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 599.5s | Photos 0/3 | Score 0 | Seed 11",
+        "Depot N 000deg 0m | Next Violet Clock: NW 298deg 27m",
+        "[+] too far; approach within 65 m",
+        "Submission rejected: 0/3 distinct landmarks; keep exploring."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "North along starting street",
+      "frame": 244,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 40.5417641200002
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 589.1570619409995,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 589.2s | Photos 0/3 | Score 0 | Seed 11",
+        "PAUSED - timer and movement frozen",
+        "P resume | H help/cards | R restart | N new city | Q quit",
+        "City remains in view; no menu covers the street."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Turn right and look up",
+      "frame": 300,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 40.5417641200002
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.5933835638319811
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 586.7587863469989,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 586.8s | Photos 0/3 | Score 0 | Seed 11",
+        "PAUSED - timer and movement frozen",
+        "P resume | H help/cards | R restart | N new city | Q quit",
+        "City remains in view; no menu covers the street."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Unassisted photograph attempt",
+      "frame": 310,
+      "player": {
+        "feet": {
+          "x": 0,
+          "y": 0,
+          "z": 40.5417641200002
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.5933835638319811
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 586.255965168999,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 586.3s | Photos 0/3 | Score 0 | Seed 11",
+        "Depot S 180deg 41m | Next Violet Clock: SW 221deg 37m",
+        "[+] too far; approach within 65 m",
+        "No photo: too far; approach within 65 m."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Walk toward facade",
+      "frame": 483,
+      "player": {
+        "feet": {
+          "x": 7.6999989999466525,
+          "y": 0,
+          "z": 31.447611048715064
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.5933835638319811
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 577.9308417529992,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 577.9s | Photos 0/3 | Score 0 | Seed 11",
+        "PAUSED - timer and movement frozen",
+        "P resume | H help/cards | R restart | N new city | Q quit",
+        "City remains in view; no menu covers the street."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Strafe beside obstruction",
+      "frame": 584,
+      "player": {
+        "feet": {
+          "x": 10.103790161751258,
+          "y": 0,
+          "z": 47.3539302606666
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.5933835638319811
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 573.2848910909988,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 573.3s | Photos 0/3 | Score 0 | Seed 11",
+        "PAUSED - timer and movement frozen",
+        "P resume | H help/cards | R restart | N new city | Q quit",
+        "City remains in view; no menu covers the street."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Back away and lower view",
+      "frame": 678,
+      "player": {
+        "feet": {
+          "x": -2.192262353212719,
+          "y": 0,
+          "z": 50.9378967087397
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.04053018633732624
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 568.8468604949985,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 568.8s | Photos 0/3 | Score 0 | Seed 11",
+        "PAUSED - timer and movement frozen",
+        "P resume | H help/cards | R restart | N new city | Q quit",
+        "City remains in view; no menu covers the street."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Help after exploration",
+      "frame": 697,
+      "player": {
+        "feet": {
+          "x": -2.192262353212719,
+          "y": 0,
+          "z": 50.9378967087397
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.04053018633732624
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 568.4116463299979,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN SURVEY - night photographer | TIME FROZEN",
+        "600s: photograph 3 distinct landmarks; return to depot, E submit.",
+        "W/S walk A/D strafe; J/L or arrows turn; I/K or arrows look up/down.",
+        "SPACE: help/cards next | H or P: begin/resume | Q/Esc: quit"
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Undersize pause",
+      "frame": 718,
+      "player": {
+        "feet": {
+          "x": -2.192262353212719,
+          "y": 0,
+          "z": 50.9378967087397
+        },
+        "yaw": 1.8544118785524621,
+        "pitch": 0.04053018633732624
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 567.9885137469973,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 568.0s | Photos 0/3 | Score 0 | Seed 11",
+        "Depot S 178deg 51m | Next Violet Clock: SW 210deg 44m",
+        "[+] too far; approach within 65 m",
+        "Wall / city rail: blocked. Turn or strafe along it."
+      ],
+      "blocked": false
+    },
+    {
+      "label": "Diagonal facade collision from reset",
+      "frame": 907,
+      "player": {
+        "feet": {
+          "x": 23.058476388305145,
+          "y": 0,
+          "z": 12.634328743898509
+        },
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "state": {
+        "phase": "playing",
+        "remaining_s": 591.319562226,
+        "photos": [],
+        "score": 0
+      },
+      "hud": [
+        "LANTERN | 591.3s | Photos 0/3 | Score 0 | Seed 11",
+        "PAUSED - timer and movement frozen",
+        "P resume | H help/cards | R restart | N new city | Q quit",
+        "City remains in view; no menu covers the street."
+      ],
+      "blocked": false
+    }
+  ],
+  "exit_code": 0
+}

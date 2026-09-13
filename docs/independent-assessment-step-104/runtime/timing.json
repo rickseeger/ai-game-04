@@ -1,0 +1,24 @@
+{
+  "all_frames_including_cold_and_paused": {
+    "100x36": {
+      "frames": 906,
+      "render_median_ms": 42.78652799985139,
+      "render_p95_ms": 50.57796800065262,
+      "render_max_ms": 62.63225900056568,
+      "present_median_ms": 3.064680499392125,
+      "present_p95_ms": 4.519402999903832,
+      "present_max_ms": 6.309180999778619
+    },
+    "70x20": {
+      "frames": 11,
+      "render_median_ms": 0.007460999768227339,
+      "render_p95_ms": 0.6014129994582618,
+      "render_max_ms": 0.6014129994582618,
+      "present_median_ms": 0.12890100060758414,
+      "present_p95_ms": 0.181460000021616,
+      "present_max_ms": 0.181460000021616
+    }
+  },
+  "raw_samples": "trace.jsonl",
+  "present_includes": "HUD/ANSI encode, output write and flush; PTY reader drains concurrently; capture IO excluded"
+}

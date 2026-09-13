@@ -1,0 +1,3551 @@
+[
+  {
+    "input_hex": "20",
+    "monotonic": 7815.114852881,
+    "after_frame": 0
+  },
+  {
+    "input_hex": "20",
+    "monotonic": 7815.606797594,
+    "after_frame": 10
+  },
+  {
+    "input_hex": "68",
+    "monotonic": 7816.074183892,
+    "after_frame": 19
+  },
+  {
+    "input_hex": "65",
+    "monotonic": 7816.56696266,
+    "after_frame": 29
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.638319583,
+    "after_frame": 30
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.673151969,
+    "after_frame": 31
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.739402906,
+    "after_frame": 32
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.789359941,
+    "after_frame": 33
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.843327635,
+    "after_frame": 34
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.889555781,
+    "after_frame": 35
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.939910577,
+    "after_frame": 36
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7816.982176462,
+    "after_frame": 37
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.047024962,
+    "after_frame": 38
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.093305608,
+    "after_frame": 39
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.142481668,
+    "after_frame": 40
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.193498468,
+    "after_frame": 41
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.242088215,
+    "after_frame": 42
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.292975154,
+    "after_frame": 43
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.343657212,
+    "after_frame": 44
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.392259159,
+    "after_frame": 45
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.435018657,
+    "after_frame": 46
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.504131428,
+    "after_frame": 47
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.539064736,
+    "after_frame": 48
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.597383143,
+    "after_frame": 49
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.650290852,
+    "after_frame": 50
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.700487207,
+    "after_frame": 51
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.739133295,
+    "after_frame": 52
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.799145219,
+    "after_frame": 53
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.847959978,
+    "after_frame": 54
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.898842577,
+    "after_frame": 55
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.955035593,
+    "after_frame": 56
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7817.998365494,
+    "after_frame": 57
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.049878696,
+    "after_frame": 58
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.099575739,
+    "after_frame": 59
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.150369997,
+    "after_frame": 60
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.202587513,
+    "after_frame": 61
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.251334781,
+    "after_frame": 62
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.303282336,
+    "after_frame": 63
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.361487291,
+    "after_frame": 64
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.40644425,
+    "after_frame": 65
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.454930858,
+    "after_frame": 66
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.507863846,
+    "after_frame": 67
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.556656595,
+    "after_frame": 68
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.60695906,
+    "after_frame": 69
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.658803515,
+    "after_frame": 70
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.709804854,
+    "after_frame": 71
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.749170024,
+    "after_frame": 72
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.810802378,
+    "after_frame": 73
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.859993498,
+    "after_frame": 74
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.910434595,
+    "after_frame": 75
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7818.958074537,
+    "after_frame": 76
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.007569729,
+    "after_frame": 77
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.062062447,
+    "after_frame": 78
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.123160428,
+    "after_frame": 79
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.172105097,
+    "after_frame": 80
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.220668114,
+    "after_frame": 81
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.2709384,
+    "after_frame": 82
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.317950579,
+    "after_frame": 83
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.371429651,
+    "after_frame": 84
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.420863192,
+    "after_frame": 85
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.479507461,
+    "after_frame": 86
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.535847938,
+    "after_frame": 87
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.583592181,
+    "after_frame": 88
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.631962408,
+    "after_frame": 89
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.684052782,
+    "after_frame": 90
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.731960206,
+    "after_frame": 91
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.78179777,
+    "after_frame": 92
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.831972375,
+    "after_frame": 93
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.872674122,
+    "after_frame": 94
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.935467411,
+    "after_frame": 95
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7819.986906014,
+    "after_frame": 96
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.034943218,
+    "after_frame": 97
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.072299748,
+    "after_frame": 98
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.135488509,
+    "after_frame": 99
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.190681491,
+    "after_frame": 100
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.238586834,
+    "after_frame": 101
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.290523848,
+    "after_frame": 102
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.341589158,
+    "after_frame": 103
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.389174371,
+    "after_frame": 104
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.441446776,
+    "after_frame": 105
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.488592556,
+    "after_frame": 106
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.540092589,
+    "after_frame": 107
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.587813861,
+    "after_frame": 108
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.640339079,
+    "after_frame": 109
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.701641911,
+    "after_frame": 110
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.754574229,
+    "after_frame": 111
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.804148153,
+    "after_frame": 112
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.851282062,
+    "after_frame": 113
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.902153101,
+    "after_frame": 114
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.951734894,
+    "after_frame": 115
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7820.999255585,
+    "after_frame": 116
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.04914687,
+    "after_frame": 117
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.099853217,
+    "after_frame": 118
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.151828411,
+    "after_frame": 119
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.205391634,
+    "after_frame": 120
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.254301543,
+    "after_frame": 121
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.301609714,
+    "after_frame": 122
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.352163201,
+    "after_frame": 123
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.404271547,
+    "after_frame": 124
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.456332681,
+    "after_frame": 125
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.502406106,
+    "after_frame": 126
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.553806188,
+    "after_frame": 127
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.59155126,
+    "after_frame": 128
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.652443899,
+    "after_frame": 129
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.69385375,
+    "after_frame": 130
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.754523519,
+    "after_frame": 131
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.805400648,
+    "after_frame": 132
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.861623244,
+    "after_frame": 133
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.911679259,
+    "after_frame": 134
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7821.960690488,
+    "after_frame": 135
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.012925734,
+    "after_frame": 136
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.061476021,
+    "after_frame": 137
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.111843368,
+    "after_frame": 138
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.162820417,
+    "after_frame": 139
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.201247192,
+    "after_frame": 140
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.261860871,
+    "after_frame": 141
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.311483164,
+    "after_frame": 142
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.361838719,
+    "after_frame": 143
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.410313926,
+    "after_frame": 144
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.461557537,
+    "after_frame": 145
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.510649117,
+    "after_frame": 146
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.561922528,
+    "after_frame": 147
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.6135808,
+    "after_frame": 148
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.659438924,
+    "after_frame": 149
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.713423539,
+    "after_frame": 150
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.763587164,
+    "after_frame": 151
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.810091361,
+    "after_frame": 152
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.851807554,
+    "after_frame": 153
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.911051764,
+    "after_frame": 154
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7822.96514642,
+    "after_frame": 155
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.013905518,
+    "after_frame": 156
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.063318109,
+    "after_frame": 157
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.112912351,
+    "after_frame": 158
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.162840156,
+    "after_frame": 159
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.201058871,
+    "after_frame": 160
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.262779144,
+    "after_frame": 161
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.303769813,
+    "after_frame": 162
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.364278522,
+    "after_frame": 163
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.420566488,
+    "after_frame": 164
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.474494972,
+    "after_frame": 165
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.524455436,
+    "after_frame": 166
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.578473271,
+    "after_frame": 167
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.626818657,
+    "after_frame": 168
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.673404975,
+    "after_frame": 169
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.713815489,
+    "after_frame": 170
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.771049981,
+    "after_frame": 171
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.827171737,
+    "after_frame": 172
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.867578532,
+    "after_frame": 173
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.927222686,
+    "after_frame": 174
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7823.978941419,
+    "after_frame": 175
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.020968383,
+    "after_frame": 176
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.070233554,
+    "after_frame": 177
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.135195144,
+    "after_frame": 178
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.192098363,
+    "after_frame": 179
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.236168888,
+    "after_frame": 180
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.286343294,
+    "after_frame": 181
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.337285802,
+    "after_frame": 182
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.377896019,
+    "after_frame": 183
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.439699774,
+    "after_frame": 184
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.489051665,
+    "after_frame": 185
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.542422106,
+    "after_frame": 186
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.596744383,
+    "after_frame": 187
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.64138013,
+    "after_frame": 188
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.690919883,
+    "after_frame": 189
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.749631302,
+    "after_frame": 190
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.799093323,
+    "after_frame": 191
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.846840806,
+    "after_frame": 192
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.89676525,
+    "after_frame": 193
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.950730464,
+    "after_frame": 194
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7824.996810069,
+    "after_frame": 195
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.053043355,
+    "after_frame": 196
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.10319727,
+    "after_frame": 197
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.151358475,
+    "after_frame": 198
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.200761387,
+    "after_frame": 199
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.253686756,
+    "after_frame": 200
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.310995828,
+    "after_frame": 201
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.367040483,
+    "after_frame": 202
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.405585289,
+    "after_frame": 203
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.463724295,
+    "after_frame": 204
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.513627699,
+    "after_frame": 205
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.565217201,
+    "after_frame": 206
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.612303991,
+    "after_frame": 207
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.654658277,
+    "after_frame": 208
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.718733953,
+    "after_frame": 209
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.770462166,
+    "after_frame": 210
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.821847718,
+    "after_frame": 211
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.872064213,
+    "after_frame": 212
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.911187762,
+    "after_frame": 213
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7825.969965411,
+    "after_frame": 214
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.023387973,
+    "after_frame": 215
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.073581698,
+    "after_frame": 216
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.120170426,
+    "after_frame": 217
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.173952439,
+    "after_frame": 218
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.222521387,
+    "after_frame": 219
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.268966572,
+    "after_frame": 220
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.32126123,
+    "after_frame": 221
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.371778926,
+    "after_frame": 222
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.422195933,
+    "after_frame": 223
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.462692059,
+    "after_frame": 224
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.5198957,
+    "after_frame": 225
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.569490252,
+    "after_frame": 226
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7826.618716503,
+    "after_frame": 227
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7826.967662029,
+    "after_frame": 234
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7827.473397692,
+    "after_frame": 244
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7827.874305253,
+    "after_frame": 252
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7827.956732672,
+    "after_frame": 253
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.010436805,
+    "after_frame": 254
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.063302184,
+    "after_frame": 255
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.112292364,
+    "after_frame": 256
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.163043102,
+    "after_frame": 257
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.208919965,
+    "after_frame": 258
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.248794358,
+    "after_frame": 259
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.31002171,
+    "after_frame": 260
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.362371397,
+    "after_frame": 261
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.4123627,
+    "after_frame": 262
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.450850457,
+    "after_frame": 263
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.513878098,
+    "after_frame": 264
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.550883476,
+    "after_frame": 265
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.602363988,
+    "after_frame": 266
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.661432568,
+    "after_frame": 267
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.700698988,
+    "after_frame": 268
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.75799117,
+    "after_frame": 269
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.808671958,
+    "after_frame": 270
+  },
+  {
+    "input_hex": "6c",
+    "monotonic": 7828.861965158,
+    "after_frame": 271
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.20618618,
+    "after_frame": 278
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.27293629,
+    "after_frame": 279
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.310622201,
+    "after_frame": 280
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.362842597,
+    "after_frame": 281
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.421046283,
+    "after_frame": 282
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.476629197,
+    "after_frame": 283
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.529690417,
+    "after_frame": 284
+  },
+  {
+    "input_hex": "69",
+    "monotonic": 7829.582593996,
+    "after_frame": 285
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7829.918811607,
+    "after_frame": 292
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7830.321193194,
+    "after_frame": 300
+  },
+  {
+    "input_hex": "20",
+    "monotonic": 7830.825927403,
+    "after_frame": 309
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7830.876535051,
+    "after_frame": 310
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7830.938126404,
+    "after_frame": 311
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7830.988251769,
+    "after_frame": 312
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.039107268,
+    "after_frame": 313
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.084812581,
+    "after_frame": 314
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.143575719,
+    "after_frame": 315
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.191324633,
+    "after_frame": 316
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.241700829,
+    "after_frame": 317
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.294772159,
+    "after_frame": 318
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.34994429,
+    "after_frame": 319
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.412456919,
+    "after_frame": 320
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.464445102,
+    "after_frame": 321
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.511765744,
+    "after_frame": 322
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.561743367,
+    "after_frame": 323
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.614716268,
+    "after_frame": 324
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.659673416,
+    "after_frame": 325
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.708621445,
+    "after_frame": 326
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.761625105,
+    "after_frame": 327
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.81184704,
+    "after_frame": 328
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.863307352,
+    "after_frame": 329
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.918413613,
+    "after_frame": 330
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7831.972171266,
+    "after_frame": 331
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.02385803,
+    "after_frame": 332
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.071268871,
+    "after_frame": 333
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.120716332,
+    "after_frame": 334
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.169616311,
+    "after_frame": 335
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.220096808,
+    "after_frame": 336
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.272813196,
+    "after_frame": 337
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.321446653,
+    "after_frame": 338
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.382638225,
+    "after_frame": 339
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.445830498,
+    "after_frame": 340
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.489568109,
+    "after_frame": 341
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.531706994,
+    "after_frame": 342
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.580840894,
+    "after_frame": 343
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.643664554,
+    "after_frame": 344
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.682075759,
+    "after_frame": 345
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.731967323,
+    "after_frame": 346
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.779227074,
+    "after_frame": 347
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.833437419,
+    "after_frame": 348
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.894881362,
+    "after_frame": 349
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.935189028,
+    "after_frame": 350
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7832.988179947,
+    "after_frame": 351
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.030842235,
+    "after_frame": 352
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.08113298,
+    "after_frame": 353
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.131934738,
+    "after_frame": 354
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.183186499,
+    "after_frame": 355
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.235164813,
+    "after_frame": 356
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.283046028,
+    "after_frame": 357
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.336082057,
+    "after_frame": 358
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.40720592,
+    "after_frame": 359
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.45858492,
+    "after_frame": 360
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.506845547,
+    "after_frame": 361
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.55277126,
+    "after_frame": 362
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.604737175,
+    "after_frame": 363
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.657145472,
+    "after_frame": 364
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.700334931,
+    "after_frame": 365
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.758551147,
+    "after_frame": 366
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.814600702,
+    "after_frame": 367
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.868285396,
+    "after_frame": 368
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.910651421,
+    "after_frame": 369
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7833.961094729,
+    "after_frame": 370
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.011522535,
+    "after_frame": 371
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.061810441,
+    "after_frame": 372
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.111304632,
+    "after_frame": 373
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.17164728,
+    "after_frame": 374
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.214147396,
+    "after_frame": 375
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.267320126,
+    "after_frame": 376
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.318870479,
+    "after_frame": 377
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.363197184,
+    "after_frame": 378
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.416582236,
+    "after_frame": 379
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.462225758,
+    "after_frame": 380
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.514340833,
+    "after_frame": 381
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.569593154,
+    "after_frame": 382
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.617311087,
+    "after_frame": 383
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.665960635,
+    "after_frame": 384
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.71402789,
+    "after_frame": 385
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.764705628,
+    "after_frame": 386
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.815181954,
+    "after_frame": 387
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.86732176,
+    "after_frame": 388
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.918995533,
+    "after_frame": 389
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7834.964569045,
+    "after_frame": 390
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.01681323,
+    "after_frame": 391
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.067097026,
+    "after_frame": 392
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.117281902,
+    "after_frame": 393
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.166964645,
+    "after_frame": 394
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.21720133,
+    "after_frame": 395
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.267432766,
+    "after_frame": 396
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.31732499,
+    "after_frame": 397
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.373575716,
+    "after_frame": 398
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.416500164,
+    "after_frame": 399
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.465262392,
+    "after_frame": 400
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.521372098,
+    "after_frame": 401
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.574597748,
+    "after_frame": 402
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.613257826,
+    "after_frame": 403
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.66336949,
+    "after_frame": 404
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.713916277,
+    "after_frame": 405
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.771184239,
+    "after_frame": 406
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.817738016,
+    "after_frame": 407
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.870974596,
+    "after_frame": 408
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.921114842,
+    "after_frame": 409
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7835.971250057,
+    "after_frame": 410
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.018140246,
+    "after_frame": 411
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.06994938,
+    "after_frame": 412
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.117540282,
+    "after_frame": 413
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.166255039,
+    "after_frame": 414
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.220778017,
+    "after_frame": 415
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.276844612,
+    "after_frame": 416
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.322236863,
+    "after_frame": 417
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.373622125,
+    "after_frame": 418
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.424196592,
+    "after_frame": 419
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.477242903,
+    "after_frame": 420
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.521126716,
+    "after_frame": 421
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.573797074,
+    "after_frame": 422
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.621953439,
+    "after_frame": 423
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.668260065,
+    "after_frame": 424
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.719434165,
+    "after_frame": 425
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.777056978,
+    "after_frame": 426
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.817186652,
+    "after_frame": 427
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.878908436,
+    "after_frame": 428
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.918335717,
+    "after_frame": 429
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7836.967972559,
+    "after_frame": 430
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.020353386,
+    "after_frame": 431
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.06824416,
+    "after_frame": 432
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.119663682,
+    "after_frame": 433
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.17649337,
+    "after_frame": 434
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.218758485,
+    "after_frame": 435
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.269827646,
+    "after_frame": 436
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.322889365,
+    "after_frame": 437
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.369755183,
+    "after_frame": 438
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.420990005,
+    "after_frame": 439
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.477831034,
+    "after_frame": 440
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.52220512,
+    "after_frame": 441
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.569991263,
+    "after_frame": 442
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.62045024,
+    "after_frame": 443
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.669866551,
+    "after_frame": 444
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.719452814,
+    "after_frame": 445
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.770924265,
+    "after_frame": 446
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.821345293,
+    "after_frame": 447
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.871485907,
+    "after_frame": 448
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.927288882,
+    "after_frame": 449
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7837.979593687,
+    "after_frame": 450
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.044256426,
+    "after_frame": 451
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.089370086,
+    "after_frame": 452
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.142529556,
+    "after_frame": 453
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.193869028,
+    "after_frame": 454
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.243707122,
+    "after_frame": 455
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.289271493,
+    "after_frame": 456
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.341106457,
+    "after_frame": 457
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.391379063,
+    "after_frame": 458
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.446696755,
+    "after_frame": 459
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.491398692,
+    "after_frame": 460
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.550790615,
+    "after_frame": 461
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.590059144,
+    "after_frame": 462
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.639273954,
+    "after_frame": 463
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.696482606,
+    "after_frame": 464
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.743655466,
+    "after_frame": 465
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.791227918,
+    "after_frame": 466
+  },
+  {
+    "input_hex": "77",
+    "monotonic": 7838.841799145,
+    "after_frame": 467
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7839.182852381,
+    "after_frame": 474
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7839.638689,
+    "after_frame": 483
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.090413178,
+    "after_frame": 492
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.15155868,
+    "after_frame": 493
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.203868377,
+    "after_frame": 494
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.256541754,
+    "after_frame": 495
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.301833955,
+    "after_frame": 496
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.353683779,
+    "after_frame": 497
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.407198331,
+    "after_frame": 498
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.449465436,
+    "after_frame": 499
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.508263745,
+    "after_frame": 500
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.547681506,
+    "after_frame": 501
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.598178274,
+    "after_frame": 502
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.648338138,
+    "after_frame": 503
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.698940656,
+    "after_frame": 504
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.74914957,
+    "after_frame": 505
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.80395195,
+    "after_frame": 506
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.853963815,
+    "after_frame": 507
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.912702344,
+    "after_frame": 508
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7840.957397761,
+    "after_frame": 509
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.006920143,
+    "after_frame": 510
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.054095573,
+    "after_frame": 511
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.101937837,
+    "after_frame": 512
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.152511393,
+    "after_frame": 513
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.204017295,
+    "after_frame": 514
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.254439932,
+    "after_frame": 515
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.310328177,
+    "after_frame": 516
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.357492316,
+    "after_frame": 517
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.410277695,
+    "after_frame": 518
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.456635402,
+    "after_frame": 519
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.505407999,
+    "after_frame": 520
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.554356269,
+    "after_frame": 521
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.604129401,
+    "after_frame": 522
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.656097336,
+    "after_frame": 523
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.703648868,
+    "after_frame": 524
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.753193461,
+    "after_frame": 525
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.81208676,
+    "after_frame": 526
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.857547851,
+    "after_frame": 527
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.910991134,
+    "after_frame": 528
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7841.960789287,
+    "after_frame": 529
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.003869116,
+    "after_frame": 530
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.057243138,
+    "after_frame": 531
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.115868615,
+    "after_frame": 532
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.156158221,
+    "after_frame": 533
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.219864785,
+    "after_frame": 534
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.274588703,
+    "after_frame": 535
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.322043925,
+    "after_frame": 536
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.371931549,
+    "after_frame": 537
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.421305591,
+    "after_frame": 538
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.478166039,
+    "after_frame": 539
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.525780752,
+    "after_frame": 540
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.577447655,
+    "after_frame": 541
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.622097432,
+    "after_frame": 542
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.673299163,
+    "after_frame": 543
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.726621944,
+    "after_frame": 544
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.776407567,
+    "after_frame": 545
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.831089285,
+    "after_frame": 546
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.879870623,
+    "after_frame": 547
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.930737122,
+    "after_frame": 548
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7842.97741203,
+    "after_frame": 549
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.028150668,
+    "after_frame": 550
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.083929442,
+    "after_frame": 551
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.142721691,
+    "after_frame": 552
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.192319244,
+    "after_frame": 553
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.239304603,
+    "after_frame": 554
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.290126742,
+    "after_frame": 555
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.345412533,
+    "after_frame": 556
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.387159096,
+    "after_frame": 557
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.45667827,
+    "after_frame": 558
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.511376207,
+    "after_frame": 559
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.565794055,
+    "after_frame": 560
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.617162126,
+    "after_frame": 561
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.672230916,
+    "after_frame": 562
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.730637684,
+    "after_frame": 563
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.78106316,
+    "after_frame": 564
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.829537176,
+    "after_frame": 565
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.889328001,
+    "after_frame": 566
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.941935879,
+    "after_frame": 567
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7843.990541946,
+    "after_frame": 568
+  },
+  {
+    "input_hex": "61",
+    "monotonic": 7844.040805342,
+    "after_frame": 569
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7844.353951385,
+    "after_frame": 575
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7844.815825116,
+    "after_frame": 584
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.220037723,
+    "after_frame": 592
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.272822972,
+    "after_frame": 593
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.343520641,
+    "after_frame": 594
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.397541556,
+    "after_frame": 595
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.456875339,
+    "after_frame": 596
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.506492641,
+    "after_frame": 597
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.556275375,
+    "after_frame": 598
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.606324199,
+    "after_frame": 599
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.655141698,
+    "after_frame": 600
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.699582133,
+    "after_frame": 601
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.74808375,
+    "after_frame": 602
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.820205158,
+    "after_frame": 603
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.872886696,
+    "after_frame": 604
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.919895545,
+    "after_frame": 605
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7845.973099506,
+    "after_frame": 606
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.021892074,
+    "after_frame": 607
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.069859308,
+    "after_frame": 608
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.123081259,
+    "after_frame": 609
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.172630171,
+    "after_frame": 610
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.226030253,
+    "after_frame": 611
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.275290903,
+    "after_frame": 612
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.338811146,
+    "after_frame": 613
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.390305229,
+    "after_frame": 614
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.442621275,
+    "after_frame": 615
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.494328388,
+    "after_frame": 616
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.550368783,
+    "after_frame": 617
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.597930356,
+    "after_frame": 618
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.647687958,
+    "after_frame": 619
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.68932777,
+    "after_frame": 620
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.749788718,
+    "after_frame": 621
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.799073219,
+    "after_frame": 622
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.852523001,
+    "after_frame": 623
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.903710091,
+    "after_frame": 624
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7846.953473755,
+    "after_frame": 625
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.003053657,
+    "after_frame": 626
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.052485048,
+    "after_frame": 627
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.104488793,
+    "after_frame": 628
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.158776039,
+    "after_frame": 629
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.207521978,
+    "after_frame": 630
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.257706593,
+    "after_frame": 631
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.309934129,
+    "after_frame": 632
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.36136669,
+    "after_frame": 633
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.417809137,
+    "after_frame": 634
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.478573027,
+    "after_frame": 635
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.535452056,
+    "after_frame": 636
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.586406206,
+    "after_frame": 637
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.63637754,
+    "after_frame": 638
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.684249284,
+    "after_frame": 639
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.742624551,
+    "after_frame": 640
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.796276234,
+    "after_frame": 641
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.848155647,
+    "after_frame": 642
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.901710401,
+    "after_frame": 643
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7847.957516914,
+    "after_frame": 644
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7848.01558268,
+    "after_frame": 645
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7848.065880726,
+    "after_frame": 646
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7848.115652679,
+    "after_frame": 647
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7848.165747434,
+    "after_frame": 648
+  },
+  {
+    "input_hex": "73",
+    "monotonic": 7848.217556558,
+    "after_frame": 649
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.536058819,
+    "after_frame": 655
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.581264508,
+    "after_frame": 656
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.647307475,
+    "after_frame": 657
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.700647297,
+    "after_frame": 658
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.751433674,
+    "after_frame": 659
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.804269144,
+    "after_frame": 660
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.85478131,
+    "after_frame": 661
+  },
+  {
+    "input_hex": "6b",
+    "monotonic": 7848.907843801,
+    "after_frame": 662
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7849.260227944,
+    "after_frame": 669
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7849.708846337,
+    "after_frame": 678
+  },
+  {
+    "input_hex": "68",
+    "monotonic": 7850.193434214,
+    "after_frame": 687
+  },
+  {
+    "input_hex": "68",
+    "monotonic": 7850.694183522,
+    "after_frame": 697
+  },
+  {
+    "resize": [
+      70,
+      20
+    ],
+    "monotonic": 7851.175516701
+  },
+  {
+    "resize": [
+      100,
+      36
+    ],
+    "monotonic": 7851.71734729
+  },
+  {
+    "input_hex": "72",
+    "monotonic": 7852.217623964,
+    "after_frame": 727
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7852.688613841,
+    "after_frame": 736
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7852.757045419,
+    "after_frame": 737
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7852.809738448,
+    "after_frame": 738
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7852.859816552,
+    "after_frame": 739
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7852.908576071,
+    "after_frame": 740
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7852.963390499,
+    "after_frame": 741
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.012045457,
+    "after_frame": 742
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.060638914,
+    "after_frame": 743
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.110653278,
+    "after_frame": 744
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.161725188,
+    "after_frame": 745
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.21125927,
+    "after_frame": 746
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.25621585,
+    "after_frame": 747
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.316327335,
+    "after_frame": 748
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.366210019,
+    "after_frame": 749
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.407179968,
+    "after_frame": 750
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.466182248,
+    "after_frame": 751
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.517349898,
+    "after_frame": 752
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.56682829,
+    "after_frame": 753
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.61388523,
+    "after_frame": 754
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.6689699,
+    "after_frame": 755
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.71809548,
+    "after_frame": 756
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.758847018,
+    "after_frame": 757
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.805365075,
+    "after_frame": 758
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.854830756,
+    "after_frame": 759
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.92043646,
+    "after_frame": 760
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7853.967969712,
+    "after_frame": 761
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.021379534,
+    "after_frame": 762
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.074078941,
+    "after_frame": 763
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.126169456,
+    "after_frame": 764
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.175752669,
+    "after_frame": 765
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.233203662,
+    "after_frame": 766
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.291510348,
+    "after_frame": 767
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.342409077,
+    "after_frame": 768
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.392592362,
+    "after_frame": 769
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.440614307,
+    "after_frame": 770
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.49425521,
+    "after_frame": 771
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.534608975,
+    "after_frame": 772
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.5926183,
+    "after_frame": 773
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.642757035,
+    "after_frame": 774
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.690964071,
+    "after_frame": 775
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.742065491,
+    "after_frame": 776
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.793761755,
+    "after_frame": 777
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.840536682,
+    "after_frame": 778
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.892500626,
+    "after_frame": 779
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7854.955141515,
+    "after_frame": 780
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.011602463,
+    "after_frame": 781
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.046869602,
+    "after_frame": 782
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.108121425,
+    "after_frame": 783
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.148897621,
+    "after_frame": 784
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.207961502,
+    "after_frame": 785
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.258192997,
+    "after_frame": 786
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.309326597,
+    "after_frame": 787
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.359491853,
+    "after_frame": 788
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.418466183,
+    "after_frame": 789
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.465151211,
+    "after_frame": 790
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.517693848,
+    "after_frame": 791
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.566389206,
+    "after_frame": 792
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.615466386,
+    "after_frame": 793
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.667797782,
+    "after_frame": 794
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.71632688,
+    "after_frame": 795
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.766398344,
+    "after_frame": 796
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.817148713,
+    "after_frame": 797
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.864849605,
+    "after_frame": 798
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.904762378,
+    "after_frame": 799
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7855.957573637,
+    "after_frame": 800
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.001769152,
+    "after_frame": 801
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.061399135,
+    "after_frame": 802
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.108099873,
+    "after_frame": 803
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.155185633,
+    "after_frame": 804
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.206869456,
+    "after_frame": 805
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.255800404,
+    "after_frame": 806
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.305021975,
+    "after_frame": 807
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.354959309,
+    "after_frame": 808
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.410309251,
+    "after_frame": 809
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.456673767,
+    "after_frame": 810
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.508090048,
+    "after_frame": 811
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.560256184,
+    "after_frame": 812
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.606550439,
+    "after_frame": 813
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.659889771,
+    "after_frame": 814
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.709040451,
+    "after_frame": 815
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.757383548,
+    "after_frame": 816
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.805590912,
+    "after_frame": 817
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.85614696,
+    "after_frame": 818
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.908963719,
+    "after_frame": 819
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7856.958589251,
+    "after_frame": 820
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.009246778,
+    "after_frame": 821
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.059800796,
+    "after_frame": 822
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.109837761,
+    "after_frame": 823
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.159628404,
+    "after_frame": 824
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.208192781,
+    "after_frame": 825
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.25711855,
+    "after_frame": 826
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.311919429,
+    "after_frame": 827
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.359227389,
+    "after_frame": 828
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.413103544,
+    "after_frame": 829
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.460520916,
+    "after_frame": 830
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.510815761,
+    "after_frame": 831
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.558131652,
+    "after_frame": 832
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.612182257,
+    "after_frame": 833
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.658154341,
+    "after_frame": 834
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.71102158,
+    "after_frame": 835
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.758801433,
+    "after_frame": 836
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.809981414,
+    "after_frame": 837
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.857836727,
+    "after_frame": 838
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.924041684,
+    "after_frame": 839
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7857.966645481,
+    "after_frame": 840
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.018058913,
+    "after_frame": 841
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.072110457,
+    "after_frame": 842
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.116461173,
+    "after_frame": 843
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.168373858,
+    "after_frame": 844
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.217552828,
+    "after_frame": 845
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.266910159,
+    "after_frame": 846
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.318651952,
+    "after_frame": 847
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.366897237,
+    "after_frame": 848
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.417880028,
+    "after_frame": 849
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.467691461,
+    "after_frame": 850
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.518304508,
+    "after_frame": 851
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.568549864,
+    "after_frame": 852
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.617687833,
+    "after_frame": 853
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.668416242,
+    "after_frame": 854
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.719081921,
+    "after_frame": 855
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.776550002,
+    "after_frame": 856
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.827334541,
+    "after_frame": 857
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.87438892,
+    "after_frame": 858
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.928920188,
+    "after_frame": 859
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7858.972263158,
+    "after_frame": 860
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.0216482,
+    "after_frame": 861
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.071743435,
+    "after_frame": 862
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.122290402,
+    "after_frame": 863
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.174664948,
+    "after_frame": 864
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.220423381,
+    "after_frame": 865
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.272086114,
+    "after_frame": 866
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.322154739,
+    "after_frame": 867
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.37926623,
+    "after_frame": 868
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.431650446,
+    "after_frame": 869
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.47768632,
+    "after_frame": 870
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.525976056,
+    "after_frame": 871
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.576800465,
+    "after_frame": 872
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.625436273,
+    "after_frame": 873
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.678931365,
+    "after_frame": 874
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.743282222,
+    "after_frame": 875
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.787962939,
+    "after_frame": 876
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.83732592,
+    "after_frame": 877
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.886645632,
+    "after_frame": 878
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.936586466,
+    "after_frame": 879
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7859.988809921,
+    "after_frame": 880
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.036269123,
+    "after_frame": 881
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.087169612,
+    "after_frame": 882
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.140359853,
+    "after_frame": 883
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.199059712,
+    "after_frame": 884
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.250113022,
+    "after_frame": 885
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.30282483,
+    "after_frame": 886
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.352541412,
+    "after_frame": 887
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.402648478,
+    "after_frame": 888
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.441180974,
+    "after_frame": 889
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.504516206,
+    "after_frame": 890
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.552602381,
+    "after_frame": 891
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.60337523,
+    "after_frame": 892
+  },
+  {
+    "input_hex": "7764",
+    "monotonic": 7860.653330064,
+    "after_frame": 893
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7860.946843447,
+    "after_frame": 899
+  },
+  {
+    "input_hex": "70",
+    "monotonic": 7861.347527796,
+    "after_frame": 907
+  },
+  {
+    "input_hex": "71",
+    "monotonic": 7861.827601079,
+    "after_frame": 916
+  }
+]
