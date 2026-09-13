@@ -1,0 +1,275 @@
+{
+  "scope": "Linux-only assignment executed; original both-platform contract remains deferred for Windows. This is worker evidence, not durable node/root completion.",
+  "source_commit": "b90fb50e368f9d40592edaee4575ce31a3a2fe1a",
+  "repository": "git@github.com:rickseeger/ai-game-04.git",
+  "artifact": "/opt/g-harness/workspace/G11/node_10_step_102/deliverables/lantern-survey-linux-b90fb50e368f9d40592edaee4575ce31a3a2fe1a.tar.gz",
+  "artifact_sha256": "93428c045eb2178c3d6c1cf5ecb815837215d10e9c4d7debfb3e6cafb599c926",
+  "cross_python_tarballs_identical": true,
+  "runs": {
+    "311": {
+      "passed": true,
+      "source_commit": "b90fb50e368f9d40592edaee4575ce31a3a2fe1a",
+      "remote": "https://github.com/rickseeger/ai-game-04.git",
+      "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+      "bootstrap_python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+      "isolation": "fresh public clone; fresh HOME; venv --without-pip, no system site packages; allowlisted environment; installed launcher from unrelated cwd (not a container)",
+      "windows": "explicitly deferred; no artifact or native execution claimed",
+      "independent_beauty_or_fun_validated": false,
+      "environment": {
+        "PATH": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-311/venv/bin:/usr/bin:/bin",
+        "HOME": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-311/home",
+        "LANG": "C.UTF-8",
+        "LC_ALL": "C.UTF-8",
+        "TERM": "xterm-256color",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "GIT_CONFIG_NOSYSTEM": "1",
+        "GIT_CONFIG_GLOBAL": "/dev/null"
+      },
+      "runtime_environment": {
+        "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+        "executable": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-311/venv/bin/python3",
+        "prefix": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-311/venv",
+        "base_prefix": "/root/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu",
+        "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+        "machine": "x86_64",
+        "packages": [],
+        "zlib": "1.3.2"
+      },
+      "two_builds_byte_identical": true,
+      "actual_truecolor_ansi_captured": true,
+      "installed_sources_match_manifest_and_commit": true,
+      "artifact": "distribution/lantern-survey-linux-b90fb50e368f9d40592edaee4575ce31a3a2fe1a.tar.gz",
+      "artifact_sha256": "93428c045eb2178c3d6c1cf5ecb815837215d10e9c4d7debfb3e6cafb599c926",
+      "legacy_pyz_sha256": "074f5f670aa35f587bc93cdd172770290602fe44e4d9b288127b209edf577c5e",
+      "pty_result": {
+        "passed": true,
+        "collision_frame": 120,
+        "photo_frames": [
+          1023,
+          2120,
+          3390
+        ],
+        "won_frame": 4107,
+        "won_state": {
+          "phase": "won",
+          "remaining_s": 366.2311195069997,
+          "photos": [
+            [
+              "sight-2",
+              140
+            ],
+            [
+              "sight-3",
+              140
+            ],
+            [
+              "sight-4",
+              140
+            ]
+          ],
+          "score": 420
+        },
+        "won_player": {
+          "feet": {
+            "x": -0.10936457807546128,
+            "y": 0,
+            "z": 0.1998549891358835
+          },
+          "yaw": 0.004943998185940601,
+          "pitch": -0.09586992107940656
+        },
+        "termios_exactly_restored": true,
+        "wall_seconds": 272.39783485299995,
+        "native_windows_validated": false,
+        "independent_beauty_or_fun_validated": false
+      },
+      "verification": {
+        "passed": true,
+        "source_hashes_match": true,
+        "trace_frames_replayed_exactly": 4127,
+        "actual_checkpoints_regenerated_exactly": 24,
+        "collision_frames": 2,
+        "walked_distance_m_excluding_resets": 899.2959769068917,
+        "transcript_sha256": "77790a5d01b594227382f6bd72cbe11d0503fcae038ddede36a0575f5bcbec58",
+        "termios_exactly_restored": true,
+        "won_state": {
+          "phase": "won",
+          "remaining_s": 366.2311195069997,
+          "photos": [
+            [
+              "sight-2",
+              140
+            ],
+            [
+              "sight-3",
+              140
+            ],
+            [
+              "sight-4",
+              140
+            ]
+          ],
+          "score": 420
+        },
+        "limitations": "Exact action replay and regenerated frames confirm consistency of actual PTY evidence, not independent beauty, enjoyment or native Windows execution."
+      },
+      "unittest_count": 157,
+      "evidence_archive": {
+        "path": "/opt/g-harness/workspace/G11/node_10_step_102/deliverables/linux-validation-311-evidence.tar.gz",
+        "sha256": "916124b8f10aa957f8a939be8dd4759f6ae14d66420c698c6c3c483247c22682",
+        "members": 55,
+        "index_member": "linux-validation-311/evidence-files.json"
+      },
+      "active_seconds_to_win": 233.76888049300032,
+      "pty_exit_code": 0
+    },
+    "314": {
+      "passed": true,
+      "source_commit": "b90fb50e368f9d40592edaee4575ce31a3a2fe1a",
+      "remote": "https://github.com/rickseeger/ai-game-04.git",
+      "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+      "bootstrap_python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+      "isolation": "fresh public clone; fresh HOME; venv --without-pip, no system site packages; allowlisted environment; installed launcher from unrelated cwd (not a container)",
+      "windows": "explicitly deferred; no artifact or native execution claimed",
+      "independent_beauty_or_fun_validated": false,
+      "environment": {
+        "PATH": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-314/venv/bin:/usr/bin:/bin",
+        "HOME": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-314/home",
+        "LANG": "C.UTF-8",
+        "LC_ALL": "C.UTF-8",
+        "TERM": "xterm-256color",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "GIT_CONFIG_NOSYSTEM": "1",
+        "GIT_CONFIG_GLOBAL": "/dev/null"
+      },
+      "runtime_environment": {
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "executable": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-314/venv/bin/python3",
+        "prefix": "/opt/g-harness/workspace/G11/node_10_step_102/linux-validation-314/venv",
+        "base_prefix": "/usr",
+        "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+        "machine": "x86_64",
+        "packages": [],
+        "zlib": "1.3.1"
+      },
+      "two_builds_byte_identical": true,
+      "actual_truecolor_ansi_captured": true,
+      "installed_sources_match_manifest_and_commit": true,
+      "artifact": "distribution/lantern-survey-linux-b90fb50e368f9d40592edaee4575ce31a3a2fe1a.tar.gz",
+      "artifact_sha256": "93428c045eb2178c3d6c1cf5ecb815837215d10e9c4d7debfb3e6cafb599c926",
+      "legacy_pyz_sha256": "074f5f670aa35f587bc93cdd172770290602fe44e4d9b288127b209edf577c5e",
+      "pty_result": {
+        "passed": true,
+        "collision_frame": 129,
+        "photo_frames": [
+          1151,
+          2482,
+          3999
+        ],
+        "won_frame": 4890,
+        "won_state": {
+          "phase": "won",
+          "remaining_s": 365.0117263790007,
+          "photos": [
+            [
+              "sight-2",
+              140
+            ],
+            [
+              "sight-3",
+              140
+            ],
+            [
+              "sight-4",
+              140
+            ]
+          ],
+          "score": 420
+        },
+        "won_player": {
+          "feet": {
+            "x": -0.1570990289595115,
+            "y": 0,
+            "z": 0.23318846679831917
+          },
+          "yaw": 6.256683386045338,
+          "pitch": -0.032925160210795286
+        },
+        "termios_exactly_restored": true,
+        "wall_seconds": 272.8174191320004,
+        "native_windows_validated": false,
+        "independent_beauty_or_fun_validated": false
+      },
+      "verification": {
+        "passed": true,
+        "source_hashes_match": true,
+        "trace_frames_replayed_exactly": 4911,
+        "actual_checkpoints_regenerated_exactly": 24,
+        "collision_frames": 2,
+        "walked_distance_m_excluding_resets": 906.9286915857787,
+        "transcript_sha256": "d97588a0d7ad6153992edd68c0120c88f0586ea47e4376d2111ea5571aafcf20",
+        "termios_exactly_restored": true,
+        "won_state": {
+          "phase": "won",
+          "remaining_s": 365.0117263790007,
+          "photos": [
+            [
+              "sight-2",
+              140
+            ],
+            [
+              "sight-3",
+              140
+            ],
+            [
+              "sight-4",
+              140
+            ]
+          ],
+          "score": 420
+        },
+        "limitations": "Exact action replay and regenerated frames confirm consistency of actual PTY evidence, not independent beauty, enjoyment or native Windows execution."
+      },
+      "unittest_count": 157,
+      "evidence_archive": {
+        "path": "/opt/g-harness/workspace/G11/node_10_step_102/deliverables/linux-validation-314-evidence.tar.gz",
+        "sha256": "2cd0eeb5b657391ea164357db33333cf3e6ac4d9bbc499847a72626b75469b58",
+        "members": 55,
+        "index_member": "linux-validation-314/evidence-files.json"
+      },
+      "active_seconds_to_win": 234.98827362099928,
+      "pty_exit_code": 0
+    }
+  },
+  "ci": {
+    "run_id": 34774048306,
+    "url": "https://github.com/rickseeger/ai-game-04/actions/runs/34774048306",
+    "head_sha": "b90fb50e368f9d40592edaee4575ce31a3a2fe1a",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "smoke (ubuntu-latest, 3.14)",
+        "conclusion": "success"
+      },
+      {
+        "name": "smoke (ubuntu-latest, 3.11)",
+        "conclusion": "success"
+      }
+    ],
+    "windows_jobs_scheduled": false
+  },
+  "host_details": {
+    "os_release": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04.1 LTS (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+    "cpu": "model name\t: AMD EPYC 9354P 32-Core Processor"
+  },
+  "source_preservation": "Renderer, appearance, movement, gameplay and app modules unchanged. Capture gains read-only location/interpreter/distribution provenance.",
+  "limitations": [
+    "Clean venv and HOME with no pip/site packages on existing Linux host, not a fresh OS/container.",
+    "Two real PTY sessions overlapped; timings are validation under that load, not an isolated performance benchmark.",
+    "Actual emitted color ANSI and RGB cells plus exact kernel termios restoration; VT restoration is modeled, not a physical terminal screenshot.",
+    "Windows distribution and native Windows execution are explicitly deferred, not passing or currently requested from a human.",
+    "Independent aesthetic/enjoyment assessment remains node 11."
+  ],
+  "later_windows_request": "In the later Windows pass, supply a Windows candidate bound to a full commit and SHA-256, then ask Andrew or an interactive native Windows 10/11 runner to test launch, movement/turn/look/shutter/submission/pause/restart, actual city rendering and resize, Q/Escape/Ctrl-C, and restored shell/modes; return Windows/Python/terminal versions, recordings and observations. Do not accept mocks, cross-builds or artifact existence as runtime proof.",
+  "development_issue_resolved": "An initial validation-script quoting SyntaxError was caught by --help before commit, fixed, and guarded with a CLI test; both committed fresh-clone validations then passed."
+}
