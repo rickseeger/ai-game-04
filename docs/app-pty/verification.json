@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "source_hashes_match": true,
+  "trace_frames_replayed_exactly": 4821,
+  "actual_checkpoints_regenerated_exactly": 24,
+  "collision_frames": 2,
+  "walked_distance_m_excluding_resets": 898.2786707104726,
+  "transcript_sha256": "39b6ba7f01ac92aac23853d8a9ef0b61ef05ba8c5f83844fb61921e96aa3d190",
+  "termios_exactly_restored": true,
+  "won_state": {
+    "phase": "won",
+    "remaining_s": 367.0057961469993,
+    "photos": [
+      [
+        "sight-2",
+        140
+      ],
+      [
+        "sight-3",
+        140
+      ],
+      [
+        "sight-4",
+        140
+      ]
+    ],
+    "score": 420
+  },
+  "limitations": "Exact action replay and regenerated frames confirm consistency of actual PTY evidence, not independent beauty, enjoyment or native Windows execution."
+}

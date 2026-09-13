@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "collision_frame": 127,
+  "photo_frames": [
+    1112,
+    2392,
+    3927
+  ],
+  "won_frame": 4802,
+  "won_state": {
+    "phase": "won",
+    "remaining_s": 367.0057961469993,
+    "photos": [
+      [
+        "sight-2",
+        140
+      ],
+      [
+        "sight-3",
+        140
+      ],
+      [
+        "sight-4",
+        140
+      ]
+    ],
+    "score": 420
+  },
+  "won_player": {
+    "feet": {
+      "x": -0.1649375592834926,
+      "y": 0,
+      "z": 0.17824104790052528
+    },
+    "yaw": 6.276791097987965,
+    "pitch": -0.05214030222620746
+  },
+  "termios_exactly_restored": true,
+  "wall_seconds": 270.4458516909999,
+  "native_windows_validated": false,
+  "independent_beauty_or_fun_validated": false
+}

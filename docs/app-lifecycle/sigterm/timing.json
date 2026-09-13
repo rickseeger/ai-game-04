@@ -1,0 +1,15 @@
+{
+  "all_frames_including_cold_and_paused": {
+    "100x36": {
+      "frames": 6,
+      "render_median_ms": 40.208577000157675,
+      "render_p95_ms": 55.68898499950592,
+      "render_max_ms": 55.68898499950592,
+      "present_median_ms": 3.520103000482777,
+      "present_p95_ms": 4.601413999807846,
+      "present_max_ms": 4.601413999807846
+    }
+  },
+  "raw_samples": "trace.jsonl",
+  "present_includes": "HUD/ANSI encode, output write and flush; PTY reader drains concurrently; capture IO excluded"
+}

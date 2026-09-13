@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "source_sha": "5a01810b2f8ba61f806b6afe6b36416000e6c804",
+  "dirty": true,
+  "source_sha256": {
+    "__init__.py": "4de65b694884de3ccd84d1f2f9a61f21cf33d285e818ef502365da1eabc3abab",
+    "__main__.py": "a67c172046323b0efcafe92cb83abc266d5dd4bc931d9312cde1b7bed50643db",
+    "app.py": "3f131bab262dba44e48863eb2d2174f4fd1ed8812a221e11a3d6433f82df7a4b",
+    "appearance.py": "fd675bc9f6ff727b97243bbd5500733bf10bce59b0983cb66ee6d46264e85dea",
+    "camera.py": "9f773f8ef3924f0815319cc6ceb94e6c41bf931cb09a68c8f445bfcab62c47ff",
+    "capture.py": "e7e67b43f5e8a36de4cb3e7fde276cd0223d6e9cb681191471f45a6c358387a9",
+    "contracts.py": "5b4110c940da398f72f6fe3f153281f8a48e0368bcecd778874e330aed20fe9a",
+    "gameplay.py": "429fd05127366525a886f92a796835a0d3d1021b98eb16fd2ef28dd3a1ac3a04",
+    "movement.py": "711547139e87f736f34cb38302400e08b6943332b870d9ed0eb224e43fa979ef",
+    "rendering.py": "a836b839db41474805bd798c3898d9260a3a4c1348a8a8e5a712b71817eda312",
+    "spatial.py": "80d81c019440432730f710d933ef79d5b6de154724af54c5d9bd010ad100d46d",
+    "terminal.py": "3e570119feb9342309977da26215da6ff08aa5f79b7a06c9dc13cb28cc8de122"
+  },
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "cpu": "",
+  "argv": [
+    "/opt/g-harness/workspace/G11/node_9_step_101/repo/citywalk/__main__.py",
+    "--seed",
+    "11",
+    "--color",
+    "truecolor",
+    "--capture-dir",
+    "/opt/g-harness/workspace/G11/node_9_step_101/repo/docs/app-lifecycle/ctrl_c"
+  ],
+  "seed": 11,
+  "cell_aspect": 0.5,
+  "color": "truecolor",
+  "clock": "time.monotonic; real elapsed, movement capped at 0.10s; no accelerated clock",
+  "limitations": "Scripted PTY execution is not an independent aesthetic/enjoyment assessment or Windows runtime verification."
+}

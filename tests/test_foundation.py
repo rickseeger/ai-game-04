@@ -16,15 +16,15 @@ class FoundationSmoke(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stderr)
         data = json.loads(run.stdout)
         self.assertEqual(data["status"], "ok")
-        self.assertEqual(data["stage"], "foundation")
+        self.assertEqual(data["stage"], "playable")
         self.assertEqual(data["seed"], 93)
         self.assertEqual(data["eye_height_m"], 1.7)
         self.assertEqual(data["viewport"], [100, 32])
 
     def test_default_launch_is_honest_and_terminal_safe(self):
         run = self.run_cli()
-        self.assertEqual(run.returncode, 0, run.stderr)
-        self.assertIn("not implemented", run.stdout)
+        self.assertEqual(run.returncode, 2, run.stderr)
+        self.assertIn("TTY", run.stderr)
         self.assertNotIn("\x1b", run.stdout)
 
     def test_help_and_version(self):

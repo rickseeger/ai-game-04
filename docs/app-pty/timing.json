@@ -1,0 +1,33 @@
+{
+  "all_frames_including_cold_and_paused": {
+    "100x36": {
+      "frames": 4510,
+      "render_median_ms": 47.777154999948834,
+      "render_p95_ms": 58.74597999991238,
+      "render_max_ms": 73.75924700045289,
+      "present_median_ms": 3.2109964995470364,
+      "present_p95_ms": 4.490172999794595,
+      "present_max_ms": 8.761865999986185
+    },
+    "80x24": {
+      "frames": 304,
+      "render_median_ms": 17.56253999974433,
+      "render_p95_ms": 23.268239000572066,
+      "render_max_ms": 30.830706000415375,
+      "present_median_ms": 1.8490439997549402,
+      "present_p95_ms": 2.5914230000125826,
+      "present_max_ms": 2.877134999835107
+    },
+    "70x20": {
+      "frames": 7,
+      "render_median_ms": 0.010310000106983352,
+      "render_p95_ms": 0.3807820003203233,
+      "render_max_ms": 0.3807820003203233,
+      "present_median_ms": 0.05425200015451992,
+      "present_p95_ms": 0.06430099983845139,
+      "present_max_ms": 0.06430099983845139
+    }
+  },
+  "raw_samples": "trace.jsonl",
+  "present_includes": "HUD/ANSI encode, output write and flush; PTY reader drains concurrently; capture IO excluded"
+}

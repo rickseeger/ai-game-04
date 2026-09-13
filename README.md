@@ -1,9 +1,13 @@
 # Lantern Survey (G11)
 
-Foundation, spatial-generation, appearance, camera, renderer, movement, terminal and gameplay-rule milestones, NOT a playable city yet. Default launch reports this and
-exits normally. Headless rendering and injected-action movement are real; terminal adapters are available as components; pure survey rules are implemented; interactive application integration is not.
-Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
-and the chosen game are in [docs/design.md](docs/design.md).
+Playable Lantern Survey: explore the real street-level 3D colored ASCII city,
+photograph three distinct landmarks and return to the depot before 600 active
+seconds expire. Onboarding/help, pause, restart, new seed and clean quit are
+integrated. See [docs/integration.md](docs/integration.md) for controls,
+real-time PTY evidence and limitations. Beauty and enjoyment remain subject to
+independent play assessment; native Windows distribution/runtime verification
+is a separate gate. The historical component milestones below describe their
+state at the time, not the current default launch.
 
 ## Requirements and exact commands
 
@@ -37,8 +41,8 @@ never present Linux cross-builds as Windows runtime evidence.
 
 Final terminal target: Linux xterm-compatible UTF-8 terminal and Windows 10/11
 Windows Terminal with VT color support. ASCII glyphs keep cell widths portable.
-100x36 recommended, 80x24 minimum; proposed controls and resize behavior are in
-the design. CI runs foundation tests/build on Linux/Windows with Python 3.11/3.14.
+100x36 recommended, 80x24 minimum; implemented controls and resize behavior are in
+[the integration guide](docs/integration.md). CI runs foundation tests/build on Linux/Windows with Python 3.11/3.14.
 CI configuration is not proof those runs have passed, nor Windows game playtest proof.
 
 This node validates execution and architecture, not beauty or fun. See

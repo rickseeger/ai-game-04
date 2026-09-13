@@ -1,0 +1,30 @@
+[
+  {
+    "case": "escape_256",
+    "passed": true,
+    "exit_code": 0,
+    "termios_exactly_restored": true,
+    "transcript_sha256": "06145a6901068e4adaa05221b633be75a2b9a69d2312eb7a522202982727dd00"
+  },
+  {
+    "case": "ctrl_c",
+    "passed": true,
+    "exit_code": 130,
+    "termios_exactly_restored": true,
+    "transcript_sha256": "647644266557c9bf96a998e6156ebe85c937bfbbf9a4d978f8b8049ee6790116"
+  },
+  {
+    "case": "sigterm",
+    "passed": true,
+    "exit_code": 143,
+    "termios_exactly_restored": true,
+    "transcript_sha256": "2fd0904ea4de9156a72ae6fc30b873e32b007f4fbfb13860cb786015d6c9b8c0"
+  },
+  {
+    "case": "render_exception",
+    "passed": true,
+    "exit_code": 1,
+    "termios_exactly_restored": true,
+    "transcript_sha256": "aea185d9aa850fba0bdc69924abb4d77d1c4889b2d5ec1a4b13033bf15cbd4d1"
+  }
+]
