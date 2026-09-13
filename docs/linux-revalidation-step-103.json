@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "source_commit": "7c877935eacfecdb39100528713b74fbfd55527a",
+  "remote": "https://github.com/rickseeger/ai-game-04.git",
+  "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "bootstrap_python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "isolation": "fresh public clone; fresh HOME; venv --without-pip, no system site packages; allowlisted environment; installed launcher from unrelated cwd (not a container)",
+  "windows": "explicitly deferred; no artifact or native execution claimed",
+  "independent_beauty_or_fun_validated": false,
+  "environment": {
+    "PATH": "/opt/g-harness/workspace/G11/node_10_step_103/linux-validation/venv/bin:/usr/bin:/bin",
+    "HOME": "/opt/g-harness/workspace/G11/node_10_step_103/linux-validation/home",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "TERM": "xterm-256color",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "GIT_CONFIG_NOSYSTEM": "1",
+    "GIT_CONFIG_GLOBAL": "/dev/null"
+  },
+  "runtime_environment": {
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "executable": "/opt/g-harness/workspace/G11/node_10_step_103/linux-validation/venv/bin/python3",
+    "prefix": "/opt/g-harness/workspace/G11/node_10_step_103/linux-validation/venv",
+    "base_prefix": "/usr",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+    "machine": "x86_64",
+    "packages": [],
+    "zlib": "1.3.1"
+  },
+  "two_builds_byte_identical": true,
+  "actual_truecolor_ansi_captured": true,
+  "installed_sources_match_manifest_and_commit": true,
+  "artifact": "distribution/lantern-survey-linux-7c877935eacfecdb39100528713b74fbfd55527a.tar.gz",
+  "artifact_sha256": "dde8c725ecac97b59544cb0552b35af06a90acf0402a91abc5d621dd32458d9b",
+  "legacy_pyz_sha256": "074f5f670aa35f587bc93cdd172770290602fe44e4d9b288127b209edf577c5e",
+  "pty_result": {
+    "passed": true,
+    "collision_frame": 130,
+    "photo_frames": [
+      1131,
+      2438,
+      3972
+    ],
+    "won_frame": 4816,
+    "won_state": {
+      "phase": "won",
+      "remaining_s": 368.0908955269997,
+      "photos": [
+        [
+          "sight-2",
+          140
+        ],
+        [
+          "sight-3",
+          140
+        ],
+        [
+          "sight-4",
+          140
+        ]
+      ],
+      "score": 420
+    },
+    "won_player": {
+      "feet": {
+        "x": -0.303893900599798,
+        "y": 0,
+        "z": -0.36951428576995216
+      },
+      "yaw": 6.2813538120704635,
+      "pitch": 0.0353629753736774
+    },
+    "termios_exactly_restored": true,
+    "wall_seconds": 270.4030255380003,
+    "native_windows_validated": false,
+    "independent_beauty_or_fun_validated": false
+  },
+  "verification": {
+    "passed": true,
+    "source_hashes_match": true,
+    "trace_frames_replayed_exactly": 4836,
+    "actual_checkpoints_regenerated_exactly": 24,
+    "collision_frames": 2,
+    "walked_distance_m_excluding_resets": 895.9723389060478,
+    "transcript_sha256": "6b54543167539b995c03d574012a06451a650b045f57a8a5a0e898ee58089d49",
+    "termios_exactly_restored": true,
+    "won_state": {
+      "phase": "won",
+      "remaining_s": 368.0908955269997,
+      "photos": [
+        [
+          "sight-2",
+          140
+        ],
+        [
+          "sight-3",
+          140
+        ],
+        [
+          "sight-4",
+          140
+        ]
+      ],
+      "score": 420
+    },
+    "limitations": "Exact action replay and regenerated frames confirm consistency of actual PTY evidence, not independent beauty, enjoyment or native Windows execution."
+  },
+  "stored_node": {
+    "tree_id": "G11",
+    "node_id": 10,
+    "parent_id": 0,
+    "objective": "Produce a reproducible Linux runnable distribution: a launcher/entrypoint, install/run instructions, and a tested Linux build. Defer the Windows build to a later pass \u2014 Linux is the only target right now. Gate off or skip the Windows CI jobs so they stop failing as noise.",
+    "completion_contract": "Commit packaging and concise user instructions, build both platform artifacts from an identified commit, and provide durable artifact paths or release URLs with checksums. From a fresh clone in a clean environment, execute the documented Linux install/build/launch procedure and verify gameplay input and clean quit. Exercise the Windows artifact on Windows through an available runner or real tester, recording launch, controls, rendering, and quit results. Cross-compilation or artifact existence alone is not Windows runtime proof. If Windows execution requires outside help, report the exact blocking request rather than claiming validation. Record build logs, environment details, and artifact-to-commit provenance.",
+    "state": "open",
+    "state_memo": "validation failed; more work required",
+    "artifact_refs": "[]",
+    "created_at": "2026-09-13T16:46:49.433841+00:00",
+    "updated_at": "2026-09-13T18:22:42.572462+00:00"
+  },
+  "controller_reconciliation_required": {
+    "reason": "Linux objective explicitly defers Windows, while stored completion_contract still requires both platform artifacts and native Windows execution.",
+    "exact_request": "Controller: reconcile node 10 durable completion_contract to the already authorized Linux-first objective, explicitly preserve both-platform packaging and native Windows launch/controls/rendering/quit proof for a later Windows pass. Do not dispatch more Linux rebuilds to resolve this contract-only failure. Worker has not edited harness state.",
+    "previous_failure_log_id": 120
+  },
+  "ci": {
+    "source_commit": "7c877935eacfecdb39100528713b74fbfd55527a",
+    "run_url": "https://github.com/rickseeger/ai-game-04/actions/runs/34774383582",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "smoke (ubuntu-latest, 3.11)",
+        "conclusion": "success"
+      },
+      {
+        "name": "smoke (ubuntu-latest, 3.14)",
+        "conclusion": "success"
+      }
+    ],
+    "windows_scheduled": false
+  },
+  "deliverables": {
+    "ALL_SHA256SUMS": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/ALL_SHA256SUMS",
+      "sha256": "c6e4dd052333b963157f2decef66ad0cbc11dd9adc34b060fd2f1e186afa7ce3",
+      "bytes": 562
+    },
+    "SHA256SUMS": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/SHA256SUMS",
+      "sha256": "2b91ad8bc9a55e1d6c79920afb734baf9b011e278c8c5e6a5c295bf2395b35da",
+      "bytes": 135
+    },
+    "lantern-survey-linux-7c877935eacfecdb39100528713b74fbfd55527a.tar.gz": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/lantern-survey-linux-7c877935eacfecdb39100528713b74fbfd55527a.tar.gz",
+      "sha256": "dde8c725ecac97b59544cb0552b35af06a90acf0402a91abc5d621dd32458d9b",
+      "bytes": 34182
+    },
+    "lantern-survey.pyz": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/lantern-survey.pyz",
+      "sha256": "074f5f670aa35f587bc93cdd172770290602fe44e4d9b288127b209edf577c5e",
+      "bytes": 99685
+    },
+    "linux-frames.html": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/linux-frames.html",
+      "sha256": "83a89a47ee0c3605cf2bca54fb06f640b14413adee353f823f6e069be50ff27a",
+      "bytes": 5180736
+    },
+    "linux-validation-evidence.tar.gz": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/linux-validation-evidence.tar.gz",
+      "sha256": "fc344732e7e77dda0d117dc8ff7e360f1785b92c3d15a2120f59912519be9398",
+      "bytes": 17124067
+    },
+    "provenance.json": {
+      "absolute_path": "/opt/g-harness/workspace/G11/node_10_step_103/deliverables/provenance.json",
+      "sha256": "10099dabd24cb75cb750daa674d411185a98f03ce8b0a4ec882962ae1eedd475",
+      "bytes": 1929
+    }
+  },
+  "evidence_note": "Artifacts built from source_commit; this report is committed afterwards in an evidence-only revision. Prior step-102 recordings untouched. Scratch clone/venv/install retired only after archive member verification; archived command paths are historical. No gameplay, launcher, tests or CI changes were needed: reuse committed delivery tooling."
+}
