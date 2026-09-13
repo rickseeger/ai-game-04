@@ -1,0 +1,1559 @@
+[
+  {
+    "all_graph_edges_disc_clear": true,
+    "area_m2": 230400,
+    "bounds_m": {
+      "xmax": 240,
+      "xmin": -240,
+      "zmax": 240,
+      "zmin": -240
+    },
+    "building_count": 167,
+    "building_footprint_area_m2": 58732.0,
+    "city_sha256": "47b25ee7fc39b0fa800404adac2d5b4f93fd8b73947b3e6959fc19fe188f7f11",
+    "clearance_lattice_free_points": 40650,
+    "clearance_lattice_reachable_points": 40650,
+    "clearance_lattice_spacing_m": 2,
+    "depot_submission_disc_safe": true,
+    "distinct_footprint_dimensions": 89,
+    "distinct_heights": 34,
+    "footprint_side_range_m": [
+      9.0,
+      32.0
+    ],
+    "generation_version": 1,
+    "height_range_m": [
+      12.0,
+      118.0
+    ],
+    "landmarks": [
+      {
+        "building_id": "landmark-0",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -96.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -144.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -96.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": -181.0
+          },
+          {
+            "x": -120.0,
+            "y": 0,
+            "z": -181.0
+          }
+        ],
+        "district": "Foundry",
+        "first_hit_building": "landmark-0",
+        "horizontal_range_m": 45.0,
+        "id": "sight-0",
+        "name": "Amber Spire",
+        "path_clear": true,
+        "target": {
+          "x": -120.0,
+          "y": 57.5,
+          "z": -136.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.8921338360465839,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -120.0,
+          "y": 1.7,
+          "z": -181.0
+        }
+      },
+      {
+        "building_id": "landmark-1",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -96.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -144.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 48.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": -181.0
+          },
+          {
+            "x": 119.0,
+            "y": 0,
+            "z": -181.0
+          }
+        ],
+        "district": "Harbor",
+        "first_hit_building": "landmark-1",
+        "horizontal_range_m": 45.0,
+        "id": "sight-1",
+        "name": "Tidal Beacon",
+        "path_clear": true,
+        "target": {
+          "x": 119.0,
+          "y": 47.5,
+          "z": -136.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7942085081182243,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": 119.0,
+          "y": 1.7,
+          "z": -181.0
+        }
+      },
+      {
+        "building_id": "landmark-2",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -36.0
+          },
+          {
+            "x": -24.0,
+            "y": 0,
+            "z": -36.0
+          }
+        ],
+        "district": "Civic",
+        "first_hit_building": "landmark-2",
+        "horizontal_range_m": 49.0,
+        "id": "sight-2",
+        "name": "Violet Clock",
+        "path_clear": true,
+        "target": {
+          "x": -24.0,
+          "y": 43.0,
+          "z": 13.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7003326234288034,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -24.0,
+          "y": 1.7,
+          "z": -36.0
+        }
+      },
+      {
+        "building_id": "landmark-3",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -96.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 48.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 58.0
+          },
+          {
+            "x": -120.0,
+            "y": 0,
+            "z": 58.0
+          }
+        ],
+        "district": "Old Quarter",
+        "first_hit_building": "landmark-3",
+        "horizontal_range_m": 47.0,
+        "id": "sight-3",
+        "name": "Rose Lantern",
+        "path_clear": true,
+        "target": {
+          "x": -120.0,
+          "y": 59.0,
+          "z": 105.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.8838326002426325,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -120.0,
+          "y": 1.7,
+          "z": 58.0
+        }
+      },
+      {
+        "building_id": "landmark-4",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 48.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 48.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 58.0
+          },
+          {
+            "x": 119.0,
+            "y": 0,
+            "z": 58.0
+          }
+        ],
+        "district": "Gardens",
+        "first_hit_building": "landmark-4",
+        "horizontal_range_m": 47.0,
+        "id": "sight-4",
+        "name": "Emerald Crown",
+        "path_clear": true,
+        "target": {
+          "x": 119.0,
+          "y": 45.0,
+          "z": 105.0
+        },
+        "target_distance_error_m": 7.105427357601002e-15,
+        "view_pitch": 0.7444465418562273,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": 119.0,
+          "y": 1.7,
+          "z": 58.0
+        }
+      }
+    ],
+    "navigation_edges": 230,
+    "navigation_nodes": 131,
+    "open_ground_area_m2": 171668.0,
+    "ordinary_height_range_m": [
+      12.0,
+      99.0
+    ],
+    "public_space_counts": {
+      "avenue": 7,
+      "lane": 64,
+      "plaza": 8,
+      "promenade": 4,
+      "street": 11
+    },
+    "road_clear_widths_m": [
+      12.0,
+      14.0,
+      16.0,
+      18.0
+    ],
+    "route_plus_positioning_seconds": 264.5,
+    "scope": "Static geometry and clearance evidence only; not movement, projection or game-rule execution.",
+    "seed": 11,
+    "spawn": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "spawn_clear_radius_m": 0.3,
+    "spawn_safe": true,
+    "style_counts": {
+      "amber-brick": 39,
+      "cyan-glass": 42,
+      "emerald-metal": 34,
+      "rose-stone": 30,
+      "violet-artdeco": 22
+    },
+    "three_destination_route": {
+      "distance_m": 878.0,
+      "landmark_ids": [
+        "sight-2",
+        "sight-3",
+        "sight-4"
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 0.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -36.0
+        },
+        {
+          "x": -24.0,
+          "y": 0,
+          "z": -36.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -36.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -96.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": -120.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 0.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 48.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": 119.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": 48.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "positioning_seconds": 45.0,
+      "walking_seconds": 219.5
+    }
+  },
+  {
+    "all_graph_edges_disc_clear": true,
+    "area_m2": 230400,
+    "bounds_m": {
+      "xmax": 240,
+      "xmin": -240,
+      "zmax": 240,
+      "zmin": -240
+    },
+    "building_count": 164,
+    "building_footprint_area_m2": 55071.0,
+    "city_sha256": "736b945021f0783449ba160ec988bbb64bd9720018f7213b88c0f6fa4496a1e4",
+    "clearance_lattice_free_points": 42096,
+    "clearance_lattice_reachable_points": 42096,
+    "clearance_lattice_spacing_m": 2,
+    "depot_submission_disc_safe": true,
+    "distinct_footprint_dimensions": 75,
+    "distinct_heights": 33,
+    "footprint_side_range_m": [
+      10.0,
+      31.0
+    ],
+    "generation_version": 1,
+    "height_range_m": [
+      12.0,
+      117.0
+    ],
+    "landmarks": [
+      {
+        "building_id": "landmark-0",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -96.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -144.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -96.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": -183.0
+          },
+          {
+            "x": -120.5,
+            "y": 0,
+            "z": -183.0
+          }
+        ],
+        "district": "Foundry",
+        "first_hit_building": "landmark-0",
+        "horizontal_range_m": 50.0,
+        "id": "sight-0",
+        "name": "Amber Spire",
+        "path_clear": true,
+        "target": {
+          "x": -120.5,
+          "y": 53.0,
+          "z": -133.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7982306277734446,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": -183.0
+        }
+      },
+      {
+        "building_id": "landmark-1",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -96.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -144.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 48.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": -183.0
+          },
+          {
+            "x": 119.5,
+            "y": 0,
+            "z": -183.0
+          }
+        ],
+        "district": "Harbor",
+        "first_hit_building": "landmark-1",
+        "horizontal_range_m": 50.0,
+        "id": "sight-1",
+        "name": "Tidal Beacon",
+        "path_clear": true,
+        "target": {
+          "x": 119.5,
+          "y": 45.5,
+          "z": -133.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7193960907018284,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": 119.5,
+          "y": 1.7,
+          "z": -183.0
+        }
+      },
+      {
+        "building_id": "landmark-2",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -38.0
+          },
+          {
+            "x": -23.5,
+            "y": 0,
+            "z": -38.0
+          }
+        ],
+        "district": "Civic",
+        "first_hit_building": "landmark-2",
+        "horizontal_range_m": 51.0,
+        "id": "sight-2",
+        "name": "Violet Clock",
+        "path_clear": true,
+        "target": {
+          "x": -23.5,
+          "y": 46.5,
+          "z": 13.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7207701302250286,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -23.5,
+          "y": 1.7,
+          "z": -38.0
+        }
+      },
+      {
+        "building_id": "landmark-3",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -96.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 48.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 57.0
+          },
+          {
+            "x": -120.5,
+            "y": 0,
+            "z": 57.0
+          }
+        ],
+        "district": "Old Quarter",
+        "first_hit_building": "landmark-3",
+        "horizontal_range_m": 52.0,
+        "id": "sight-3",
+        "name": "Rose Lantern",
+        "path_clear": true,
+        "target": {
+          "x": -120.5,
+          "y": 49.5,
+          "z": 109.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7433388134636091,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": 57.0
+        }
+      },
+      {
+        "building_id": "landmark-4",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 48.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 48.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 57.0
+          },
+          {
+            "x": 119.5,
+            "y": 0,
+            "z": 57.0
+          }
+        ],
+        "district": "Gardens",
+        "first_hit_building": "landmark-4",
+        "horizontal_range_m": 51.0,
+        "id": "sight-4",
+        "name": "Emerald Crown",
+        "path_clear": true,
+        "target": {
+          "x": 119.5,
+          "y": 58.5,
+          "z": 108.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.8391496762779992,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": 119.5,
+          "y": 1.7,
+          "z": 57.0
+        }
+      }
+    ],
+    "navigation_edges": 230,
+    "navigation_nodes": 131,
+    "open_ground_area_m2": 175329.0,
+    "ordinary_height_range_m": [
+      12.0,
+      99.0
+    ],
+    "public_space_counts": {
+      "avenue": 9,
+      "lane": 63,
+      "plaza": 8,
+      "promenade": 4,
+      "street": 9
+    },
+    "road_clear_widths_m": [
+      12.0,
+      14.0,
+      16.0,
+      18.0
+    ],
+    "route_plus_positioning_seconds": 262.75,
+    "scope": "Static geometry and clearance evidence only; not movement, projection or game-rule execution.",
+    "seed": 93,
+    "spawn": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "spawn_clear_radius_m": 0.3,
+    "spawn_safe": true,
+    "style_counts": {
+      "amber-brick": 35,
+      "cyan-glass": 39,
+      "emerald-metal": 37,
+      "rose-stone": 29,
+      "violet-artdeco": 24
+    },
+    "three_destination_route": {
+      "distance_m": 871.0,
+      "landmark_ids": [
+        "sight-2",
+        "sight-3",
+        "sight-4"
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 0.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -38.0
+        },
+        {
+          "x": -23.5,
+          "y": 0,
+          "z": -38.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -38.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -96.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 57.0
+        },
+        {
+          "x": -120.5,
+          "y": 0,
+          "z": 57.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 57.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 0.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 48.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 57.0
+        },
+        {
+          "x": 119.5,
+          "y": 0,
+          "z": 57.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 57.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": 48.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "positioning_seconds": 45.0,
+      "walking_seconds": 217.75
+    }
+  },
+  {
+    "all_graph_edges_disc_clear": true,
+    "area_m2": 230400,
+    "bounds_m": {
+      "xmax": 240,
+      "xmin": -240,
+      "zmax": 240,
+      "zmin": -240
+    },
+    "building_count": 168,
+    "building_footprint_area_m2": 56550.0,
+    "city_sha256": "c7fd00b8ee7d275966883c5f440cdcc8ef71d15270bb7af78016bbdfeb2c71e2",
+    "clearance_lattice_free_points": 41686,
+    "clearance_lattice_reachable_points": 41686,
+    "clearance_lattice_spacing_m": 2,
+    "depot_submission_disc_safe": true,
+    "distinct_footprint_dimensions": 97,
+    "distinct_heights": 35,
+    "footprint_side_range_m": [
+      9.5,
+      32.0
+    ],
+    "generation_version": 1,
+    "height_range_m": [
+      12.0,
+      115.0
+    ],
+    "landmarks": [
+      {
+        "building_id": "landmark-0",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -96.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -144.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -96.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": -181.0
+          },
+          {
+            "x": -120.5,
+            "y": 0,
+            "z": -181.0
+          }
+        ],
+        "district": "Foundry",
+        "first_hit_building": "landmark-0",
+        "horizontal_range_m": 46.0,
+        "id": "sight-0",
+        "name": "Amber Spire",
+        "path_clear": true,
+        "target": {
+          "x": -120.5,
+          "y": 53.5,
+          "z": -135.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.8446334873950504,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": -181.0
+        }
+      },
+      {
+        "building_id": "landmark-1",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -96.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -144.0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 48.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": -192.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": -181.0
+          },
+          {
+            "x": 120.5,
+            "y": 0,
+            "z": -181.0
+          }
+        ],
+        "district": "Harbor",
+        "first_hit_building": "landmark-1",
+        "horizontal_range_m": 46.0,
+        "id": "sight-1",
+        "name": "Tidal Beacon",
+        "path_clear": true,
+        "target": {
+          "x": 120.5,
+          "y": 51.0,
+          "z": -135.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.8200118252922268,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": 120.5,
+          "y": 1.7,
+          "z": -181.0
+        }
+      },
+      {
+        "building_id": "landmark-2",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 0.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -48.0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": -39.0
+          },
+          {
+            "x": -23.5,
+            "y": 0,
+            "z": -39.0
+          }
+        ],
+        "district": "Civic",
+        "first_hit_building": "landmark-2",
+        "horizontal_range_m": 50.0,
+        "id": "sight-2",
+        "name": "Violet Clock",
+        "path_clear": true,
+        "target": {
+          "x": -23.5,
+          "y": 50.5,
+          "z": 11.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7732530116005362,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -23.5,
+          "y": 1.7,
+          "z": -39.0
+        }
+      },
+      {
+        "building_id": "landmark-3",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": -48.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -96.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 48.0
+          },
+          {
+            "x": -144.0,
+            "y": 0,
+            "z": 58.0
+          },
+          {
+            "x": -120.5,
+            "y": 0,
+            "z": 58.0
+          }
+        ],
+        "district": "Old Quarter",
+        "first_hit_building": "landmark-3",
+        "horizontal_range_m": 47.0,
+        "id": "sight-3",
+        "name": "Rose Lantern",
+        "path_clear": true,
+        "target": {
+          "x": -120.5,
+          "y": 50.0,
+          "z": 105.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.7990384506389067,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": -120.5,
+          "y": 1.7,
+          "z": 58.0
+        }
+      },
+      {
+        "building_id": "landmark-4",
+        "depot_path": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 48.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 0.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 48.0
+          },
+          {
+            "x": 96.0,
+            "y": 0,
+            "z": 58.0
+          },
+          {
+            "x": 120.5,
+            "y": 0,
+            "z": 58.0
+          }
+        ],
+        "district": "Gardens",
+        "first_hit_building": "landmark-4",
+        "horizontal_range_m": 49.0,
+        "id": "sight-4",
+        "name": "Emerald Crown",
+        "path_clear": true,
+        "target": {
+          "x": 120.5,
+          "y": 57.5,
+          "z": 107.0
+        },
+        "target_distance_error_m": 0.0,
+        "view_pitch": 0.8501928301727693,
+        "view_yaw": 0.0,
+        "viewpoint": {
+          "x": 120.5,
+          "y": 1.7,
+          "z": 58.0
+        }
+      }
+    ],
+    "navigation_edges": 230,
+    "navigation_nodes": 131,
+    "open_ground_area_m2": 173850.0,
+    "ordinary_height_range_m": [
+      12.0,
+      99.0
+    ],
+    "public_space_counts": {
+      "avenue": 7,
+      "lane": 65,
+      "plaza": 8,
+      "promenade": 4,
+      "street": 11
+    },
+    "road_clear_widths_m": [
+      12.0,
+      14.0,
+      16.0,
+      18.0
+    ],
+    "route_plus_positioning_seconds": 263.75,
+    "scope": "Static geometry and clearance evidence only; not movement, projection or game-rule execution.",
+    "seed": 2026,
+    "spawn": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "spawn_clear_radius_m": 0.3,
+    "spawn_safe": true,
+    "style_counts": {
+      "amber-brick": 32,
+      "cyan-glass": 46,
+      "emerald-metal": 35,
+      "rose-stone": 32,
+      "violet-artdeco": 23
+    },
+    "three_destination_route": {
+      "distance_m": 875.0,
+      "landmark_ids": [
+        "sight-2",
+        "sight-3",
+        "sight-4"
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 0.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -39.0
+        },
+        {
+          "x": -23.5,
+          "y": 0,
+          "z": -39.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -39.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -96.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": -48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": -120.5,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": -144.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": -48.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 0.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 48.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": 120.5,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 58.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 48.0
+        },
+        {
+          "x": 96.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": 48.0,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "positioning_seconds": 45.0,
+      "walking_seconds": 218.75
+    }
+  }
+]

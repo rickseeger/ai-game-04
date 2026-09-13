@@ -1,6 +1,6 @@
 # Lantern Survey (G11)
 
-Foundation milestone, NOT a playable city yet. Default launch reports this and
+Foundation plus spatial-generation milestone, NOT a playable city yet. Default launch reports this and
 exits normally. No renderer, movement, terminal adapter or game rules are faked.
 Shared Python interfaces are in `citywalk/contracts.py`; implementation handoff
 and the chosen game are in [docs/design.md](docs/design.md).
@@ -43,3 +43,15 @@ CI configuration is not proof those runs have passed, nor Windows game playtest 
 
 This node validates execution and architecture, not beauty or fun. See
 `docs/foundation-validation.md` for actual local evidence and limitations.
+
+## Spatial model (node 2)
+
+`citywalk.spatial.CityGenerator().generate(11)` now provides the real 480 m city,
+spatial queries, five landmark viewpoints and player-clearance route witnesses.
+See [docs/spatial.md](docs/spatial.md) for metre-scale interfaces and limitations.
+No terminal input, renderer, movement or game loop is added by this milestone.
+
+    python3 tools/measure_city.py --seeds 11 93 2026
+
+Actual seed measurements and full test output are committed in
+`docs/spatial-measurements.json` and `docs/spatial-run.json`.
