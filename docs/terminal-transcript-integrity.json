@@ -1,0 +1,60 @@
+{
+  "recordings": [
+    {
+      "path": "docs/terminal-pty/ctrl_c.ansi",
+      "bytes": 211,
+      "sha256": "40b34bf81ff5ffc8bc34fdcf0122d010c04c27876ffe9e854536ba949f06307e",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/escape.ansi",
+      "bytes": 211,
+      "sha256": "40b34bf81ff5ffc8bc34fdcf0122d010c04c27876ffe9e854536ba949f06307e",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/exception.ansi",
+      "bytes": 211,
+      "sha256": "40b34bf81ff5ffc8bc34fdcf0122d010c04c27876ffe9e854536ba949f06307e",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/normal.ansi",
+      "bytes": 397,
+      "sha256": "f35ed51299925a77350db08d525f57861cdd679f5dcd550d9c129ca4ad114205",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/probe_exception.ansi",
+      "bytes": 19611,
+      "sha256": "309d1d30a26e0ff9a31886954c7ce4c4313cc973ea03e568abdebc65d87f9417",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/probe_normal.ansi",
+      "bytes": 5808,
+      "sha256": "0666e4137ac08bee6c15ac98db15935362eb79a73a7f27f55c0e4ede06c2eea4",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/sigquit.ansi",
+      "bytes": 211,
+      "sha256": "40b34bf81ff5ffc8bc34fdcf0122d010c04c27876ffe9e854536ba949f06307e",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/sigterm.ansi",
+      "bytes": 211,
+      "sha256": "40b34bf81ff5ffc8bc34fdcf0122d010c04c27876ffe9e854536ba949f06307e",
+      "staged_bytes_equal_capture": true
+    },
+    {
+      "path": "docs/terminal-pty/sigtstp.ansi",
+      "bytes": 211,
+      "sha256": "40b34bf81ff5ffc8bc34fdcf0122d010c04c27876ffe9e854536ba949f06307e",
+      "staged_bytes_equal_capture": true
+    }
+  ],
+  "executed_source_hashes_still_match": true,
+  "note": "Initial Git text normalization was detected in the two interactive probe recordings. Marked *.ansi -text -diff and re-added with git add --renormalize to preserve original captured CRLF/escape bytes. All index bytes checked against the original captures; no runtime source changed."
+}

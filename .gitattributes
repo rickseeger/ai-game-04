@@ -2,4 +2,4 @@
 *.pyz -text
 docs/renderer-frames/frames.txt whitespace=-blank-at-eol
 # PTY recordings must retain exact CR/LF and escape bytes.
-*.ansi -text
+*.ansi -text -diff
